@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-561ea3059d803209ad2913c7715084952c8e8c9d.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/libs/universal-image-loader-1.7.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="15273ac4bb8c92f5bed5fcd968faf7fe77a8012e">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.7.0-7c415e6182087befc1b054c3e1b800c4ba30f426.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-f5dc4118b2ec6335068ce95aa7c31517dbf8c4f7.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/Desktop/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-0f3fe8affe77986ad1be2a1c73dec7d95c46b2d4.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-c8a77b038cf62e15bac0c86dc6609780fa73b4ea.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.movie.watch/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9fc92f24564d0c2b722ee336611542e4b84c964f">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-c905a260b1398ad5f51b877f4005f024b020080d.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-84d556c41b9e01f4d2c43ee3914f348ce424dc1b.jar" />
+    </item>
+
+</items>

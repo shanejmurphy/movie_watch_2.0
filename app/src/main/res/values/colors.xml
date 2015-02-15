@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="HoloBlue">#33B5E5</color>
+    <color name="DarkTransparentBlack">#282828</color>
+    <color name="White">#FFFFFF</color>
+    <color name="RottenGreen">#5e992d</color>
+</resources>

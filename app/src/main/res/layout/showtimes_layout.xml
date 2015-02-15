@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/movie_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Hobbit: An Unexpected Journey in 3D"
+        android:textSize="18sp"
+        android:textColor="@color/HoloBlue"
+        android:textStyle="bold"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="4dip"
+    	android:layout_marginTop="12dip"
+    	android:gravity="center"/>
+    
+    <RelativeLayout
+        android:id="@+id/cinema_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/movie_title">
+        
+	    <TextView
+	        android:id="@+id/cinema_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"    
+	        android:text="ODEON - Blanchardstown"
+	        android:textSize="16sp"
+	        android:textColor="@color/RottenGreen"
+	        android:layout_marginLeft="4dip"
+	    	android:paddingTop="2dip"/>
+	    
+	    <ImageView android:id="@+id/heart"
+	        android:layout_width="26dip"
+	        android:layout_height="26dip"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignBottom="@id/cinema_name"
+	        android:layout_marginRight="4dip"
+	        android:src="@drawable/heart_unselected"
+	        
+	        android:visibility="invisible"/>
+	    
+	    <!-- 
+	    android:src="@drawable/heart"
+	    <TextView
+	        android:id="@+id/cinema_address"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/cinema_name"
+	        android:layout_marginLeft="5dip"
+	        android:text="- Blanchardstown Road South, Blanchardstown Shopping Center, Blanchardstown, Ireland"
+	        android:textSize="12dip"
+	        android:textStyle="italic"
+	        android:textColor="#33b5e5"
+	        android:maxLines="1"
+	        android:ellipsize="end"/>-->
+	        
+	    
+	    <TextView
+	        android:id="@+id/times"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/cinema_name"
+	        android:text="12:15‎  ‎14:15‎  ‎15:40‎  ‎19:30‎  ‎20:40‎  ‎21:00‎  22:00  22:15"
+	        android:textSize="18sp"
+	        android:layout_marginLeft="4dip"
+	        android:layout_marginTop="1dip"
+	    	android:paddingBottom="6dip"/>
+	    	
+	    	
+	    <!--  <LinearLayout 
+	        android:id="@+id/times_layout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:layout_below="@id/cinema_name"
+	        android:layout_marginLeft="4dip"
+	        android:layout_marginTop="1dip"
+	    	android:paddingBottom="6dip"/>-->
+
+    
+    </RelativeLayout>
+
+</RelativeLayout>

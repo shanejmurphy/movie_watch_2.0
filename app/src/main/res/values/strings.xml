@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">Movie Watch</string>
+  <string name="movie_button">Movies</string>
+  <string name="dvd_button">DVDs</string>
+  <string name="movieTitleText"></string>
+  <string name="movieDescText"></string>
+  <string name="movieImageText"></string>
+  <string name="rating">Rating</string>
+  <string name="poster">Movie Cover</string>
+  <string name="movieTitleText2">Toy Stroy 3</string>
+  <string name="search_hint">Movie Title</string>
+  <string name="search_label">Search Movies</string>
+  <string name="search_title">Search Movies</string>
+  <string name="hello_world">Hello world!</string>
+  <string name="menu_settings">Settings</string>
+  <string name="title_activity_display_movie_list">DisplayMovieList</string>
+  <string name="title_activity_display_movie">Movie Info</string>
+  <string name="top_box_office">Top Box Office</string>
+  <string name="in_theatres">Now Showing</string>
+  <string name="opening">Opening</string>
+  <string name="upcoming">Coming Soon</string>
+  <string name="top_rentals">Top DVD Rentals</string>
+  <string name="current_releases">Current Releases</string>
+  <string name="movie_title">Movie Title Goes Here</string>
+  <string name="new_releases">Latest Releases</string>
+  <string name="coming_soon">DVDs Coming Soon</string>
+  <string name="images">Movie Images</string>
+
+  <string-array name="spinner_list">
+    <item>@string/top_box_office</item>
+    <item>@string/in_theatres</item>
+    <item>@string/opening</item>
+    <item>@string/upcoming</item>
+    <item>@string/top_rentals</item>
+    <item>@string/current_releases</item>
+    <item>@string/new_releases</item>
+    <item>@string/coming_soon</item>
+  </string-array>
+
+  <string name="title_activity_search">Search Movies</string>
+  <string name="about">About</string>
+  <string name="notice">About Movie Watch - 1.03</string>
+  <string name="flixter_notice">The Fresh Tomato, Rotten Splat and Popcorn Logos are trademarks or registered trademarks of Flixster, Inc. in the United States and other countries.</string>
+  <string name="contact">For any questions please contact me at moviewatch.app@gmail.com</string>
+  <string name="title_activity_display_similar_movie">DisplaySimilarMovie</string>
+
+  <string name="banner_ad_unit_id">ca-app-pub-1258919070544585/2263874153</string>
+
+</resources>

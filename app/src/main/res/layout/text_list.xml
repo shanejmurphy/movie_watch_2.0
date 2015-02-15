@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:id="@+id/normal_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:maxLines="4"
+	        android:scrollHorizontally="false"
+	        android:ellipsize="end"
+	        android:textSize="12dip"
+	        android:text="The mooted final installment in the long-running series is a hyper-violent, often grim throwback to action movies of yore -- which will appeal to some audiences just as emphatically as it deters others."
+	        android:layout_margin="2dip" />	
+    

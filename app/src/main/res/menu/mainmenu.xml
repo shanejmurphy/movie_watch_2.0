@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/about" 
+        android:showAsAction="collapseActionView"
+        android:title="@string/about"> 
+    </item>
+    <!--  <item android:id="@+id/dvd_button" android:showAsAction="always" android:title="DVD" android:icon="@drawable/dvd_icon"></item>
+	<item android:id="@+id/menu_search" android:title="@string/search_hint" android:icon="@drawable/ic_menu_search_holo_light" android:showAsAction="always" android:actionViewClass="android.widget.SearchView"></item>-->
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/similar_rel_layout"
+    android:visibility="visible"
+    android:gravity="center">
+    
+    <!--  <TextView
+        android:id="@+id/similar_movies_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:layout_marginTop="6dip"
+        android:text="Similar Movies:"
+        android:textSize="14sp"
+        android:textColor="#33b5e5"/>-->
+    
+   	<com.devsmart.android.ui.HorizontalListView 
+		android:id="@+id/similar_movie_list"
+	    android:layout_width="fill_parent"
+        android:layout_height="140dip"
+        android:layout_marginTop="4dip"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false" 
+        android:divider="#000000">	    
+	</com.devsmart.android.ui.HorizontalListView>
+	
+   	<LinearLayout
+   	    android:id="@+id/similar_progress_layout"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignTop="@id/similar_movie_list"
+   	    android:gravity="center"
+   	    android:visibility="invisible">
+	
+	   	<ProgressBar 
+	        android:id="@+id/similar_progress"
+	        android:layout_width="40dip"
+	        android:layout_height="40dip"
+	        android:layout_margin="4dip"/>
+	   	
+	   	<TextView
+	        android:id="@+id/similar_loading_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Loading..."
+	        android:textSize="14dip"
+	        android:layout_gravity="center"
+	        android:layout_margin="4dip"/>	
+   	
+   	</LinearLayout>
+   	
+</RelativeLayout>

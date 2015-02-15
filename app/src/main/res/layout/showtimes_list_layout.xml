@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    android:orientation="vertical">
+	   		
+    <!--<TextView 
+        android:id="@+id/showtimes_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="4dip"
+    	android:layout_marginTop="6dip"
+        android:text="Showtimes:"
+        android:textColor="@color/HoloBlue"/>  -->
+        
+    <LinearLayout 
+        android:id="@+id/showtimes_progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="invisible">
+    
+	   	<ProgressBar 
+	        android:id="@+id/showtimes_progress"
+	        android:layout_width="40dip"
+	        android:layout_height="40dip"
+	        android:layout_margin="4dip"/>
+	   	
+	   	<TextView
+	        android:id="@+id/showtimes_loading_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Loading..."
+	        android:textSize="14sp"
+	        android:layout_gravity="center"
+	        android:layout_margin="4dip"/>	
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/no_showtimes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Showtimes Found for your Area"
+        android:textSize="14sp"
+        android:layout_margin="4dip"
+        android:gravity="center"
+        android:visibility="invisible"/>
+
+	<ListView 
+		android:id="@+id/showtimes_list"		
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="#000000"/>
+	
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dip"
+    android:layout_height="140dip"
+    android:paddingRight="4dip"
+    android:paddingLeft="4dip" 
+    android:layout_margin="4dip"
+    android:gravity="center">
+    
+    <TextView android:id="@+id/similar_title"
+        android:layout_width="90dip"
+        android:layout_height="16dip"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Crouching Tiger Hidden Dragon"
+        android:ellipsize="end" 
+        android:textSize="12dip"/>
+    
+    <ImageView android:id="@+id/similar_poster"
+        android:layout_width="86dip"
+        android:layout_height="128dip"
+        android:layout_below="@id/similar_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dip"
+        android:src="@drawable/black_bg"/>
+
+</RelativeLayout>

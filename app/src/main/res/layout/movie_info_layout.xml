@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+    
+    <ImageView 
+        android:id="@+id/display_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/black_bg"
+        android:layout_margin="4dip"/>
+    
+    <ImageButton 
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/display_image"
+        android:layout_marginLeft="4dip"
+        android:background="@drawable/play_icon"
+        android:visibility="visible"/>
+    
+    <LinearLayout
+        android:id="@+id/text_beside_display_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/display_image"
+        android:layout_alignTop="@id/display_image"
+        android:orientation="vertical">
+            
+        <TextView
+	        android:id="@+id/display_critic_rating"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="2dip"
+	        android:text="84% of critics liked it"
+	        android:drawableLeft="@drawable/fresh_small"
+	        android:drawablePadding="5dip"
+	        android:textSize="14dip" />
+        
+        <TextView
+	        android:id="@+id/display_audience_rating"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="2dip"
+	        android:text="91% of the audience liked it"
+	        android:drawableLeft="@drawable/popcorn_small"
+	        android:drawablePadding="5dip"
+	        android:textSize="14dip" />
+         
+         <LinearLayout
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="2dip"
+	        android:layout_marginTop="2dip"
+	        android:orientation="horizontal">
+	        
+	        <TextView
+		        android:id="@+id/display_release_date_title"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+		        android:text="Release Date: "
+		        android:textSize="14dip" 
+		        android:textColor="#33b5e5"/>
+	        
+	        <TextView
+		        android:id="@+id/display_release_date"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+		        android:text="Nov 09 2012"
+		        android:textSize="14dip" />
+	        
+         </LinearLayout>
+         
+         <LinearLayout
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="2dip"
+	        android:layout_marginTop="2dip"
+	        android:orientation="horizontal">
+	        
+	        <TextView
+		        android:id="@+id/display_running_time_title"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+		        android:text="Running Time: "
+		        android:textSize="14dip" 
+		        android:textColor="#33b5e5"/>
+	        
+	        <TextView
+		        android:id="@+id/display_running_time"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+		        android:text="2 hr. 25 min."
+		        android:textSize="14dip" />
+	        
+         </LinearLayout>
+         
+         <LinearLayout
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="2dip"
+	        android:layout_marginTop="2dip"
+	        android:orientation="horizontal">
+	        
+	        <TextView
+		        android:id="@+id/display_rated_title"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+		        android:text="Rated: "
+		        android:textSize="14dip" 
+		        android:textColor="#33b5e5"/>
+	        
+	        <TextView
+		        android:id="@+id/display_rated"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+		        android:text="Rated: PG-13"
+		        android:textSize="14dip" />
+	        
+         </LinearLayout>
+         
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/display_cast_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display_image"
+        android:layout_marginTop="4dip"
+        android:layout_marginLeft="4dip"
+        android:text="Cast: "
+        android:textSize="14dip"
+        android:textColor="#33b5e5"/>
+    
+    <TextView
+        android:id="@+id/display_cast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display_cast_title"
+        android:layout_marginLeft="4dip"
+        android:text="Daneil Craig, Jeniifer Bradlet, Rodney Marsh, John Brnes, Kenny Dlaglish, Ray Houghton, Neil Magure"
+        android:textSize="14dip" />
+    
+    <TextView
+        android:id="@+id/display_synopsis_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display_cast"
+        android:layout_marginLeft="4dip"
+        android:layout_marginTop="6dip"
+        android:text="Synopsis: "
+        android:textSize="14dip"
+        android:textColor="#33b5e5"/>
+    
+    <TextView
+        android:id="@+id/display_synopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display_synopsis_title"
+        android:layout_marginLeft="4dip"
+        android:paddingBottom="14dip"
+        android:text="Pixar returns to their first success with Toy Story 3. The movie begins with Andy leaving for college and donating his beloved toys -- including Woody (Tom Hanks) and Buzz (Tim Allen) -- to a daycare. While the crew meets new friends, including Ken (Michael Keaton), they soon grow to hate their new surroundings and plan an escape. The film was directed by Lee Unkrich from a script co-authored by Little Miss Sunshine scribe Michael Arndt. ~ Perry Seibert, Rovi"
+        android:textSize="14dip"/>
+
+
+    </RelativeLayout>	
+</ScrollView>

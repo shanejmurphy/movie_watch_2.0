@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout 
+        android:id="@+id/review_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="4dip"
+        android:layout_marginTop="2dip"
+        android:layout_marginBottom="2dip">
+        
+	    <ImageView
+	        android:id="@+id/critic_review_rating" 
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_marginRight="8dip"/>
+	        
+	        <!-- android:src="@drawable/fresh_small" -->
+	    
+	    <TextView
+	        android:id="@+id/critic_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Marion Keyes"
+			android:layout_marginRight="4dip"
+	        android:textSize="14sp"
+	        android:textColor="#33b5e5"/>
+	    
+	    <TextView
+	        android:id="@+id/critic_publication"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="- New York Times"
+	        android:textSize="14sp"
+	        android:textStyle="italic"
+	        android:textColor="#33b5e5"/>
+    
+    </LinearLayout>
+    
+    <!--  <ImageView
+        android:id="@+id/critic_review_rating"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/critic_name"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="4dip"
+        android:background="@drawable/fresh_small"/>-->
+    
+    
+    <TextView
+        android:id="@+id/critic_quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/review_title"
+        android:layout_marginLeft="4dip"
+        android:text="The fifth and final entry in the historically successful Twilight franchise is the most self-aware and in some ways the most entertaining. "
+        android:textSize="14sp"/>
+    
+    <TextView
+        android:id="@+id/critic_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/critic_quote"
+        android:layout_marginRight="4dip"
+        android:layout_alignParentRight="true"
+        android:text="November 19, 2012"
+        android:textSize="12sp"
+        android:textStyle="italic"/>
+
+</RelativeLayout>
