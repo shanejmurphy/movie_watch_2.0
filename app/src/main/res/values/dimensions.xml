@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--cards-->
+  <dimen name="card_item_corner_radius">2dp</dimen>
+  <dimen name="card_item_content_padding">8dp</dimen>
+  <dimen name="card_item_image_width">54dp</dimen>
+  <dimen name="card_item_image_height">80dp</dimen>
+
+  <dimen name="padding_tiny">5dp</dimen>
+  <dimen name="padding_small">10dp</dimen>
+  <dimen name="padding_medium">15dp</dimen>
+  <dimen name="padding_large">20dp</dimen>
+  <dimen name="padding_xlarge">30dp</dimen>
+
+  <dimen name="text_size_small">12dp</dimen>
+  <dimen name="text_size_medium_small">14dp</dimen>
+  <dimen name="text_size_medium">16dp</dimen>
+  <dimen name="text_size_large">18dp</dimen>
+  <dimen name="text_size_xlarge">24dp</dimen>
+
+</resources>

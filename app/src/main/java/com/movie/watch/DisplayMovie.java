@@ -1,24 +1,14 @@
+
 package com.movie.watch;
 
-import android.content.Intent;
 import android.graphics.Bitmap;
-import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.util.Log;
-
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.viewpagerindicator.TabPageIndicator;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 
 import java.util.ArrayList;
 
 
-public class DisplayMovie extends SherlockFragmentActivity{
+public class DisplayMovie extends ActionBarActivity {
 
 	//Fragments
 	private static final String[] CONTENT = new String[] { "Info", "Reviews", "Images", "Similar", "Showtimes"};
@@ -38,14 +28,14 @@ public class DisplayMovie extends SherlockFragmentActivity{
     //protected static String guestSessionId;
     
     //actionbar
-    protected static ActionBar actionBar;
-	
+    protected static Toolbar actionBar;
+	/*
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.movie_header_layout);
 
-        actionBar = getSupportActionBar();
+        actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         
         //retrieve movie value sent to this activity
@@ -144,7 +134,7 @@ public class DisplayMovie extends SherlockFragmentActivity{
     	}
     }
     
-    public static class MyPagerAdapter extends FragmentPagerAdapter{
+    public static class MyPagerAdapter extends FragmentPagerAdapter {
     
 	    private Movie movie;
 	
@@ -180,4 +170,6 @@ public class DisplayMovie extends SherlockFragmentActivity{
 	        return CONTENT.length;
 	    }
 	}
+	*/
 }
+

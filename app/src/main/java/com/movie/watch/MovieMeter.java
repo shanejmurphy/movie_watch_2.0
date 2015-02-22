@@ -1,7 +1,5 @@
 package com.movie.watch;
 
-import android.annotation.SuppressLint;
-import android.app.AlertDialog;
 import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
@@ -12,11 +10,12 @@ import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.internal.app.ToolbarActionBar;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.GestureDetector.SimpleOnGestureListener;
@@ -31,17 +30,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.SearchView;
 import android.widget.SpinnerAdapter;
 import android.widget.TextView;
 
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.ActionBar.OnNavigationListener;
-import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuInflater;
-import com.actionbarsherlock.view.MenuItem;
-import com.actionbarsherlock.view.MenuItem.OnActionExpandListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.movie.watch.MyCurrentLocation.LocationResult;
@@ -58,7 +49,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-public class MovieMeter extends SherlockActivity {
+public class MovieMeter extends ActionBarActivity {
   private ArrayList<Movie> movieList = new ArrayList<Movie>();
   private boolean mIsLoading = false;
   private MovieListAdapter mAdapter;
@@ -137,7 +128,7 @@ public class MovieMeter extends SherlockActivity {
   protected static Movie movieSelected;
 
   //actionbar
-  private ActionBar actionBar;
+  private ToolbarActionBar actionBar;
 
   //options for displayng images
   protected static DisplayImageOptions options;
@@ -196,11 +187,11 @@ public class MovieMeter extends SherlockActivity {
     	Log.i("country_tag", country);
     	*/
     //country = "us";
-
+/*
     actionBar = getSupportActionBar();
     actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
     actionBar.setDisplayShowTitleEnabled(false);
-    actionBar.setDisplayShowHomeEnabled(true);
+    actionBar.setDisplayShowHomeEnabled(true);*/
 
     //initialise Views from main
     lv = (ListView) findViewById(R.id.movie_list);
@@ -227,7 +218,7 @@ public class MovieMeter extends SherlockActivity {
     storedPreference = preferences.getInt("storedInt", 0);
 
     SpinnerAdapter mSpinnerAdapter = ArrayAdapter.createFromResource(this, R.array.spinner_list, R.layout.spinner_layout);
-    OnNavigationListener mOnNavigationListener = new OnNavigationListener() {
+    /*OnNavigationListener mOnNavigationListener = new OnNavigationListener() {
 
       SharedPreferences navPreferences = PreferenceManager.getDefaultSharedPreferences(MovieMeter.this);
 
@@ -247,6 +238,7 @@ public class MovieMeter extends SherlockActivity {
 
     actionBar.setListNavigationCallbacks(mSpinnerAdapter, mOnNavigationListener);
     actionBar.setSelectedNavigationItem(storedPreference);
+    */
 
     //imageloader options -- more available
     options = new DisplayImageOptions.Builder()
@@ -284,124 +276,9 @@ public class MovieMeter extends SherlockActivity {
 
   @Override
   public void onSaveInstanceState(Bundle savedInstanceState) {
-
     super.onSaveInstanceState(savedInstanceState);
     savedInstanceState.putParcelableArrayList("MovieList", movieList);
-    // Save UI state changes to the savedInstanceState.
-    // This bundle will be passed to onCreate if the process is
-    // killed and restarted.
-		/*switch(storedPreference)
-		{
-			case(0):
-			{
-				//Top Box Office
-				savedInstanceState.putParcelableArrayList("MovieList", boxOffice);
-				Log.d("log_tag", "Box Office Array of Size " + boxOffice.size() + " saved");
-				break;
-			}
-			case(1):
-			{
-				//in thetares
-				savedInstanceState.putParcelableArrayList("MovieList", inTheatres);
-				break;
-			}
-			case(2):
-			{
-				//Opening
-				savedInstanceState.putParcelableArrayList("MovieList", opening);
-				break;
-			}
-			case(3):
-			{
-				//coming soon
-				savedInstanceState.putParcelableArrayList("MovieList", comingSoon);
-				break;
-			}
-			case(4):
-			{
-				//Top rentals
-				savedInstanceState.putParcelableArrayList("MovieList", rentals);
-				break;
-			}
-			case(5):
-			{
-				//current releases
-				savedInstanceState.putParcelableArrayList("MovieList", currentReleases);
-				break;
-			}
-			case(6):
-			{
-				//new releases
-				savedInstanceState.putParcelableArrayList("MovieList", newReleases);
-				break;
-			}
-			case(7):
-			{
-				//coming soon
-				savedInstanceState.putParcelableArrayList("MovieList", releasedSoon);
-				break;
-			}
-		}*/
   }
-    
-    /*@Override
-    public void onRestoreInstanceState(Bundle savedInstanceState) {
-      super.onRestoreInstanceState(savedInstanceState);
-      // Restore UI state from the savedInstanceState.
-      // This bundle has also been passed to onCreate.
-      switch(storedPreference)
-		{
-			case(0):
-			{
-				//Top Box Office
-				boxOffice = savedInstanceState.getParcelableArrayList("MovieList");
-				Log.d("log_tag", "Box Office Array of Size " + boxOffice.size() + " restored");
-				break;
-			}
-			case(1):
-			{
-				//in thetares
-				inTheatres = savedInstanceState.getParcelableArrayList("MovieList");
-				break;
-			}
-			case(2):
-			{
-				//Opening
-				opening = savedInstanceState.getParcelableArrayList("MovieList");
-				break;
-			}
-			case(3):
-			{
-				//coming soon
-				comingSoon = savedInstanceState.getParcelableArrayList("MovieList");
-				break;
-			}
-			case(4):
-			{
-				//Top rentals
-				rentals = savedInstanceState.getParcelableArrayList("MovieList");
-				break;
-			}
-			case(5):
-			{
-				//current releases
-				currentReleases = savedInstanceState.getParcelableArrayList("MovieList");
-				break;
-			}
-			case(6):
-			{
-				//new releases
-				newReleases = savedInstanceState.getParcelableArrayList("MovieList");
-				break;
-			}
-			case(7):
-			{
-				//coming soon
-				releasedSoon = savedInstanceState.getParcelableArrayList("MovieList");
-				break;
-			}
-		}
-    }*/
 
   @Override
   protected void onStart() {
@@ -420,7 +297,7 @@ public class MovieMeter extends SherlockActivity {
     Log.d(LOCATION_STRING, "MovieMeter onStop Event: Listener Updates Removed");
   }
 
-  //search menu
+  /*//search menu
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
     item.setOnActionExpandListener(new OnActionExpandListener() {
@@ -464,7 +341,7 @@ public class MovieMeter extends SherlockActivity {
       default:
         return super.onOptionsItemSelected(item);
     }
-  }
+  }*/
 
   private static class GeocoderHandler extends Handler {
     @Override
@@ -520,7 +397,7 @@ public class MovieMeter extends SherlockActivity {
     thread.start();
   }
 
-  @SuppressLint({"NewApi", "NewApi", "NewApi"})
+/*  @SuppressLint({"NewApi", "NewApi", "NewApi"})
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -536,7 +413,7 @@ public class MovieMeter extends SherlockActivity {
     }
 
     return true;
-  }
+  }*/
 
   public void setIsLoading(boolean isLoading) {
     if (mIsLoading != isLoading) {
@@ -1008,169 +885,3 @@ public class MovieMeter extends SherlockActivity {
 
   }
 }
-
-/*
-//gestures 
-private int REL_SWIPE_MIN_DISTANCE; 
-private int REL_SWIPE_MAX_OFF_PATH;
-private int REL_SWIPE_THRESHOLD_VELOCITY;
-
-//animations
-private Animation slideLeftIn;
-private Animation slideLeftOut;
-private Animation slideRightIn;
-private Animation slideRightOut;*/
-
-/*DisplayMetrics dm = getResources().getDisplayMetrics();
-REL_SWIPE_MIN_DISTANCE = (int)(120.0f * dm.densityDpi / 160.0f + 0.5); 
-REL_SWIPE_MAX_OFF_PATH = (int)(250.0f * dm.densityDpi / 160.0f + 0.5);
-REL_SWIPE_THRESHOLD_VELOCITY = (int)(200.0f * dm.densityDpi / 160.0f + 0.5);
-
-//animations for viewflipper
-slideLeftIn = AnimationUtils.loadAnimation(this, R.anim.slide_left_in);
-slideLeftOut = AnimationUtils.loadAnimation(this, R.anim.slide_left_out);
-slideRightIn = AnimationUtils.loadAnimation(this, R.anim.slide_right_in);
-slideRightOut = AnimationUtils.loadAnimation(this,R.anim.slide_right_out);*/
-
-/*
-private void onLTRFling(int position) {
-	Movie movieSelected = movieList.get(position);  	 
-	int realPosition = 0;
-    int getFirstVisiblePos = lv.getFirstVisiblePosition();
-    int getLastVisiblePos = lv.getLastVisiblePosition();
-    //Log.i("log_tag", "MOVIE POSITION IN LIST = " + position);
-    //Log.i("log_tag", "1ST VISIBLE POSITION IN LIST = " + getFirstVisiblePos);
-    //Log.i("log_tag", "LAST VISIBLE POSITION IN LIST = " + getLastVisiblePos);
-
-    for(int x=getFirstVisiblePos; x<getLastVisiblePos; x++){
-        if(movieSelected.getTitle().equalsIgnoreCase(movieList.get(x).getTitle())){
-        	View v = lv.getChildAt(realPosition);
-        	TextView vConsensus = (TextView) v.findViewById(R.id.consensus_text);
-        	vConsensus.setText(movieSelected.getConsensus());
-        	//Log.i("log_tag", "View ID = " + v.getId());
-        	//Log.i("log_tag", "R.id.movie_brief = " + R.id.movie_brief);
-        	//if(v.getId() == R.id.movie_brief){
-		        ViewFlipper flipper = (ViewFlipper) v.findViewById(R.id.flipper);
-		        flipper.setInAnimation(slideLeftIn);
-		        flipper.setOutAnimation(slideRightOut);
-		        flipper.showNext();
-        	//}
-        }
-        realPosition++;
-    }
-}
-
-
-private void onRTLFling(int position) {
-	Movie movieSelected = movieList.get(position); 
-	int realPosition = 0;
-    int getFirstVisiblePos = lv.getFirstVisiblePosition();
-    int getLastVisiblePos = lv.getLastVisiblePosition();
-    //Log.i("log_tag", "MOVIE POSITION IN LIST = " + position);
-    //Log.i("log_tag", "1ST VISIBLE POSITION IN LIST = " + getFirstVisiblePos);
-    //Log.i("log_tag", "LAST VISIBLE POSITION IN LIST = " + getLastVisiblePos);
-    
-    for(int x=getFirstVisiblePos; x<getLastVisiblePos; x++){
-        if(movieSelected.getTitle().equalsIgnoreCase(movieList.get(x).getTitle())){
-        	
-        	View v = lv.getChildAt(realPosition);
-        	TextView vConsensus = (TextView) v.findViewById(R.id.consensus_text);
-        	vConsensus.setText(movieSelected.getConsensus());
-        	vConsensus.setText(movieSelected.getConsensus());
-        	//Log.i("log_tag", "View ID = " + v.getId());
-        	//Log.i("log_tag", "R.id.consensus_brief = " + R.id.consensus_brief);
-        	//if(v.getId() == R.id.consensus_brief){
-	        	ViewFlipper flipper = (ViewFlipper) v.findViewById(R.id.flipper);
-	        	flipper.setInAnimation(slideRightIn);
-	        	flipper.setOutAnimation(slideLeftOut);
-	        	flipper.showPrevious();
-        	//}
-        }
-	        realPosition++;
-    }
-}*/
-
-/*
-@Override 
-public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) { 
-    int pos = lv.pointToPosition((int)e1.getX(), (int)e1.getY());
-	if (Math.abs(e1.getY() - e2.getY()) > REL_SWIPE_MAX_OFF_PATH) 
-        return false; 
-    if(e1.getX() - e2.getX() > REL_SWIPE_MIN_DISTANCE && 
-        Math.abs(velocityX) > REL_SWIPE_THRESHOLD_VELOCITY) { 
-        onRTLFling(pos); 
-    }  else if (e2.getX() - e1.getX() > REL_SWIPE_MIN_DISTANCE && 
-        Math.abs(velocityX) > REL_SWIPE_THRESHOLD_VELOCITY) { 
-        onLTRFling(pos); 
-    } 
-    return false; 
-}*/
-
-/*public boolean onTouch(View v, MotionEvent event) {
-switch (event.getAction()) {
-    case MotionEvent.ACTION_DOWN: {
-    	downX = event.getX();
-        downY = event.getY();
-        Log.i("log_tag", "DOWN EVENT");
-        return true;
-    }
-    case MotionEvent.ACTION_UP: {
-    	
-        upX = event.getX();
-        upY = event.getY();
-        
-        float deltaX = downX - upX;
-        float deltaY = downY - upY;
-        
-        if(upX < downX && Math.abs(deltaX) > REL_SWIPE_MIN_DISTANCE ){
-        	onRTLFling(0);
-        }
-        else if((upX > downX && Math.abs(deltaX) > REL_SWIPE_MIN_DISTANCE )){
-        	onLTRFling(0);
-        }
-        break;
-    }
-    case MotionEvent.ACTION_MOVE: {
-    	moveX = event.getX();
-        //final LayoutInflater inflater = getLayoutInflater();
-    	//final View typeView = inflater.inflate(R.layout.consensus_list_layout, null);
-        viewFlipper = (ViewFlipper) v.findViewById(R.id.flipper);
-        final View currentView = viewFlipper.getCurrentView();
-        //currentView.layout((int)(moveX - downX), currentView.getTop(), currentView.getRight(), currentView.getBottom());
-        break;
-    }
-}
-return false;
-}*/
-
-/*public static int calculateInSampleSize(BitmapFactory.Options options, int reqWidth, int reqHeight) {
-	// Raw height and width of image
-	final int height = options.outHeight;
-	final int width = options.outWidth;
-	int inSampleSize = 1;
-
-	if (height > reqHeight || width > reqWidth) {
-		if (width > height) {
-			inSampleSize = Math.round((float)height / (float)reqHeight);
-		} else {
-			inSampleSize = Math.round((float)width / (float)reqWidth);
-		}
-	}
-	return inSampleSize;
-}
-
-public static Bitmap decodeSampledBitmapFromResource(Resources res, int resId, int reqWidth, int reqHeight) {
-
-// First decode with inJustDecodeBounds=true to check dimensions
-final BitmapFactory.Options options = new BitmapFactory.Options();
-options.inJustDecodeBounds = true;
-BitmapFactory.decodeResource(res, resId, options);
-
-// Calculate inSampleSize
-options.inSampleSize = calculateInSampleSize(options, reqWidth, reqHeight);
-
-// Decode bitmap with inSampleSize set
-options.inJustDecodeBounds = false;
-return BitmapFactory.decodeResource(res, resId, options);
-}*/
-

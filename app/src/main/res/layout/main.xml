@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
-        
-    <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <LinearLayout
         android:id="@+id/adBar"
 	    android:layout_width="match_parent"
 	    android:layout_height="50dip"
@@ -29,48 +29,47 @@
             ads:adSize="BANNER"
             ads:testDevices="SH26LW103187"
             ads:loadAdOnCreate="true"/>-->
-   	
+
    	</LinearLayout>
-    
-    <ListView
-        android:background="#000000"
-		android:id="@+id/movie_list"	    
-		android:layout_width="fill_parent"
-	    android:layout_height="fill_parent" 
-	    android:layout_above="@id/adBar"/>
-    
-    <LinearLayout
-   	    android:id="@+id/movie_progress_layout"
-   	    android:layout_width="fill_parent"
-   	    android:layout_height="match_parent"
-   	    android:gravity="center"
-   	    android:visibility="invisible">
-	
-	   	<ProgressBar 
-	        android:id="@+id/movie_progress"
-	        android:layout_width="40dip"
-	        android:layout_height="40dip"
-	        android:layout_margin="4dip"/>
-	   	
-	   	<TextView
-	        android:id="@+id/movie_loading_title"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:text="Loading..."
-	        android:textSize="14sp"
-	        android:layout_gravity="center"
-	        android:layout_margin="4dip"/>	
-   	
-   	</LinearLayout>
-   	
+
+  <ListView
+    android:background="#000000"
+    android:id="@+id/movie_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+
+  <LinearLayout
+    android:id="@+id/movie_progress_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:visibility="gone">
+
+    <ProgressBar
+      android:id="@+id/movie_progress"
+      android:layout_width="40dip"
+      android:layout_height="40dip"
+      android:layout_margin="4dip"/>
+
     <TextView
-        android:id="@+id/no_similar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="No Movies Found"
-        android:textSize="14sp"
-        android:layout_margin="4dip"
-        android:gravity="center"
-        android:visibility="invisible"/>
+      android:id="@+id/movie_loading_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Loading..."
+      android:textSize="14sp"
+      android:layout_gravity="center"
+      android:layout_margin="4dip"/>
+
+  </LinearLayout>
+
+  <TextView
+    android:id="@+id/no_similar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="No Movies Found"
+    android:textSize="14sp"
+    android:layout_margin="4dip"
+    android:gravity="center"
+    android:visibility="gone"/>
 
 </RelativeLayout>

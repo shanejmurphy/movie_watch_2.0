@@ -1,10 +1,10 @@
 package com.movie.watch;
 
-import java.sql.Date;
-import java.text.DateFormat;
-
 import android.os.Parcel;
 import android.os.Parcelable;
+
+import java.sql.Date;
+import java.text.DateFormat;
 
 public class Review implements Parcelable{
 	private String criticName;
@@ -100,7 +100,6 @@ public class Review implements Parcelable{
     };
 
     public Review(Parcel in) {
-       
         criticName = in.readString();
         publication = in.readString();
         date = in.readString();
