@@ -3,6 +3,8 @@
   <color name="HoloBlue">#33B5E5</color>
   <color name="DarkTransparentBlack">#282828</color>
   <color name="white">#FFFFFF</color>
+  <color name="translucent_black">#88000000</color>
+  <color name="black">#000000</color>
   <color name="RottenGreen">#5e992d</color>
   <color name="light_grey_text">#e1e1e1</color>
 
@@ -15,5 +17,8 @@
   <color name="secondary_text">#727272</color>
   <color name="icons">#FFFFFF</color>
   <color name="divider">#B6B6B6</color>
+
+  <color name="grey_background">#e1e1e1</color>
+
 
 </resources>

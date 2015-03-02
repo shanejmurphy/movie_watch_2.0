@@ -2,16 +2,15 @@ package com.movie.watch.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.ListFragment;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.ListView;
 
-import com.movie.watch.Movie;
 import com.movie.watch.R;
 import com.movie.watch.adapter.MovieListAdapter;
+import com.movie.watch.model.Movie;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
@@ -22,12 +21,12 @@ import org.androidannotations.annotations.ViewById;
 import java.util.ArrayList;
 
 @EFragment(R.layout.movie_selection_fragment)
-public class MovieSelectionFragment extends ListFragment {
+public class MovieSelectionFragment extends Fragment {
 
   @ViewById
   protected Toolbar mainToolbar;
   @ViewById
-  protected TextView selectionSectionTitle;
+  protected ListView movieSelectionList;
 
   @Bean
   protected MovieListAdapter movieListAdapter;
@@ -46,8 +45,7 @@ public class MovieSelectionFragment extends ListFragment {
   @AfterViews
   public void afterViews() {
     mainToolbar.setTitle(getString(R.string.app_name));
-    //selectionSectionTitle.setText("Test Title");
     movieListAdapter.setMovies(movies);
-    setListAdapter(movieListAdapter);
+    movieSelectionList.setAdapter(movieListAdapter);
   }
 }

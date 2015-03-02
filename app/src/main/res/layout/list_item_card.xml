@@ -6,25 +6,105 @@
   android:layout_width="match_parent"
   android:layout_height="wrap_content"
   android:layout_gravity="center"
-  android:layout_margin="@dimen/padding_tiny"
+  android:layout_marginLeft="@dimen/padding_tiny"
+  android:layout_marginRight="@dimen/padding_tiny"
+  android:layout_marginTop="@dimen/padding_miniature"
+  android:layout_marginBottom="@dimen/padding_miniature"
   card_view:cardCornerRadius="@dimen/card_item_corner_radius"
   card_view:contentPadding="@dimen/card_item_content_padding"
   tools:showIn="movie_selection_fragment">
 
   <RelativeLayout
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="@dimen/card_item_image_height">
 
     <ImageView
       android:id="@+id/cardImage"
       android:layout_width="@dimen/card_item_image_width"
       android:layout_height="@dimen/card_item_image_height"
+      android:layout_marginRight="@dimen/padding_tiny"
       tools:src="@drawable/movie_poster"/>
 
     <TextView
       android:id="@+id/cardTitle"
       style="@style/title_text"
       android:layout_toRightOf="@+id/cardImage"
-      tools:text="Example application"/>
+      android:singleLine="true"
+      tools:text="Example Movie Name"/>
+
+<!--    <TextView
+      android:id="@+id/cardGenre"
+      style="@style/subtitle_text"
+      android:layout_toRightOf="@+id/cardImage"
+      android:layout_below="@+id/cardTitle"
+      android:singleLine="true"
+      tools:text="Action/Adventure"/>-->
+
+    <TextView
+      android:id="@+id/cardCast"
+      style="@style/subtitle_text"
+      android:layout_toRightOf="@+id/cardImage"
+      android:layout_toEndOf="@+id/cardImage"
+      android:layout_below="@+id/cardTitle"
+      android:singleLine="true"
+      android:text="@string/emptyString"
+      tools:text="Tom Hanks, Julie Roberts, Michael Douglas, Catherine Zeta Jones"/>
+
+    <TextView
+      android:id="@+id/cardMisc"
+      style="@style/subtitle_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/cardImage"
+      android:layout_toEndOf="@+id/cardImage"
+      android:layout_below="@+id/cardCast"
+      android:text="@string/emptyString"
+      tools:text="PG - 1h 45m" />
+
+<!--    <TextView
+      android:id="@+id/cardReleaseDate"
+      style="@style/subtitle_text"
+      android:layout_width="wrap_content"
+      android:layout_toRightOf="@+id/cardImage"
+      android:layout_below="@+id/cardMisc"
+      android:singleLine="true"
+      tools:text="21 September 2015"/>-->
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:gravity="top|right"
+      android:orientation="horizontal">
+
+      <TextView
+        android:id="@+id/cardCriticScore"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        tools:drawableLeft="@drawable/fresh"
+        android:drawablePadding="@dimen/padding_tiny"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@color/black"
+        android:text="@string/emptyString"
+        tools:text="176%"/>
+
+      <View
+        android:layout_width="@dimen/padding_small"
+        android:layout_height="@dimen/padding_tiny"/>
+
+      <TextView
+        android:id="@+id/cardAudienceScore"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        tools:drawableLeft="@drawable/spilt"
+        android:drawablePadding="@dimen/padding_tiny"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@color/black"
+        android:text="@string/emptyString"
+        tools:text="88%"/>
+
+    </LinearLayout>
+
   </RelativeLayout>
 </android.support.v7.widget.CardView>

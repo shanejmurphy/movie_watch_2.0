@@ -27,6 +27,8 @@
   <string name="new_releases">Latest Releases</string>
   <string name="coming_soon">DVDs Coming Soon</string>
   <string name="images">Movie Images</string>
+  <string name="emptyString">--</string>
+
 
   <string-array name="spinner_list">
     <item>@string/top_box_office</item>

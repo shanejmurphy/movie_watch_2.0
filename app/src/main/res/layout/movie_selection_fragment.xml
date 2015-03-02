@@ -7,15 +7,8 @@
 
   <include layout="@layout/toolbar"/>
 
-  <TextView
-    android:id="@+id/selectionSectionTitle"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:text="Box Office Reviews"
-    android:textColor="@color/primary_dark"/>
-
   <ListView
-    android:id="@android:id/list"
+    android:id="@+id/movieSelectionList"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:listSelector="@android:color/transparent"

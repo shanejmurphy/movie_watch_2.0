@@ -12,7 +12,21 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.movie.watch.R;
 
+import de.greenrobot.event.EventBus;
+
 public class BaseActivity extends ActionBarActivity {
+
+  @Override
+  protected void onStart() {
+    super.onStart();
+    EventBus.getDefault().registerSticky(this);
+  }
+
+  @Override
+  protected void onStop() {
+    super.onStop();
+    EventBus.getDefault().unregister(this);
+  }
 
   protected void setUpToolbar(Toolbar toolbar) {
     setSupportActionBar(toolbar);

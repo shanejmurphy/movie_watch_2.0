@@ -5,15 +5,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.movie.watch.Movie;
-import com.movie.watch.utils.MovieItemView;
-import com.movie.watch.utils.MovieItemView_;
+import com.movie.watch.model.Movie;
+import com.movie.watch.utils.ui.MovieItemView;
+import com.movie.watch.utils.ui.MovieItemView_;
 
 import org.androidannotations.annotations.AfterInject;
 import org.androidannotations.annotations.EBean;
 import org.androidannotations.annotations.RootContext;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @EBean
 public class MovieListAdapter extends BaseAdapter {
@@ -21,7 +22,7 @@ public class MovieListAdapter extends BaseAdapter {
   @RootContext
   protected Context context;
 
-  ArrayList<Movie> movies;
+  private List<Movie> movies;
 
   @AfterInject
   public void afterInject() {
@@ -61,11 +62,11 @@ public class MovieListAdapter extends BaseAdapter {
     notifyDataSetChanged();
   }
 
-  public ArrayList<Movie> getMovies() {
+  public List<Movie> getMovies() {
     return movies;
   }
 
-  public void setMovies(ArrayList<Movie> movies) {
+  public void setMovies(List<Movie> movies) {
     this.movies = movies;
   }
 

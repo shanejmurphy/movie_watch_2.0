@@ -37,6 +37,10 @@
       android:name="com.crashlytics.ApiKey"
       android:value="a3d059b90b475878946e95dfa4daf0618a68bced"/>
 
+    <service
+      android:name=".service.MovieFetchingService_"
+      android:exported="false"/>
+
   </application>
 
 </manifest>

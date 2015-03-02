@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
   <style name="title_text">
     <item name="android:layout_width">match_parent</item>
     <item name="android:layout_height">wrap_content</item>
-    <item name="android:layout_marginLeft">@dimen/padding_small</item>
-    <item name="android:layout_marginRight">@dimen/padding_small</item>
+    <item name="android:paddingBottom">@dimen/padding_miniature</item>
     <item name="android:gravity">center_horizontal</item>
     <item name="android:textColor">@color/primary_text</item>
-    <item name="android:textSize">@dimen/text_size_large</item>
+    <item name="android:textSize">@dimen/text_size_medium</item>
+  </style>
+
+  <style name="subtitle_text">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/secondary_text</item>
+    <item name="android:textSize">@dimen/text_size_small</item>
+    <item name="android:padding">@dimen/padding_miniature</item>
   </style>
 </resources>

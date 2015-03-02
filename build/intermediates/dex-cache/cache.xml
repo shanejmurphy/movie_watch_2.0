@@ -2,11 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.4.4/c5cd3347c0a86d0dcfbf3da593d8431d5a789d54/jackson-core-2.4.4.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-f5dc4118b2ec6335068ce95aa7c31517dbf8c4f7.jar" />
+        sha1="c5cd3347c0a86d0dcfbf3da593d8431d5a789d54">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/jackson-core-2.4.4-bd07602c29a8b66eeee409bb5c45a4329e0b2b19.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2b8019b6249bb05d81d3a3094e468753e2b21311">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.7-d1a35c8debcb365221a9d5d94f98bc5185bdb146.jar" />
     </item>
     <item
         jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.2.1/classes.jar"
@@ -16,32 +23,11 @@
         <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-2fd4d9115ca56cf0a1b26b8d386a11026d706043.jar" />
     </item>
     <item
-        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-c8a77b038cf62e15bac0c86dc6609780fa73b4ea.jar" />
-    </item>
-    <item
-        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.2.1/b01150795c5cdca1eb7e501bf00f105ff0e31501/hugo-annotations-1.2.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b01150795c5cdca1eb7e501bf00f105ff0e31501">
-        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/hugo-annotations-1.2.1-2a05fbaf47bd91fe4fbbcccbb621f1e413dfc1b3.jar" />
-    </item>
-    <item
         jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.2/89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1/androidannotations-api-3.2.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="89b33bb1e996eb2c4089f79d1b8651c71fe8e2d1">
         <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.2-8791ade95edd7af92d96d4bc429d8b429c60a09a.jar" />
-    </item>
-    <item
-        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-84d556c41b9e01f4d2c43ee3914f348ce424dc1b.jar" />
     </item>
     <item
         jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.1.1/classes.jar"
@@ -58,31 +44,31 @@
         <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-56104a2449de6a820470d3d1e0c1fb6df4e33530.jar" />
     </item>
     <item
-        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/libs/universal-image-loader-1.7.0.jar"
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="15273ac4bb8c92f5bed5fcd968faf7fe77a8012e">
-        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.7.0-7c415e6182087befc1b054c3e1b800c4ba30f426.jar" />
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-b7bf7bb5eff692ec5522c2fc2d673478862eb3b7.jar" />
     </item>
     <item
-        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.5/39a8ff2d1f79267907f5573c090b342b040b9682/aspectjrt-1.8.5.jar"
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/org.parceler/parceler-api/0.2.15/b72c029e2ec0ef125b758f2f6bac64f6df8e7a35/parceler-api-0.2.15.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="39a8ff2d1f79267907f5573c090b342b040b9682">
-        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/aspectjrt-1.8.5-39f2078978987f7d5364fa6fe0751ec33fda2455.jar" />
+        sha1="b72c029e2ec0ef125b758f2f6bac64f6df8e7a35">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/parceler-api-0.2.15-cac0c5ecd565e10c78c96604f513e466cdb2d888.jar" />
     </item>
     <item
-        jar="/Users/shanemurphy/Desktop/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-0f3fe8affe77986ad1be2a1c73dec7d95c46b2d4.jar" />
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/guava-18.0-9e188a976878ef677492226a84a6890d99ddd1d7.jar" />
     </item>
     <item
         jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.movie.watch/library/unspecified/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="5316768f114d3e7efe6b4446cee4baaa82da1512">
+        sha1="07ba7718ffdb2958b9d4a0b72ab65ff6487f522f">
         <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-c905a260b1398ad5f51b877f4005f024b020080d.jar" />
     </item>
     <item
@@ -107,11 +93,116 @@
         <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-f7da5485951d4e697b080c8263b178e554ead817.jar" />
     </item>
     <item
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="90a3822c38ec8c996e84c16a3477ef632cbc87a3">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/commons-lang3-3.3.2-12c3b9801011421f279858773c12db6cd8584988.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/commons-codec-1.10-763a50a83bd19ec58e8b0bd169ff764678280380.jar" />
+    </item>
+    <item
         jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.1/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="13fcdacaecfcce00c7dd129264d70da2ff195563">
         <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-c03c485a79e61ed2eb55eed57fc64f2f97ed066b.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-f5dc4118b2ec6335068ce95aa7c31517dbf8c4f7.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/gson-2.3.1-94116e0105a639f1c6092e77019063e8b76934cf.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.4/e2ff13c3de2f5a2ab2449a3dace2b0d1c37bd8ee/jackson-databind-2.4.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e2ff13c3de2f5a2ab2449a3dace2b0d1c37bd8ee">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/jackson-databind-2.4.4-d40bcef8f0315314697a2ace4cb8d07535b71508.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-c8a77b038cf62e15bac0c86dc6609780fa73b4ea.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.2.1/b01150795c5cdca1eb7e501bf00f105ff0e31501/hugo-annotations-1.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b01150795c5cdca1eb7e501bf00f105ff0e31501">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/hugo-annotations-1.2.1-2a05fbaf47bd91fe4fbbcccbb621f1e413dfc1b3.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/info.movito/themoviedbapi/1.1/f0d7f1b1f78fc422bf50c4c6868b72a4f0ca7abc/themoviedbapi-1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f0d7f1b1f78fc422bf50c4c6868b72a4f0ca7abc">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/themoviedbapi-1.1-845d60577e90c47b848e409a3e6747fb0b9d74a9.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.7/56003dcd0a31deea6391b9e2ef2f2dc90b205a92/jcl-over-slf4j-1.7.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="56003dcd0a31deea6391b9e2ef2f2dc90b205a92">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/jcl-over-slf4j-1.7.7-fefb62fa991182c69a7cab24b126f1fb6f53fad6.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/classes-84d556c41b9e01f4d2c43ee3914f348ce424dc1b.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/libs/universal-image-loader-1.7.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="15273ac4bb8c92f5bed5fcd968faf7fe77a8012e">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.7.0-7c415e6182087befc1b054c3e1b800c4ba30f426.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.5/39a8ff2d1f79267907f5573c090b342b040b9682/aspectjrt-1.8.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="39a8ff2d1f79267907f5573c090b342b040b9682">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/aspectjrt-1.8.5-39f2078978987f7d5364fa6fe0751ec33fda2455.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/Desktop/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-0f3fe8affe77986ad1be2a1c73dec7d95c46b2d4.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.4/d3dad1a494f94579fca4b6a1142fb15fb68f0b2f/jackson-annotations-2.4.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d3dad1a494f94579fca4b6a1142fb15fb68f0b2f">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.4.4-f694f90313b036b1fbd98d1c1ef3b4a3b6869d34.jar" />
+    </item>
+    <item
+        jar="/Users/shanemurphy/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/shanemurphy/Projects/Personal/com.movie.watch/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-65ad460b17f7ba0e6be81ad9b7f37902eb2320fd.jar" />
     </item>
 
 </items>
