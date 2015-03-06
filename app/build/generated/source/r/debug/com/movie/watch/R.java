@@ -2273,6 +2273,7 @@ containing a value of this type.
         public static final int middle=0x7f0c0015;
         public static final int monochrome=0x7f0c0035;
         public static final int movieSelectionList=0x7f0c009e;
+        public static final int movieSelectionPager=0x7f0c0082;
         public static final int movie_brief=0x7f0c0069;
         public static final int movie_list=0x7f0c005e;
         public static final int movie_loading_title=0x7f0c007e;
@@ -2313,7 +2314,6 @@ containing a value of this type.
         public static final int search_src_text=0x7f0c0053;
         public static final int search_voice_btn=0x7f0c0057;
         public static final int selectionDetails=0x7f0c002d;
-        public static final int selectionPane=0x7f0c0082;
         public static final int shortcut=0x7f0c0043;
         public static final int showCustom=0x7f0c000f;
         public static final int showHome=0x7f0c0010;
@@ -2401,15 +2401,16 @@ containing a value of this type.
         public static final int movie_info_layout=0x7f030028;
         public static final int movie_review_layout=0x7f030029;
         public static final int movie_selection_fragment=0x7f03002a;
-        public static final int showtimes_layout=0x7f03002b;
-        public static final int showtimes_list_layout=0x7f03002c;
-        public static final int similar_list_layout=0x7f03002d;
-        public static final int similar_movies_layout=0x7f03002e;
-        public static final int spinner_layout=0x7f03002f;
-        public static final int support_simple_spinner_dropdown_item=0x7f030030;
-        public static final int text_list=0x7f030031;
-        public static final int time_view=0x7f030032;
-        public static final int toolbar=0x7f030033;
+        public static final int movie_selection_pager=0x7f03002b;
+        public static final int showtimes_layout=0x7f03002c;
+        public static final int showtimes_list_layout=0x7f03002d;
+        public static final int similar_list_layout=0x7f03002e;
+        public static final int similar_movies_layout=0x7f03002f;
+        public static final int spinner_layout=0x7f030030;
+        public static final int support_simple_spinner_dropdown_item=0x7f030031;
+        public static final int text_list=0x7f030032;
+        public static final int time_view=0x7f030033;
+        public static final int toolbar=0x7f030034;
     }
     public static final class menu {
         public static final int activity_display_movie=0x7f0f0000;

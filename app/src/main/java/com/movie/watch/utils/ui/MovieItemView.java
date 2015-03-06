@@ -69,8 +69,10 @@ public class MovieItemView extends RelativeLayout {
 
   private void setCriticScoreText(Movie movie) {
     Integer score = movie.getRatings().getCriticsScore();
-    cardCriticScore.setText(score + PERCENTAGE_VALUE);
-    cardCriticScore.setCompoundDrawablesWithIntrinsicBounds(getCriticRatingImage(movie), 0, 0, 0);
+    if (score >= 0) {
+      cardCriticScore.setText(score + PERCENTAGE_VALUE);
+      cardCriticScore.setCompoundDrawablesWithIntrinsicBounds(getCriticRatingImage(movie), 0, 0, 0);
+    }
   }
 
   private int getCriticRatingImage(Movie movie) {
@@ -88,8 +90,10 @@ public class MovieItemView extends RelativeLayout {
 
   private void setAudienceScoreText(Movie movie) {
     Integer score = movie.getRatings().getAudienceScore();
-    cardAudienceScore.setText(score + PERCENTAGE_VALUE);
-    cardAudienceScore.setCompoundDrawablesWithIntrinsicBounds(getAudienceRatingImage(movie), 0, 0, 0);
+    if (score >= 0) {
+      cardAudienceScore.setText(score + PERCENTAGE_VALUE);
+      cardAudienceScore.setCompoundDrawablesWithIntrinsicBounds(getAudienceRatingImage(movie), 0, 0, 0);
+    }
   }
 
   private int getAudienceRatingImage(Movie movie) {

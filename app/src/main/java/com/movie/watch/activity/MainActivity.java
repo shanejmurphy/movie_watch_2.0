@@ -1,17 +1,22 @@
 package com.movie.watch.activity;
 
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ProgressBar;
 
 import com.google.android.gms.ads.AdView;
 import com.movie.watch.R;
-import com.movie.watch.busevents.MovieFetchEvent;
+import com.movie.watch.busevents.FetchEventEnded;
 import com.movie.watch.constants.Constants;
 import com.movie.watch.fragment.MovieSelectionFragment;
 import com.movie.watch.model.Movie;
-import com.movie.watch.service.MovieFetchingService_;
 import com.movie.watch.utils.MovieFetcher;
 
+import org.androidannotations.annotations.AfterInject;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Background;
 import org.androidannotations.annotations.Bean;
@@ -26,24 +31,34 @@ import de.greenrobot.event.EventBus;
 public class MainActivity extends BaseActivity {
   private static final String TAG = MainActivity.class.getSimpleName();
 
-  @Bean
-  protected MovieFetcher movieFetcher;
-
+  @ViewById
+  protected Toolbar mainToolbar;
   @ViewById
   protected ProgressBar mainProgressBar;
   @ViewById
+  protected ViewPager movieSelectionPager;
+  @ViewById
   protected AdView adView;
+
+  @Bean
+  protected MovieFetcher movieFetcher;
+
+  private ArrayList<Movie> boxOffice;
+  private ArrayList<Movie> openingSoon;
+  private ArrayList<Movie> inTheatres;
+
+  @AfterInject
+  protected void afterInject() {
+    getMovies();
+  }
 
   @AfterViews
   protected void afterViews() {
-    loadAds(adView);
+    mainToolbar.setTitle(getString(R.string.app_name));
+    mainProgressBar.setVisibility(View.VISIBLE);
+    //loadAds(adView);
     setLollipopStatusBarColor();
-    getMovies(Constants.BOX_OFFICE_PATH);
-  }
-
-  @Background
-  protected void getMovies(String listType) {
-    MovieFetchingService_.intent(this).fetchMovies(listType).start();
+    movieSelectionPager.setOffscreenPageLimit(2);
   }
 
 /*  @Background
@@ -51,15 +66,42 @@ public class MainActivity extends BaseActivity {
     TmdbMovies movies = new TmdbApi(Constants.TMDB_API_KEY).getMovies();
   }*/
 
-  private void createMovieSelectionFragment(ArrayList<Movie> movies) {
-    MovieSelectionFragment movieSelectionFragment = (MovieSelectionFragment) MovieSelectionFragment.create(movies);
-    replaceFragment(R.id.selectionPane, movieSelectionFragment, null);
+  @Background
+  protected void getMovies() {
+    boxOffice = new ArrayList<>(movieFetcher.getRottenTomatoesMovieList(Constants.BOX_OFFICE_PATH).getMovies());
+    openingSoon = new ArrayList<>(movieFetcher.getRottenTomatoesMovieList(Constants.OPENING_PATH).getMovies());
+    inTheatres = new ArrayList<>(movieFetcher.getRottenTomatoesMovieList(Constants.IN_THEATRES_PATH).getMovies());
+    EventBus.getDefault().post(new FetchEventEnded());
   }
 
-  public void onEventMainThread(MovieFetchEvent movieFetchEvent) {
-    EventBus.getDefault().removeStickyEvent(movieFetchEvent);
+  public void onEventMainThread(FetchEventEnded fetchEventEnded) {
     mainProgressBar.setVisibility(View.GONE);
-    ArrayList<Movie> movies = new ArrayList(movieFetchEvent.getMovies());
-    createMovieSelectionFragment(movies);
+    movieSelectionPager.setAdapter(new MoviePagerAdapter(getSupportFragmentManager()));
+  }
+
+  private class MoviePagerAdapter extends FragmentPagerAdapter {
+
+    private static final int PAGE_COUNT = 3;
+
+    public MoviePagerAdapter(FragmentManager fm) {
+      super(fm);
+    }
+
+    @Override
+    public int getCount() {
+      return PAGE_COUNT;
+    }
+
+    @Override
+    public Fragment getItem(int position) {
+      switch (position) {
+        case 0:
+          return MovieSelectionFragment.create(boxOffice);
+        case 1:
+          return MovieSelectionFragment.create(openingSoon);
+        default:
+          return MovieSelectionFragment.create(inTheatres);
+      }
+    }
   }
 }

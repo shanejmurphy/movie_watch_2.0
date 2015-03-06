@@ -24,7 +24,7 @@ public class MovieFetcher {
 
     RottenTomatoesService service = restAdapter.create(RottenTomatoesService.class);
 
-    MovieList movieList = service.getBoxOfficeMovies(movieListType);
+    MovieList movieList = service.getRottenTomatoesMovies(movieListType);
     return movieList;//, new MovieResponseCallback());
   }
 

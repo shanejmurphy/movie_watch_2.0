@@ -1,11 +1,6 @@
 package com.movie.watch.fragment;
 
-import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.Toolbar;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.movie.watch.R;
@@ -24,8 +19,6 @@ import java.util.ArrayList;
 public class MovieSelectionFragment extends Fragment {
 
   @ViewById
-  protected Toolbar mainToolbar;
-  @ViewById
   protected ListView movieSelectionList;
 
   @Bean
@@ -38,13 +31,8 @@ public class MovieSelectionFragment extends Fragment {
     return MovieSelectionFragment_.builder().movies(movies).build();
   }
 
-  public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-    return null;
-  }
-
   @AfterViews
   public void afterViews() {
-    mainToolbar.setTitle(getString(R.string.app_name));
     movieListAdapter.setMovies(movies);
     movieSelectionList.setAdapter(movieListAdapter);
   }
