@@ -11,8 +11,6 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.movie.watch.R;
 
-import de.greenrobot.event.EventBus;
-
 public class BaseActivity extends FragmentActivity {
 
   protected void replaceFragment(int containerId, Fragment fragment, String tag) {
@@ -32,17 +30,5 @@ public class BaseActivity extends FragmentActivity {
       window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
       window.setStatusBarColor(getResources().getColor(R.color.primary_dark));
     }
-  }
-
-  @Override
-  public void onStart() {
-    super.onStart();
-    EventBus.getDefault().register(this);
-  }
-
-  @Override
-  public void onStop() {
-    super.onStop();
-    EventBus.getDefault().unregister(this);
   }
 }

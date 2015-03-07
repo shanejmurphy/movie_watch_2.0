@@ -33,7 +33,7 @@ android {
     applicationId "com.movie.watch"
     versionName '1.09'
     versionCode calculateVersionCode()
-    minSdkVersion 9
+    minSdkVersion 10
     targetSdkVersion 21
     testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
   }
@@ -64,6 +64,7 @@ dependencies {
   compile 'de.greenrobot:eventbus:2.4.0'
   compile 'com.squareup.retrofit:retrofit:1.9.0'
   compile 'com.jakewharton.hugo:hugo-runtime:1.2.1'
+  compile 'com.jpardogo.materialtabstrip:library:1.0.9'
   compile 'org.parceler:parceler-api:0.2.15'
   provided 'org.parceler:parceler:0.2.15'
 /*  compile group: 'info.movito', name: 'themoviedbapi', version:'1.1'*/

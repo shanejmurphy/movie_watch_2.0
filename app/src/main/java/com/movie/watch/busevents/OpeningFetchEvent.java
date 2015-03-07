@@ -4,10 +4,10 @@ import com.movie.watch.model.Movie;
 
 import java.util.List;
 
-public class UpcomingMoviesFetchEvent {
+public class OpeningFetchEvent {
     private List<Movie> movies;
 
-    public UpcomingMoviesFetchEvent(List<Movie> movies) {
+    public OpeningFetchEvent(List<Movie> movies) {
       this.movies = movies;
     }
 

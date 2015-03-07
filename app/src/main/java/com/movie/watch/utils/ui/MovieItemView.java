@@ -20,6 +20,8 @@ import com.nostra13.universalimageloader.core.assist.ImageLoadingListener;
 import org.androidannotations.annotations.EViewGroup;
 import org.androidannotations.annotations.ViewById;
 
+import java.util.List;
+
 @EViewGroup(R.layout.list_item_card)
 public class MovieItemView extends RelativeLayout {
 
@@ -56,8 +58,11 @@ public class MovieItemView extends RelativeLayout {
 
   private void setCastText(Movie movie) {
     String cast = "";
-    for (Cast actor : movie.getCast()) {
-      cast += actor.getName() + ", ";
+    int loopIndex = 1;
+    List<Cast> castList = movie.getCast();
+    for (Cast actor : castList) {
+      String appendStr = loopIndex++ == castList.size() ? "" : ", ";
+      cast += actor.getName() + appendStr;
     }
     cardCast.setText(cast);
   }

@@ -22,5 +22,9 @@
 
   <dimen name="ad_bar_height">50dp</dimen>
 
+  <dimen name="tab_strip_height">36dp</dimen>
+  <dimen name="tab_strip_indicator_height">5dp</dimen>
+
+
 
 </resources>
