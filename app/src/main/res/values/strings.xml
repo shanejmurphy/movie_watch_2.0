@@ -68,4 +68,9 @@
   <string name="title_showtimes">Showtimes</string>
   <string name="title_cast">Cast</string>
 
+  <string-array name="movie_selection_options">
+    <item>@string/movie_button</item>
+    <item>@string/dvd_button</item>
+  </string-array>
+
 </resources>
