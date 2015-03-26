@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center"
+  android:layout_marginLeft="@dimen/padding_tiny"
+  android:layout_marginRight="@dimen/padding_tiny"
+  android:layout_marginTop="@dimen/padding_miniature"
+  android:layout_marginBottom="@dimen/padding_miniature"
+  card_view:cardCornerRadius="@dimen/card_item_corner_radius"
+  card_view:contentPadding="@dimen/card_item_content_padding"
+  tools:showIn="fragment_movie_review">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+      <TextView
+        android:id="@+id/reviewTitle"
+        style="@style/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:drawableLeft="@drawable/fresh"
+        android:drawablePadding="@dimen/padding_tiny"
+        tools:text="Marion Keyes - New York Times"/>
+
+    <TextView
+      android:id="@+id/reviewText"
+      style="@style/subtitle_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/reviewTitle"
+      android:padding="@dimen/padding_tiny"
+      tools:text="The fifth and final entry in the historically successful Twilight franchise is the most self-aware and in some ways the most entertaining. "/>
+
+    <TextView
+      android:id="@+id/reviewDate"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/reviewText"
+      android:layout_alignParentRight="true"
+      android:paddingRight="@dimen/padding_tiny"
+      tools:text="Nov 19, 2012"
+      android:textColor="@color/secondary_text"
+      android:textSize="@dimen/text_size_tiny"
+      android:textStyle="italic"/>
+
+  </RelativeLayout>
+
+</android.support.v7.widget.CardView>

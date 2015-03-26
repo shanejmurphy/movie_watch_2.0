@@ -7,7 +7,7 @@
   <string name="movieTitleText"></string>
   <string name="movieDescText"></string>
   <string name="movieImageText"></string>
-  <string name="rating">Rating</string>
+  <string name="common_rating">Rating</string>
   <string name="poster">Movie Cover</string>
   <string name="movieTitleText2">Toy Stroy 3</string>
   <string name="search_hint">Movie Title</string>
@@ -49,5 +49,23 @@
   <string name="title_activity_display_similar_movie">DisplaySimilarMovie</string>
 
   <string name="banner_ad_unit_id">ca-app-pub-1258919070544585/2263874153</string>
+  <string name="movie_info_overview_label">Overview</string>
+  <string name="common_genre">Genre</string>
+  <string name="common_release_date">Release Date</string>
+  <string name="common_runtime">Runtime</string>
+  <string name="common_cast">Cast</string>
+  <string name="audience_percentage">%1$s of the audience liked it</string>
+  <string name="critics_percentage">%1$s of critics liked it</string>
+  <string name="common_metascore">Metascore</string>
+  <string name="hour_plural">&#160;hours</string>
+  <string name="hour_singular">&#160;hour</string>
+  <string name="hour_shortened">h</string>
+  <string name="minutes_shortened">m</string>
+  <string name="minutes_plural">&#160;minutes</string>
+  <string name="minute_singular">&#160;minute</string>
+  <string name="title_general">General</string>
+  <string name="title_reviews">Reviews</string>
+  <string name="title_showtimes">Showtimes</string>
+  <string name="title_cast">Cast</string>
 
 </resources>

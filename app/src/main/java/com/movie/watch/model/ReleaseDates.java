@@ -5,8 +5,10 @@ import com.google.gson.annotations.Expose;
 
 import org.parceler.Parcel;
 
+import java.io.Serializable;
+
 @Parcel
-public class ReleaseDates {
+public class ReleaseDates implements Serializable {
 
   @Expose
   private String theater;

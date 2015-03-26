@@ -5,11 +5,12 @@ import com.google.gson.annotations.Expose;
 
 import org.parceler.Parcel;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Parcel
-public class Cast {
+public class Cast implements Serializable {
 
   @Expose
   public String name;

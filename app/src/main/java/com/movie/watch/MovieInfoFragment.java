@@ -1,7 +1,5 @@
 package com.movie.watch;
 
-import java.util.List;
-
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
@@ -17,6 +15,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import java.util.List;
 
 public class MovieInfoFragment extends Fragment{
 	

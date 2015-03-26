@@ -6,11 +6,12 @@ import com.google.gson.annotations.SerializedName;
 
 import org.parceler.Parcel;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Parcel
-public class Movie {
+public class Movie implements Serializable {
 
   @Expose
   public String id;
@@ -78,20 +79,6 @@ public class Movie {
 
   public Integer getRuntime() {
     return runtime;
-  }
-
-  public String getLongRuntime(){
-    int hours = 0;
-    int minutes = runtime%60;
-    if(runtime > 59){
-      hours = runtime/60;
-      return hours + "h " + getMinutes(minutes) + "m";
-    }
-    return getMinutes(minutes) + " m";
-  }
-
-  private String getMinutes(int minutes) {
-    return minutes < 10 ? "0" + minutes : "" + minutes;
   }
 
   public void setRuntime(Integer runtime) {

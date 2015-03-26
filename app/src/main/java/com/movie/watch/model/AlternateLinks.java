@@ -5,8 +5,10 @@ import com.google.gson.annotations.Expose;
 
 import org.parceler.Parcel;
 
+import java.io.Serializable;
+
 @Parcel
-public class AlternateLinks {
+public class AlternateLinks implements Serializable {
 
   @Expose
   public String self;

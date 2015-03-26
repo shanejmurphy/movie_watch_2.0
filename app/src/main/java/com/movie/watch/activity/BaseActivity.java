@@ -2,8 +2,8 @@ package com.movie.watch.activity;
 
 import android.os.Build;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -11,7 +11,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.movie.watch.R;
 
-public class BaseActivity extends FragmentActivity {
+public class BaseActivity extends ActionBarActivity {
 
   protected void replaceFragment(int containerId, Fragment fragment, String tag) {
     FragmentManager fragmentManager = getSupportFragmentManager();

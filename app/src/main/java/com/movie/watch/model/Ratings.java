@@ -6,8 +6,10 @@ import com.google.gson.annotations.SerializedName;
 
 import org.parceler.Parcel;
 
+import java.io.Serializable;
+
 @Parcel
-public class Ratings {
+public class Ratings implements Serializable {
 
   @SerializedName("critics_rating")
   @Expose

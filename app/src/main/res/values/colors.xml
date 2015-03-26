@@ -19,6 +19,7 @@
   <color name="divider">#B6B6B6</color>
 
   <color name="grey_background">#e1e1e1</color>
+  <color name="transparent">#00000000</color>
 
 
 </resources>

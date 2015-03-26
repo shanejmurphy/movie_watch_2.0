@@ -3,7 +3,7 @@ package com.movie.watch.constants;
 
 public class Constants {
   //main rotten tomatoes url
-  public static final String BASE_URL = "http://api.rottentomatoes.com/";
+  public static final String ROTTEN_TOMATOES_BASE_URL = "http://api.rottentomatoes.com/";
   public static final String MOVIE_URL = "http://api.rottentomatoes.com/api/public/v1.0/lists/"; //box_office.json?limit=16&country=us&apikey=wtcku8jhpcj3zh6gtexnb94x";
 
   //search Url
@@ -28,6 +28,14 @@ public class Constants {
   public static final String UPCOMING_DVDS_PATH = "dvds/upcoming.json?page_limit=16";//&page=1";
 
   //TMDB
-  public static final String TMDB_API_KEY = "?api_key=b452ceeb800e4bc73b22bbbb83635f87";
+  public static final String TMDB_BACK_DROP_PATH = "https://image.tmdb.org/t/p/w1280/";
+  public static final String TMDB_PROFILE_PATH = "https://image.tmdb.org/t/p/w185/";
+  public static final String OLD_TMDB_API_KEY = "?api_key=b452ceeb800e4bc73b22bbbb83635f87";
+  public static final String TMDB_API_KEY = "?api_key=187805121faeae75c16844146e69f2d1";
+  public static final String TMDB_BASE_URL = "  https://api.themoviedb.org/3/";
+  public static final String TMDB_FIND_MOVIE_BASE_URL = "http://api.themoviedb.org/3/find/";
+
+  //Youtube clips
+  public static final String YOUTUBE_TRAILERS_BASE_URL = "http://www.youtube.com/watch?v=";
 
 }

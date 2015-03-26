@@ -4,19 +4,9 @@
                 xmlns:ads="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/test"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/grey_background">
+                android:layout_height="match_parent">
 
   <include layout="@layout/toolbar"/>
-
-  <com.astuetz.PagerSlidingTabStrip
-    android:id="@+id/tabs"
-    android:layout_width="match_parent"
-    android:layout_height="@dimen/tab_strip_height"
-    ads:pstsIndicatorHeight="@dimen/tab_strip_indicator_height"
-    ads:pstsIndicatorColor="@color/accent"
-    android:layout_below="@+id/mainToolbar"
-    android:background="@color/primary"/>
 
   <com.google.android.gms.ads.AdView
     android:id="@+id/adView"
@@ -26,11 +16,12 @@
     ads:adSize="SMART_BANNER"
     ads:adUnitId="@string/banner_ad_unit_id"/>
 
-  <android.support.v4.view.ViewPager
-    android:id="@+id/movieSelectionPager"
-    android:layout_width="fill_parent"
+  <FrameLayout
+    android:id="@+id/mainFragmentContainer"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_below="@+id/tabs"
-    android:layout_above="@+id/adView"/>
+    android:layout_below="@+id/mainToolbar"
+    android:layout_above="@+id/adView"
+    android:background="@color/grey_background"/>
 
 </RelativeLayout>

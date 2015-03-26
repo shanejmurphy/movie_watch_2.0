@@ -10,4 +10,7 @@ public final class BuildConfig {
   public static final String FLAVOR = "";
   public static final int VERSION_CODE = 1000000;
   public static final String VERSION_NAME = "1.09";
+  // Fields from default config.
+  public static final String TWITTER_KEY = "uRfJltzoIjcBghU5bUkIUxrZP";
+  public static final String TWITTER_SECRET = "xqaIebedL77wwGE5vF0eNp6EwpMWIRi90TLDQfqUQv8OmU2p1h";
 }

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/white">
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+          android:id="@+id/movieInfoBackDrop"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          tools:src="@drawable/fight_club"
+          tools:visibility="visible"/>
+
+        <ImageView
+          android:id="@+id/movieInfoPlayButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:src="@drawable/youtube_play_button"
+          android:visibility="gone"
+          tools:visibility="visible"/>
+
+      </RelativeLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_tiny"
+        android:orientation="vertical">
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+          <ImageView
+            android:id="@+id/movieInfoPoster"
+            android:layout_width="64dp"
+            android:layout_height="96dp"
+            tools:src="@drawable/movie_poster"/>
+
+          <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/padding_small"
+            android:orientation="vertical">
+
+            <TextView
+              android:id="@+id/movieInfoCriticScore"
+              style="@style/subtitle_text"
+              android:layout_width="wrap_content"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:gravity="center_vertical"
+              android:text="@string/emptyString"
+              tools:text="@string/critics_percentage"
+              android:drawableLeft="@drawable/desaturated_fresh"
+              android:drawablePadding="@dimen/padding_tiny"/>
+
+            <TextView
+              android:id="@+id/movieInfoAudienceScore"
+              style="@style/subtitle_text"
+              android:layout_width="wrap_content"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:gravity="center_vertical"
+              android:text="@string/emptyString"
+              tools:text="@string/audience_percentage"
+              android:drawableLeft="@drawable/desaturated_popcorn"
+              android:drawablePadding="@dimen/padding_tiny"/>
+
+            <TextView
+              android:id="@+id/movieInfoMetaScore"
+              style="@style/subtitle_text"
+              android:layout_width="wrap_content"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:gravity="center_vertical"
+              android:text="@string/emptyString"
+              tools:text="@string/common_metascore"
+              tools:visibility="invisible"
+              android:drawableLeft="@drawable/fresh"
+              android:drawablePadding="@dimen/padding_tiny"/>
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/padding_medium"/>
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+              style="@style/title_text"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:gravity="left"
+              android:layout_weight="1"
+              android:text="@string/common_genre"/>
+
+            <TextView
+              style="@style/title_text"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:gravity="left"
+              android:layout_weight="1"
+              android:text="@string/common_rating"/>
+
+          </LinearLayout>
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+              style="@style/subtitle_text"
+              android:id="@+id/movieInfoGenre"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:maxLines="2"
+              android:text="@string/emptyString"
+              tools:text="Action, Biography, Drama, Romance"/>
+
+            <TextView
+              style="@style/subtitle_text"
+              android:id="@+id/movieInfoRating"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:singleLine="true"
+              android:text="@string/emptyString"
+              tools:text="PG 13"/>
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/padding_medium"/>
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+              style="@style/title_text"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:gravity="left"
+              android:layout_weight="1"
+              android:text="@string/common_release_date"/>
+
+            <TextView
+              style="@style/title_text"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:gravity="left"
+              android:layout_weight="1"
+              android:text="@string/common_runtime"/>
+
+          </LinearLayout>
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+              style="@style/subtitle_text"
+              android:id="@+id/movieInfoReleaseDate"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:singleLine="true"
+              android:text="@string/emptyString"
+              tools:text="14 Oct 1999"/>
+
+            <TextView
+              style="@style/subtitle_text"
+              android:id="@+id/movieInfoRuntime"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:singleLine="true"
+              android:text="@string/emptyString"
+              tools:text="1 hour 55 mins"/>
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/padding_medium"/>
+
+        <TextView
+          style="@style/title_text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="left"
+          android:text="@string/common_cast"/>
+
+        <TextView
+          android:id="@+id/movieInfoCast"
+          style="@style/subtitle_text"
+          android:text="@string/emptyString"
+          tools:text="Tom Hanks, Julie Roberts, Michael Douglas, Catherine Zeta Jones"/>
+
+        <View
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/padding_medium"/>
+
+        <TextView
+          style="@style/title_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/movie_info_overview_label"/>
+
+        <TextView
+          style="@style/subtitle_text"
+          android:id="@+id/movieInfoOverview"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/emptyString"
+          tools:text="A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground 'fight clubs' forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion."/>
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+  </ScrollView>
+
+</LinearLayout>
+

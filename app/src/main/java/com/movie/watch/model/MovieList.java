@@ -6,11 +6,12 @@ import com.google.gson.annotations.SerializedName;
 
 import org.parceler.Parcel;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Parcel
-public class MovieList {
+public class MovieList implements Serializable {
 
   @Expose
   private List<Movie> movies = new ArrayList<Movie>();
