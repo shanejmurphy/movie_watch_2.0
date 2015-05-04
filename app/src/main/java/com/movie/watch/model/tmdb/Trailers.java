@@ -4,11 +4,12 @@ import com.google.gson.annotations.Expose;
 
 import org.parceler.Parcel;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Parcel
-public class Trailers {
+public class Trailers implements Serializable {
 
   @Expose
   private List<Youtube> youtube = new ArrayList<Youtube>();

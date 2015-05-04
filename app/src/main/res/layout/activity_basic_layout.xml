@@ -31,10 +31,9 @@
 
     <ListView
       android:id="@+id/navDrawerList"
-      android:layout_width="280dp"
+      android:layout_width="240dp"
       android:layout_height="match_parent"
       android:layout_gravity="start"
-      android:divider="@color/grey_background"
       android:listSelector="@null"
       android:background="@color/grey_background"
       tools:listItem="@layout/list_item_nav_drawer"/>
