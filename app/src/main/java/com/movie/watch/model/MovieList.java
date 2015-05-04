@@ -14,6 +14,8 @@ import java.util.List;
 public class MovieList implements Serializable {
 
   @Expose
+  private Integer total;
+  @Expose
   private List<Movie> movies = new ArrayList<Movie>();
   @SerializedName("links")
   @Expose
@@ -21,6 +23,14 @@ public class MovieList implements Serializable {
   @SerializedName("link_template")
   @Expose
   private String linkTemplate;
+
+  public Integer getTotal() {
+    return total;
+  }
+
+  public void setTotal(Integer total) {
+    this.total = total;
+  }
 
   public List<Movie> getMovies() {
     return movies;

@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridView
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:id="@+id/creditsGrid"
+<RelativeLayout
   android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:columnWidth="120dp"
-  android:numColumns="3"
-  android:verticalSpacing="@dimen/padding_miniature"
-  android:horizontalSpacing="@dimen/padding_miniature"
-  android:layout_gravity="center"/>
+  android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  <ProgressBar
+    android:id="@+id/creditsProgressBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:indeterminate="true"
+    android:layout_centerInParent="true"
+    android:visibility="gone"
+    tools:visibility="visible"/>
+
+  <TextView
+    android:id="@+id/noCreditsText"
+    style="@style/title_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:padding="@dimen/padding_large"
+    android:text="@string/cast_unavailable_message"
+    android:visibility="gone"/>
+
+  <GridView
+    android:id="@+id/creditsGrid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnWidth="120dp"
+    android:numColumns="3"
+    android:verticalSpacing="@dimen/padding_miniature"
+    android:horizontalSpacing="@dimen/padding_miniature"
+    android:layout_gravity="center"/>
+
+</RelativeLayout>
 
 

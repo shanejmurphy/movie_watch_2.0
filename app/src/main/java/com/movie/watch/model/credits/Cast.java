@@ -5,8 +5,10 @@ import com.google.gson.annotations.SerializedName;
 
 import org.parceler.Parcel;
 
+import java.io.Serializable;
+
 @Parcel
-public class Cast {
+public class Cast implements Serializable {
 
   @SerializedName("cast_id")
   @Expose

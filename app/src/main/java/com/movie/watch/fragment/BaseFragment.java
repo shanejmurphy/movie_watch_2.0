@@ -2,6 +2,7 @@ package com.movie.watch.fragment;
 
 import android.support.v4.app.Fragment;
 
+import com.movie.watch.model.MovieListType;
 import com.movie.watch.service.MovieFetchingService_;
 
 import org.androidannotations.annotations.Background;
@@ -25,8 +26,8 @@ public class BaseFragment extends Fragment {
   }
 
   @Background
-  protected void getMovies(String listType) {
-    MovieFetchingService_.intent(getActivity().getApplicationContext()).fetchMovies(listType).start();
+  protected void getMovies(MovieListType listType, String listName, int page) {
+    MovieFetchingService_.intent(getActivity().getApplicationContext()).fetchMovies(listType, listName, page).start();
   }
 
   @Background
@@ -47,5 +48,15 @@ public class BaseFragment extends Fragment {
   @Background
   protected void findTmdbMovie(String id) {
     MovieFetchingService_.intent(getActivity().getApplicationContext()).findTmdbMovie(id).start();
+  }
+
+  @Background
+  protected void searchMovies(String query) {
+    MovieFetchingService_.intent(getActivity().getApplicationContext()).searchMovies(query).start();
+  }
+
+  @Background
+  protected void getShowtimes(String movieTitle, String coordinates) {
+    MovieFetchingService_.intent(getActivity().getApplicationContext()).getShowtimes(movieTitle, coordinates).start();
   }
 }

@@ -1,8 +1,8 @@
-
 package com.movie.watch.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import com.movie.watch.model.tmdb.Trailers;
 
 import org.parceler.Parcel;
 
@@ -44,6 +44,10 @@ public class Movie implements Serializable {
   @SerializedName("alternate_ids")
   @Expose
   public AlternateIds alternateIds;
+  @Expose
+  public List<Genre> genres;
+  @Expose
+  public Trailers trailers;
 
   public String getId() {
     return id;
@@ -147,5 +151,21 @@ public class Movie implements Serializable {
 
   public void setAlternateIds(AlternateIds alternateIds) {
     this.alternateIds = alternateIds;
+  }
+
+  public List<Genre> getGenres() {
+    return genres;
+  }
+
+  public void setGenres(List<Genre> genres) {
+    this.genres = genres;
+  }
+
+  public Trailers getTrailers() {
+    return trailers;
+  }
+
+  public void setTrailers(Trailers trailers) {
+    this.trailers = trailers;
   }
 }

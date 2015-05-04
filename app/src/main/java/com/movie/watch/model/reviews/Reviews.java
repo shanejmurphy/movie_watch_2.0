@@ -1,4 +1,3 @@
-
 package com.movie.watch.model.reviews;
 
 import com.google.gson.annotations.Expose;
@@ -6,11 +5,12 @@ import com.google.gson.annotations.SerializedName;
 
 import org.parceler.Parcel;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Parcel
-public class Reviews {
+public class Reviews implements Serializable {
 
   @Expose
   private Integer total;

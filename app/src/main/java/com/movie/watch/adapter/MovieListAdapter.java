@@ -57,20 +57,11 @@ public class MovieListAdapter extends BaseAdapter {
     return position;
   }
 
-  public void remove(Movie movie) {
-    movies.remove(movie);
-    notifyDataSetChanged();
-  }
-
   public List<Movie> getMovies() {
     return movies;
   }
 
   public void setMovies(List<Movie> movies) {
     this.movies = movies;
-  }
-
-  public interface OnMustWatch {
-    public void OnMustWatch(Movie movie, int position);
   }
 }

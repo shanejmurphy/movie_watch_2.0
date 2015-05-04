@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<TextView
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/navDrawerItemText"
+  style="@style/title_text"
   android:layout_width="match_parent"
   android:layout_height="wrap_content"
-  android:orientation="horizontal">
+  android:minHeight="@dimen/list_item_height"
+  android:gravity="center_vertical"
+  android:singleLine="true"
+  android:padding="@dimen/padding_small"
+  tools:drawableLeft="@drawable/fresh"
+  android:drawablePadding="@dimen/padding_small"
+  tools:text="Movies"/>
 
-  <TextView
-    android:id="@+id/navDrawerItemTitle"
-    style="@style/title_text"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:minHeight="@dimen/list_item_height"
-    android:gravity="center_vertical"
-    android:singleLine="true"
-    tools:drawableLeft="@drawable/fresh"
-    android:drawablePadding="@dimen/padding_tiny"
-    tools:text="Movies"/>
-
-</LinearLayout>

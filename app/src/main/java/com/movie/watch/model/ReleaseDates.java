@@ -1,4 +1,3 @@
-
 package com.movie.watch.model;
 
 import com.google.gson.annotations.Expose;
@@ -12,6 +11,12 @@ public class ReleaseDates implements Serializable {
 
   @Expose
   private String theater;
+
+  public ReleaseDates() {}
+
+  public ReleaseDates(String theater) {
+    this.theater = theater;
+  }
 
   public String getTheater() {
     return theater;

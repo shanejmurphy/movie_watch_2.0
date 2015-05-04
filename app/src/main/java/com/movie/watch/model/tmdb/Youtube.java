@@ -4,8 +4,10 @@ import com.google.gson.annotations.Expose;
 
 import org.parceler.Parcel;
 
+import java.io.Serializable;
+
 @Parcel
-public class Youtube {
+public class Youtube implements Serializable {
   @Expose
   private String name;
   @Expose

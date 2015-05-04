@@ -1,15 +1,15 @@
-
 package com.movie.watch.model.credits;
 
 import com.google.gson.annotations.Expose;
 
 import org.parceler.Parcel;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Parcel
-public class Credits {
+public class Credits implements Serializable {
 
   @Expose
   private Integer id;

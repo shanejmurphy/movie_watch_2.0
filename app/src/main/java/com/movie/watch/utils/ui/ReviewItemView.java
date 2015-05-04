@@ -52,7 +52,7 @@ public class ReviewItemView extends RelativeLayout {
   }
 
   private void setReviewText(Review review) {
-    reviewText.setText(review.getQuote());
+    reviewText.setText(movieInfoParser.getReviewText(review.getQuote()));
   }
 }
 

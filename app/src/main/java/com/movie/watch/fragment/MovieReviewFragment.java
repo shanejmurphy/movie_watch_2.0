@@ -8,20 +8,25 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import com.movie.watch.R;
 import com.movie.watch.adapter.ReviewListAdapter;
+import com.movie.watch.analytics.GoogleAnalyticsTrackerUtil;
+import com.movie.watch.busevents.ReviewsErrorEvent;
 import com.movie.watch.busevents.ReviewsFetchEvent;
-import com.movie.watch.model.Movie;
 import com.movie.watch.model.reviews.Review;
 import com.movie.watch.utils.MovieInfoParser;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EFragment;
-import org.androidannotations.annotations.FragmentArg;
+import org.androidannotations.annotations.InstanceState;
 import org.androidannotations.annotations.ItemClick;
 import org.androidannotations.annotations.ViewById;
+
+import java.util.ArrayList;
 
 import de.greenrobot.event.EventBus;
 
@@ -30,18 +35,24 @@ public class MovieReviewFragment extends BaseFragment {
   private static final String TAG = MovieReviewFragment.class.getSimpleName();
 
   @ViewById
+  protected ProgressBar reviewsProgressBar;
+  @ViewById
   protected ListView reviewList;
+  @ViewById
+  protected TextView noReviewsText;
 
   @Bean
   protected ReviewListAdapter reviewListAdapter;
   @Bean
   protected MovieInfoParser movieInfoParser;
+  @Bean
+  protected GoogleAnalyticsTrackerUtil gaTrackerUtil;
 
-  @FragmentArg
-  protected Movie rottenTomatoesMovie;
+  @InstanceState
+  protected ArrayList<Review> reviews;
 
-  public static Fragment create(Movie rottenTomatoesMovie) {
-    return MovieReviewFragment_.builder().rottenTomatoesMovie(rottenTomatoesMovie).build();
+  public static Fragment create() {
+    return MovieReviewFragment_.builder().build();
   }
 
   public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -50,14 +61,18 @@ public class MovieReviewFragment extends BaseFragment {
 
   @AfterViews
   public void afterViews() {
-    reviewListAdapter.notifyDataSetChanged();
-    reviewList.setAdapter(reviewListAdapter);
-    //movieSelectionProgressBar.setVisibility(View.GONE);
+    if (reviews == null) {
+      reviewsProgressBar.setVisibility(View.VISIBLE);
+      reviewList.setVisibility(View.GONE);
+    } else {
+      displayReviews();
+    }
   }
 
   @ItemClick(R.id.reviewList)
   public void movieListItemClicked(Review review) {
     openReviewLink(review);
+    gaTrackerUtil.trackReviewSelectionEvent();
   }
 
   private void openReviewLink(Review review) {
@@ -67,9 +82,26 @@ public class MovieReviewFragment extends BaseFragment {
 
   public void onEventMainThread(ReviewsFetchEvent reviewsFetchEvent) {
     EventBus.getDefault().removeStickyEvent(reviewsFetchEvent);
-    reviewListAdapter.setReviews(reviewsFetchEvent.getReviews().getReviews());
+    reviews = reviewsFetchEvent.getReviews().getReviews() == null ? new ArrayList<>() : (ArrayList) reviewsFetchEvent.getReviews().getReviews();
+    displayReviews();
+  }
+
+  public void onEventMainThread(ReviewsErrorEvent reviewsErrorEvent) {
+    EventBus.getDefault().removeStickyEvent(reviewsErrorEvent);
+    reviewsProgressBar.setVisibility(View.GONE);
+    noReviewsText.setText(R.string.fetch_error_text);
+    noReviewsText.setVisibility(View.VISIBLE);
+  }
+
+  private void displayReviews() {
+    reviewsProgressBar.setVisibility(View.GONE);
+    if (reviews.isEmpty()) {
+      noReviewsText.setVisibility(View.VISIBLE);
+      return;
+    }
+    reviewListAdapter.setReviews(reviews);
     reviewListAdapter.notifyDataSetChanged();
     reviewList.setAdapter(reviewListAdapter);
-    //movieSelectionProgressBar.setVisibility(View.GONE);
+    reviewList.setVisibility(View.VISIBLE);
   }
 }

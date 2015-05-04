@@ -10,7 +10,7 @@
   <string name="common_rating">Rating</string>
   <string name="poster">Movie Cover</string>
   <string name="movieTitleText2">Toy Stroy 3</string>
-  <string name="search_hint">Movie Title</string>
+  <string name="search_hint">Search Movies</string>
   <string name="search_label">Search Movies</string>
   <string name="search_title">Search Movies</string>
   <string name="hello_world">Hello world!</string>
@@ -21,11 +21,11 @@
   <string name="in_theatres">Now Showing</string>
   <string name="opening">Opening</string>
   <string name="upcoming">Coming Soon</string>
-  <string name="top_rentals">Top DVD Rentals</string>
+  <string name="top_rentals">Top Rentals</string>
   <string name="current_releases">Current Releases</string>
+  <string name="new_releases">New Releases</string>
+  <string name="coming_soon">Coming Soon</string>
   <string name="movie_title">Movie Title Goes Here</string>
-  <string name="new_releases">Latest Releases</string>
-  <string name="coming_soon">DVDs Coming Soon</string>
   <string name="images">Movie Images</string>
   <string name="emptyString">--</string>
 
@@ -42,10 +42,17 @@
   </string-array>
 
   <string name="title_activity_search">Search Movies</string>
-  <string name="about">About</string>
+  <string name="title_about">About</string>
+  <string name="content_about">Movie Watch was designed as a means for users to help them find the best
+    ranked movies in theaters and on DVD and make an informed decision on what to view based on the
+    information displayed\n\nOther than trailers, this app does not have any playable movie
+    content\n\nFor any questions please contact me at moviewatch.app@gmail.com\n\nThe
+    Fresh Tomato, Rotten Splat and Popcorn Logos are trademarks or registered trademarks of Flixster,
+    Inc. in the United States and other countries
+  </string>
   <string name="notice">About Movie Watch - 1.03</string>
   <string name="flixter_notice">The Fresh Tomato, Rotten Splat and Popcorn Logos are trademarks or registered trademarks of Flixster, Inc. in the United States and other countries.</string>
-  <string name="contact">For any questions please contact me at moviewatch.app@gmail.com</string>
+  <string name="contact"></string>
   <string name="title_activity_display_similar_movie">DisplaySimilarMovie</string>
 
   <string name="banner_ad_unit_id">ca-app-pub-1258919070544585/2263874153</string>
@@ -63,14 +70,46 @@
   <string name="minutes_shortened">m</string>
   <string name="minutes_plural">&#160;minutes</string>
   <string name="minute_singular">&#160;minute</string>
+  <string name="title_info">Info</string>
   <string name="title_general">General</string>
   <string name="title_reviews">Reviews</string>
   <string name="title_showtimes">Showtimes</string>
   <string name="title_cast">Cast</string>
+  <string name="title_menu">Menu</string>
+  <string name="title_nav_drawer">Menu</string>
+  <string name="fetch_error_text">Oops! Something went wrong.\nWe are very sorry but we are unable to
+    retrieve this content at this time!\nPlease ensure you are connected to the Internet and try again later</string>
+  <string name="title_theaters">Theaters</string>
+  <string name="title_dvds">DVDs</string>
+  <string name="title_search_results">Search Results</string>
+  <string name="no_reviews_message">Sorry, there are no reviews currently available for this movie</string>
+  <string name="no_data">--</string>
+  <string name="cast_unavailable_message">Sorry, the cast for this movie is currently not available</string>
+  <string name="not_showing">Sorry, this movie is not currently showing in your area</string>
+  <string name="location_unavailable">Sorry, we could not get showtimes for this movie as your location is currently unavailable</string>
 
-  <string-array name="movie_selection_options">
-    <item>@string/movie_button</item>
-    <item>@string/dvd_button</item>
+  <string name="showtimes_url">http://www.google.com/movies?near=%1$s&amp;q=%2$s</string>
+
+  <string name="googleAnalyticsId">UA-62479132-1</string>
+  <string name="ga_screen_movie_pager">moviesPagerScreen</string>
+  <string name="ga_screen_movie_content">movieContentScreen</string>
+  <string name="ga_event_movie_selection">movieSelectionEvent</string>
+  <string name="ga_event_movie_list_type_selection">movieListTypeSelectionEvent</string>
+  <string name="ga_event_review_selected">reviewSelectedEvent</string>
+  <string name="ga_event_play_trailer">playTrailer</string>
+  <string name="ga_label_main_trailer_play_button">mainTrailerPlayButton</string>
+  <string name="ga_label_mini_trailer_play_button">miniTrailerPlayButton</string>
+  <string name="ga_label_review_selected">reviewSelected</string>
+  <string name="ga_screen_movie_selection">movieSelectionScreen</string>
+
+  <string-array name="nav_drawer_options">
+    <item>@string/title_about</item>
   </string-array>
+
+  <!-- Nav Drawer List Item Icons -->
+  <!-- Keep them in order as the titles are in -->
+  <array name="nav_drawer_icons">
+    <item>@drawable/ic_action_info_outline</item>
+  </array>
 
 </resources>

@@ -1,12 +1,13 @@
-
 package com.movie.watch.model;
 
 import com.google.gson.annotations.Expose;
 
 import org.parceler.Parcel;
 
+import java.io.Serializable;
+
 @Parcel
-public class Genre {
+public class Genre implements Serializable {
 
   @Expose
   private Integer id;

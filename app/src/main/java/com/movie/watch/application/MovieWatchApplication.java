@@ -5,9 +5,11 @@ import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
 import com.movie.watch.BuildConfig;
+import com.movie.watch.analytics.GoogleAnalyticsTracker;
 import com.twitter.sdk.android.Twitter;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
 
+import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EApplication;
 
 import io.fabric.sdk.android.Fabric;
@@ -20,15 +22,15 @@ public class MovieWatchApplication extends Application {
   private static final String TWITTER_KEY = "uRfJltzoIjcBghU5bUkIUxrZP";
   private static final String TWITTER_SECRET = "xqaIebedL77wwGE5vF0eNp6EwpMWIRi90TLDQfqUQv8OmU2p1h";*/
 
-/*  @Bean
-  protected GoogleAnalyticsTracker analyticsTracker;*/
+  @Bean
+  protected GoogleAnalyticsTracker analyticsTracker;
 
   @Override
   public void onCreate() {
     super.onCreate();
-    initialiseFabric();
+    //initialiseFabric();
 
-    //this.analyticsTracker.init(getApplicationContext(), this);
+    this.analyticsTracker.init(getApplicationContext(), this);
   }
 
   private void initialiseFabric() {
