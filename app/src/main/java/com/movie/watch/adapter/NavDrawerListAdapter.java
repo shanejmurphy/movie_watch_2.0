@@ -1,14 +1,13 @@
 package com.movie.watch.adapter;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.movie.watch.model.reviews.Review;
-import com.movie.watch.utils.ui.ReviewItemView;
-import com.movie.watch.utils.ui.ReviewItemView_;
+import com.movie.watch.model.NavDrawerItem;
+import com.movie.watch.utils.ui.NavDrawerItemView;
+import com.movie.watch.utils.ui.NavDrawerItemView_;
 
 import org.androidannotations.annotations.AfterInject;
 import org.androidannotations.annotations.EBean;
@@ -24,34 +23,35 @@ public class NavDrawerListAdapter extends BaseAdapter {
   @RootContext
   protected Context context;
 
-  private List<Review> reviews;
+  private List<NavDrawerItem> navDrawerOptions;
 
   @AfterInject
   public void afterInject() {
-    reviews = new ArrayList<>();
+    navDrawerOptions = new ArrayList<>();
   }
 
   @Override
   public View getView(int position, View convertView, ViewGroup parent) {
-    ReviewItemView reviewItemView;
+    NavDrawerItemView navDrawerItemView;
     if (convertView == null) {
-      reviewItemView = ReviewItemView_.build(context);
+      navDrawerItemView = NavDrawerItemView_.build(context);
     } else {
-      reviewItemView = (ReviewItemView) convertView;
+      navDrawerItemView = (NavDrawerItemView) convertView;
     }
-    //reviewItemView.bind(getItem(position), this);
+    navDrawerItemView.bind(getItem(position), this);
 
-    return reviewItemView;
+
+    return navDrawerItemView;
   }
 
   @Override
   public int getCount() {
-    return reviews.size();
+    return navDrawerOptions.size();
   }
 
   @Override
-  public Review getItem(int position) {
-    return reviews.get(position);
+  public NavDrawerItem getItem(int position) {
+    return navDrawerOptions.get(position);
   }
 
   @Override
@@ -59,17 +59,11 @@ public class NavDrawerListAdapter extends BaseAdapter {
     return position;
   }
 
-  public void remove(Review review) {
-    reviews.remove(review);
-    notifyDataSetChanged();
+  public List<NavDrawerItem> getNavDrawerOptions() {
+    return navDrawerOptions;
   }
 
-  public List<Review> getReviews() {
-    return reviews;
-  }
-
-  public void setReviews(List<Review> reviews) {
-    this.reviews = reviews;
-    Log.d(TAG, "Num Reviews = " + reviews.size());
+  public void setNavDrawerOptions(List<NavDrawerItem> navDrawerOptions) {
+    this.navDrawerOptions = navDrawerOptions;
   }
 }

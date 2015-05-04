@@ -21,5 +21,8 @@
   <color name="grey_background">#e1e1e1</color>
   <color name="transparent">#00000000</color>
 
+  <color name="action_bar_background_menu_disabled">#efefefef</color>
+  <color name="grey_text_enabled">#99333333</color>
+  <color name="grey_text_disabled">#4D333333</color>
 
 </resources>

@@ -44,6 +44,8 @@ public class CastItemView extends LinearLayout {
     if (profilePath != null) {
       String url = movieInfoParser.getProfileUrl(profilePath);
       movieInfoParser.displayPoster(url, creditProfileImage);
+    } else {
+      creditProfileImage.setImageDrawable(getResources().getDrawable(R.drawable.poster_default));
     }
   }
 

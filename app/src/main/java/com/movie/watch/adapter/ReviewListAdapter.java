@@ -1,7 +1,6 @@
 package com.movie.watch.adapter;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -46,7 +45,6 @@ public class ReviewListAdapter extends BaseAdapter {
 
   @Override
   public int getCount() {
-    Log.d(TAG, "count Reviews = " + reviews.size());
     return reviews.size();
   }
 
@@ -60,17 +58,11 @@ public class ReviewListAdapter extends BaseAdapter {
     return position;
   }
 
-  public void remove(Review review) {
-    reviews.remove(review);
-    notifyDataSetChanged();
-  }
-
   public List<Review> getReviews() {
     return reviews;
   }
 
   public void setReviews(List<Review> reviews) {
     this.reviews = reviews;
-    Log.d(TAG, "Num Reviews = " + reviews.size());
   }
 }

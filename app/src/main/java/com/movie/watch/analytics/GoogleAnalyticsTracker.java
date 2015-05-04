@@ -7,6 +7,7 @@ import android.util.Log;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
+import com.movie.watch.R;
 
 import org.androidannotations.annotations.EBean;
 
@@ -22,10 +23,9 @@ public class GoogleAnalyticsTracker  {
     if (tracker == null) {
       GoogleAnalytics googleAnalytics = GoogleAnalytics.getInstance(context);
       googleAnalytics.enableAutoActivityReports(application);
-//TODO
-/*      tracker = googleAnalytics.newTracker(R.xml.google_analytics);
-      tracker.enableAutoActivityTracking(true);
-      tracker.set("&tid", context.getString(R.string.googleAnalyticsId));*/
+
+      tracker = googleAnalytics.newTracker(context.getString(R.string.googleAnalyticsId));
+      tracker.enableAutoActivityTracking(false);
 
       this.context = context;
       Log.d(TAG, "Google Analytics Tracker initialised");
@@ -51,6 +51,11 @@ public class GoogleAnalyticsTracker  {
     .setAction(action)
     .setLabel(label)
     .build());
+  }
+
+  protected void trackScreen(int screenName) {
+    tracker.setScreenName(context.getString(screenName));
+    tracker.send(new HitBuilders.AppViewBuilder().build());
   }
 
   private String getStringFromRes(int resId) {

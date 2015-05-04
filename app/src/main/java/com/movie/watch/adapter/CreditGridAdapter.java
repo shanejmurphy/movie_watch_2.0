@@ -1,7 +1,6 @@
 package com.movie.watch.adapter;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -46,7 +45,6 @@ public class CreditGridAdapter extends BaseAdapter {
 
   @Override
   public int getCount() {
-    Log.d(TAG, "count cast = " + castList.size());
     return castList.size();
   }
 
@@ -66,6 +64,5 @@ public class CreditGridAdapter extends BaseAdapter {
 
   public void setCastList(List<Cast> castList) {
     this.castList = castList;
-    Log.d(TAG, "Num Cast Members = " + castList.size());
   }
 }

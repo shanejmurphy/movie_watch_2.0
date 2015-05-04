@@ -6,6 +6,8 @@
   <dimen name="card_item_image_width">54dp</dimen>
   <dimen name="card_item_image_height">80dp</dimen>
 
+  <dimen name="divider_height_tiny">1dp</dimen>
+
   <dimen name="padding_minimum">1dp</dimen>
   <dimen name="padding_miniature">2dp</dimen>
   <dimen name="padding_tiny">5dp</dimen>
@@ -26,8 +28,10 @@
   <dimen name="tab_strip_height">36dp</dimen>
   <dimen name="tab_strip_indicator_height">5dp</dimen>
 
+  <dimen name="list_item_height">48dp</dimen>
+
   <dimen name="backdrop_top_margin">-20dp</dimen>
 
-
+  <dimen name="divider_height">5dp</dimen>
 
 </resources>

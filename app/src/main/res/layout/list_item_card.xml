@@ -23,7 +23,7 @@
       android:layout_width="@dimen/card_item_image_width"
       android:layout_height="@dimen/card_item_image_height"
       android:layout_marginRight="@dimen/padding_tiny"
-      tools:src="@drawable/movie_poster"/>
+      tools:src="@drawable/poster_default"/>
 
     <TextView
       android:id="@+id/cardTitle"
@@ -31,14 +31,6 @@
       android:layout_toRightOf="@+id/cardImage"
       android:singleLine="true"
       tools:text="Example Movie Name"/>
-
-<!--    <TextView
-      android:id="@+id/cardGenre"
-      style="@style/subtitle_text"
-      android:layout_toRightOf="@+id/cardImage"
-      android:layout_below="@+id/cardTitle"
-      android:singleLine="true"
-      tools:text="Action/Adventure"/>-->
 
     <TextView
       android:id="@+id/cardCast"
@@ -60,15 +52,6 @@
       android:layout_below="@+id/cardCast"
       android:text="@string/emptyString"
       tools:text="PG - 1h 45m" />
-
-<!--    <TextView
-      android:id="@+id/cardReleaseDate"
-      style="@style/subtitle_text"
-      android:layout_width="wrap_content"
-      android:layout_toRightOf="@+id/cardImage"
-      android:layout_below="@+id/cardMisc"
-      android:singleLine="true"
-      tools:text="21 September 2015"/>-->
 
     <LinearLayout
       android:layout_width="wrap_content"

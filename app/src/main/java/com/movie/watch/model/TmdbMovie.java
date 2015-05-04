@@ -1,8 +1,8 @@
-
 package com.movie.watch.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import com.movie.watch.model.tmdb.Releases;
 import com.movie.watch.model.tmdb.Trailers;
 
 import org.parceler.Parcel;
@@ -77,6 +77,8 @@ public class TmdbMovie {
   private Integer voteCount;
   @Expose
   private Trailers trailers;
+  @Expose
+  private Releases releases;
 
   public Boolean getAdult() {
     return adult;
@@ -284,5 +286,13 @@ public class TmdbMovie {
 
   public void setTrailers(Trailers trailers) {
     this.trailers = trailers;
+  }
+
+  public Releases getReleases() {
+    return releases;
+  }
+
+  public void setReleases(Releases releases) {
+    this.releases = releases;
   }
 }
