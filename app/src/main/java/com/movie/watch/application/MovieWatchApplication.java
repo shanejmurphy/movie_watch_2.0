@@ -28,7 +28,7 @@ public class MovieWatchApplication extends Application {
   @Override
   public void onCreate() {
     super.onCreate();
-    //initialiseFabric();
+    initialiseFabric();
 
     this.analyticsTracker.init(getApplicationContext(), this);
   }

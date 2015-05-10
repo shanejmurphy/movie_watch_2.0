@@ -1,7 +1,5 @@
 package com.movie.watch.busevents;
 
-import android.text.Html;
-
 public class ShowtimesFetchEvent {
 
   private String htmlBody;
@@ -11,7 +9,7 @@ public class ShowtimesFetchEvent {
   }
 
   public String getHtmlBody() {
-    return Html.fromHtml(htmlBody).toString();
+    return htmlBody;
   }
 
   public void setHtmlBody(String htmlBody) {

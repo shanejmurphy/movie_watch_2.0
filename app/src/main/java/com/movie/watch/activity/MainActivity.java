@@ -55,9 +55,8 @@ import de.greenrobot.event.EventBus;
 public class MainActivity extends BaseActivity {
   private static final String TAG = MainActivity.class.getSimpleName();
   public static final String FRAGMENT_TAG = "mainFragmentContainer";
-  // Request code to use when launching the resolution activity
+  //play services update required params
   private static final int REQUEST_RESOLVE_ERROR = 1001;
-  // Unique tag for the error dialog fragment
   private static final String DIALOG_ERROR = "dialog_error";
 
   @ViewById
@@ -95,10 +94,10 @@ public class MainActivity extends BaseActivity {
 
   @AfterViews
   protected void afterViews() {
+    setUpNavDrawer();
+    setLollipopStatusBarColor();
+    loadAds(adView);
     if (movieListType == null) {
-      setUpNavDrawer();
-      setLollipopStatusBarColor();
-      loadAds(adView);
       title = R.string.title_theaters;
       movieListType = MovieListType.MOVIES;
       loadFragment(R.id.mainFragmentContainer, MainFragment.create(movieListType, null), FRAGMENT_TAG);

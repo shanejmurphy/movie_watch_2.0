@@ -38,9 +38,7 @@
       tools:text="Fonthill Road - Clondalkin, Liffey Valley Road, Lucan, Co. Dublin, Ireland"/>
 
     <View android:id="@+id/showtimeDivider"
-          android:layout_width="match_parent"
-          android:layout_height="1dp"
-          android:background="@color/black"
+          style="@style/field_divider"
       android:layout_below="@+id/theaterAddress"/>
 
     <TextView
