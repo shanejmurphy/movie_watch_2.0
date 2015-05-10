@@ -32,6 +32,6 @@
 
   <dimen name="backdrop_top_margin">-20dp</dimen>
 
-  <dimen name="divider_height">5dp</dimen>
+  <dimen name="divider_height">1dp</dimen>
 
 </resources>
