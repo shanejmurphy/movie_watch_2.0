@@ -11,7 +11,7 @@ import org.androidannotations.annotations.EFragment;
 
 import de.greenrobot.event.EventBus;
 
-@EFragment(R.layout.movie_selection_fragment)
+@EFragment(R.layout.fragment_movie_selection)
 public class OpeningFragment extends MovieResultsFragment {
 
   public static Fragment create(MovieListType listType, String listName) {
