@@ -111,7 +111,7 @@ public class MainActivity extends BaseActivity {
     SearchView searchView = (SearchView) menuSearch.getActionView();
     searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
     searchView.setIconifiedByDefault(false); // Do not iconify the widget; expand it by default
-    return true;
+    return super.onCreateOptionsMenu(menu);
   }
 
   private void setUpNavDrawer() {

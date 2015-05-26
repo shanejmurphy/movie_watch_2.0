@@ -1,0 +1,21 @@
+-dontwarn org.springframework.http.HttpAuthentication
+-dontwarn org.springframework.web.client.RestClientException
+-dontwarn org.springframework.web.client.RestTemplate
+
+-dontwarn javax.annotation.CheckForNull
+-dontwarn javax.annotation.CheckReturnValue
+-dontwarn javax.annotation.Nullable
+-dontwarn javax.annotation.ParametersAreNonnullByDefault
+-dontwarn javax.annotation.concurrent.GuardedBy
+-dontwarn javax.annotation.concurrent.NotThreadSafe
+-dontwarn javax.annotation.concurrent.Immutable
+-dontwarn javax.annotation.concurrent.ThreadSafe
+-dontwarn javax.inject.Inject
+-dontwarn javax.inject.Singleton
+
+-keepattributes *Annotation*
+
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+    @com.google.android.gms.common.annotation.KeepName *;
+}

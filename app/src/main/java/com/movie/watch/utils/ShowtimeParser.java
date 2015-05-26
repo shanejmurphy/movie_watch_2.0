@@ -29,13 +29,13 @@ public class ShowtimeParser {
 	 *
 	 */
 
-	private static final String MOVIE_DIV = "<div class=movie ";
+	//private static final String MOVIE_DIV = "<div class=movie ";
 	private static final String THEATRE_DIV = "<div class=theater>";
 	private static final String NAME_DIV = "<div class=name>";
 	private static final String ADDRESS_DIV = "<div class=address>";
 	private static final String TIMES_DIV = "<div class=times>";
 
-	private static final String MOVIE_TITLE_HOOK = "itemprop=\"name\">";
+	//private static final String MOVIE_TITLE_HOOK = "itemprop=\"name\">";
 	private static final String THEATRE_HOOK = "id=link_1_theater_";
 	private static final String TIMES_HOOK = "-->";
 
@@ -48,9 +48,9 @@ public class ShowtimeParser {
 	}*/
 
 	public ArrayList<Showtimes> parse(String html){
-		String htmlToParse = "";
-		String moreHtml = "";
-		int start= 0, end = 0;
+		String htmlToParse;
+		//String moreHtml = "";
+		int start;//= 0, end = 0;
 		ArrayList<Showtimes> showtimes = new ArrayList<>();
 		//if(html.contains(">" + title + "<")){
 		try{
@@ -73,7 +73,7 @@ public class ShowtimeParser {
 				String movieTitle = getMovieTitle(html);
 				//getTrailerURL(html);
 				//try{*/
-			int i = 0;
+			//int i = 0;
 			while(html.contains(THEATRE_DIV)){// && (i < 6)){
 				//only return 3 cinemas at most
 				start = html.indexOf(NAME_DIV) + NAME_DIV.length() + 2;
@@ -105,11 +105,11 @@ public class ShowtimeParser {
 				showtimes.add(s);
 
 				//increment i
-				i++;
+				//i++;
 			}
-			if(end > 0){
+/*			if(end > 0){
 				html = moreHtml.substring(end);
-			}
+			}*/
 			//}
 		}
 		catch(Exception e){
@@ -158,9 +158,9 @@ public class ShowtimeParser {
 	}
 
 	public ArrayList<String> getTimes(String subs){
-		ArrayList<String> times = new ArrayList<String>();
+		ArrayList<String> times = new ArrayList<>();
 		//int start = TIMES_DIV.length();
-		String tempString = "";//subs.substring(start);
+		String tempString;//subs.substring(start);
 		int end = subs.indexOf("</div></div>");
 		String timeString = subs.substring(0, end);
 		while(timeString.contains(TIMES_HOOK)){

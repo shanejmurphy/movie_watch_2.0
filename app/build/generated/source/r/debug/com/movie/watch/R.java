@@ -3035,493 +3035,13 @@ containing a value of this type.
         public static final int activity_main_menu=0x7f100000;
     }
     public static final class plurals {
-        public static final int abbrev_in_num_days=0x7f0e0000;
-        public static final int abbrev_in_num_hours=0x7f0e0001;
-        public static final int abbrev_in_num_minutes=0x7f0e0002;
-        public static final int abbrev_in_num_seconds=0x7f0e0003;
-        public static final int abbrev_num_days_ago=0x7f0e0004;
-        public static final int abbrev_num_hours_ago=0x7f0e0005;
-        public static final int abbrev_num_minutes_ago=0x7f0e0006;
-        public static final int abbrev_num_seconds_ago=0x7f0e0007;
-        public static final int duration_hours=0x7f0e0008;
-        public static final int duration_minutes=0x7f0e0009;
-        public static final int duration_seconds=0x7f0e000a;
-        public static final int in_num_days=0x7f0e000b;
-        public static final int in_num_hours=0x7f0e000c;
-        public static final int in_num_minutes=0x7f0e000d;
-        public static final int in_num_seconds=0x7f0e000e;
-        public static final int num_days_ago=0x7f0e000f;
-        public static final int num_hours_ago=0x7f0e0010;
-        public static final int num_minutes_ago=0x7f0e0011;
-        public static final int num_seconds_ago=0x7f0e0012;
-        public static final int tw__time_hours=0x7f0e0013;
-        public static final int tw__time_mins=0x7f0e0014;
-        public static final int tw__time_secs=0x7f0e0015;
+        public static final int tw__time_hours=0x7f0e0000;
+        public static final int tw__time_mins=0x7f0e0001;
+        public static final int tw__time_secs=0x7f0e0002;
     }
     public static final class raw {
-        public static final int __joda_time_dummy_resource=0x7f060000;
-        public static final int __tzdata_africa_abidjan=0x7f060001;
-        public static final int __tzdata_africa_accra=0x7f060002;
-        public static final int __tzdata_africa_addis_ababa=0x7f060003;
-        public static final int __tzdata_africa_algiers=0x7f060004;
-        public static final int __tzdata_africa_asmara=0x7f060005;
-        public static final int __tzdata_africa_bamako=0x7f060006;
-        public static final int __tzdata_africa_bangui=0x7f060007;
-        public static final int __tzdata_africa_banjul=0x7f060008;
-        public static final int __tzdata_africa_bissau=0x7f060009;
-        public static final int __tzdata_africa_blantyre=0x7f06000a;
-        public static final int __tzdata_africa_brazzaville=0x7f06000b;
-        public static final int __tzdata_africa_bujumbura=0x7f06000c;
-        public static final int __tzdata_africa_cairo=0x7f06000d;
-        public static final int __tzdata_africa_casablanca=0x7f06000e;
-        public static final int __tzdata_africa_ceuta=0x7f06000f;
-        public static final int __tzdata_africa_conakry=0x7f060010;
-        public static final int __tzdata_africa_dakar=0x7f060011;
-        public static final int __tzdata_africa_dar_es_salaam=0x7f060012;
-        public static final int __tzdata_africa_djibouti=0x7f060013;
-        public static final int __tzdata_africa_douala=0x7f060014;
-        public static final int __tzdata_africa_el_aaiun=0x7f060015;
-        public static final int __tzdata_africa_freetown=0x7f060016;
-        public static final int __tzdata_africa_gaborone=0x7f060017;
-        public static final int __tzdata_africa_harare=0x7f060018;
-        public static final int __tzdata_africa_johannesburg=0x7f060019;
-        public static final int __tzdata_africa_juba=0x7f06001a;
-        public static final int __tzdata_africa_kampala=0x7f06001b;
-        public static final int __tzdata_africa_khartoum=0x7f06001c;
-        public static final int __tzdata_africa_kigali=0x7f06001d;
-        public static final int __tzdata_africa_kinshasa=0x7f06001e;
-        public static final int __tzdata_africa_lagos=0x7f06001f;
-        public static final int __tzdata_africa_libreville=0x7f060020;
-        public static final int __tzdata_africa_lome=0x7f060021;
-        public static final int __tzdata_africa_luanda=0x7f060022;
-        public static final int __tzdata_africa_lubumbashi=0x7f060023;
-        public static final int __tzdata_africa_lusaka=0x7f060024;
-        public static final int __tzdata_africa_malabo=0x7f060025;
-        public static final int __tzdata_africa_maputo=0x7f060026;
-        public static final int __tzdata_africa_maseru=0x7f060027;
-        public static final int __tzdata_africa_mbabane=0x7f060028;
-        public static final int __tzdata_africa_mogadishu=0x7f060029;
-        public static final int __tzdata_africa_monrovia=0x7f06002a;
-        public static final int __tzdata_africa_nairobi=0x7f06002b;
-        public static final int __tzdata_africa_ndjamena=0x7f06002c;
-        public static final int __tzdata_africa_niamey=0x7f06002d;
-        public static final int __tzdata_africa_nouakchott=0x7f06002e;
-        public static final int __tzdata_africa_ouagadougou=0x7f06002f;
-        public static final int __tzdata_africa_porto_novo=0x7f060030;
-        public static final int __tzdata_africa_sao_tome=0x7f060031;
-        public static final int __tzdata_africa_timbuktu=0x7f060032;
-        public static final int __tzdata_africa_tripoli=0x7f060033;
-        public static final int __tzdata_africa_tunis=0x7f060034;
-        public static final int __tzdata_africa_windhoek=0x7f060035;
-        public static final int __tzdata_america_adak=0x7f060036;
-        public static final int __tzdata_america_anchorage=0x7f060037;
-        public static final int __tzdata_america_anguilla=0x7f060038;
-        public static final int __tzdata_america_antigua=0x7f060039;
-        public static final int __tzdata_america_araguaina=0x7f06003a;
-        public static final int __tzdata_america_argentina_buenos_aires=0x7f06003b;
-        public static final int __tzdata_america_argentina_catamarca=0x7f06003c;
-        public static final int __tzdata_america_argentina_comodrivadavia=0x7f06003d;
-        public static final int __tzdata_america_argentina_cordoba=0x7f06003e;
-        public static final int __tzdata_america_argentina_jujuy=0x7f06003f;
-        public static final int __tzdata_america_argentina_la_rioja=0x7f060040;
-        public static final int __tzdata_america_argentina_mendoza=0x7f060041;
-        public static final int __tzdata_america_argentina_rio_gallegos=0x7f060042;
-        public static final int __tzdata_america_argentina_salta=0x7f060043;
-        public static final int __tzdata_america_argentina_san_juan=0x7f060044;
-        public static final int __tzdata_america_argentina_san_luis=0x7f060045;
-        public static final int __tzdata_america_argentina_tucuman=0x7f060046;
-        public static final int __tzdata_america_argentina_ushuaia=0x7f060047;
-        public static final int __tzdata_america_aruba=0x7f060048;
-        public static final int __tzdata_america_asuncion=0x7f060049;
-        public static final int __tzdata_america_atikokan=0x7f06004a;
-        public static final int __tzdata_america_bahia=0x7f06004b;
-        public static final int __tzdata_america_bahia_banderas=0x7f06004c;
-        public static final int __tzdata_america_barbados=0x7f06004d;
-        public static final int __tzdata_america_belem=0x7f06004e;
-        public static final int __tzdata_america_belize=0x7f06004f;
-        public static final int __tzdata_america_blanc_sablon=0x7f060050;
-        public static final int __tzdata_america_boa_vista=0x7f060051;
-        public static final int __tzdata_america_bogota=0x7f060052;
-        public static final int __tzdata_america_boise=0x7f060053;
-        public static final int __tzdata_america_cambridge_bay=0x7f060054;
-        public static final int __tzdata_america_campo_grande=0x7f060055;
-        public static final int __tzdata_america_cancun=0x7f060056;
-        public static final int __tzdata_america_caracas=0x7f060057;
-        public static final int __tzdata_america_cayenne=0x7f060058;
-        public static final int __tzdata_america_cayman=0x7f060059;
-        public static final int __tzdata_america_chicago=0x7f06005a;
-        public static final int __tzdata_america_chihuahua=0x7f06005b;
-        public static final int __tzdata_america_coral_harbour=0x7f06005c;
-        public static final int __tzdata_america_costa_rica=0x7f06005d;
-        public static final int __tzdata_america_creston=0x7f06005e;
-        public static final int __tzdata_america_cuiaba=0x7f06005f;
-        public static final int __tzdata_america_curacao=0x7f060060;
-        public static final int __tzdata_america_danmarkshavn=0x7f060061;
-        public static final int __tzdata_america_dawson=0x7f060062;
-        public static final int __tzdata_america_dawson_creek=0x7f060063;
-        public static final int __tzdata_america_denver=0x7f060064;
-        public static final int __tzdata_america_detroit=0x7f060065;
-        public static final int __tzdata_america_dominica=0x7f060066;
-        public static final int __tzdata_america_edmonton=0x7f060067;
-        public static final int __tzdata_america_eirunepe=0x7f060068;
-        public static final int __tzdata_america_el_salvador=0x7f060069;
-        public static final int __tzdata_america_ensenada=0x7f06006a;
-        public static final int __tzdata_america_fortaleza=0x7f06006b;
-        public static final int __tzdata_america_glace_bay=0x7f06006c;
-        public static final int __tzdata_america_godthab=0x7f06006d;
-        public static final int __tzdata_america_goose_bay=0x7f06006e;
-        public static final int __tzdata_america_grand_turk=0x7f06006f;
-        public static final int __tzdata_america_grenada=0x7f060070;
-        public static final int __tzdata_america_guadeloupe=0x7f060071;
-        public static final int __tzdata_america_guatemala=0x7f060072;
-        public static final int __tzdata_america_guayaquil=0x7f060073;
-        public static final int __tzdata_america_guyana=0x7f060074;
-        public static final int __tzdata_america_halifax=0x7f060075;
-        public static final int __tzdata_america_havana=0x7f060076;
-        public static final int __tzdata_america_hermosillo=0x7f060077;
-        public static final int __tzdata_america_indiana_indianapolis=0x7f060078;
-        public static final int __tzdata_america_indiana_knox=0x7f060079;
-        public static final int __tzdata_america_indiana_marengo=0x7f06007a;
-        public static final int __tzdata_america_indiana_petersburg=0x7f06007b;
-        public static final int __tzdata_america_indiana_tell_city=0x7f06007c;
-        public static final int __tzdata_america_indiana_vevay=0x7f06007d;
-        public static final int __tzdata_america_indiana_vincennes=0x7f06007e;
-        public static final int __tzdata_america_indiana_winamac=0x7f06007f;
-        public static final int __tzdata_america_inuvik=0x7f060080;
-        public static final int __tzdata_america_iqaluit=0x7f060081;
-        public static final int __tzdata_america_jamaica=0x7f060082;
-        public static final int __tzdata_america_juneau=0x7f060083;
-        public static final int __tzdata_america_kentucky_louisville=0x7f060084;
-        public static final int __tzdata_america_kentucky_monticello=0x7f060085;
-        public static final int __tzdata_america_la_paz=0x7f060086;
-        public static final int __tzdata_america_lima=0x7f060087;
-        public static final int __tzdata_america_los_angeles=0x7f060088;
-        public static final int __tzdata_america_maceio=0x7f060089;
-        public static final int __tzdata_america_managua=0x7f06008a;
-        public static final int __tzdata_america_manaus=0x7f06008b;
-        public static final int __tzdata_america_martinique=0x7f06008c;
-        public static final int __tzdata_america_matamoros=0x7f06008d;
-        public static final int __tzdata_america_mazatlan=0x7f06008e;
-        public static final int __tzdata_america_menominee=0x7f06008f;
-        public static final int __tzdata_america_merida=0x7f060090;
-        public static final int __tzdata_america_metlakatla=0x7f060091;
-        public static final int __tzdata_america_mexico_city=0x7f060092;
-        public static final int __tzdata_america_miquelon=0x7f060093;
-        public static final int __tzdata_america_moncton=0x7f060094;
-        public static final int __tzdata_america_monterrey=0x7f060095;
-        public static final int __tzdata_america_montevideo=0x7f060096;
-        public static final int __tzdata_america_montreal=0x7f060097;
-        public static final int __tzdata_america_montserrat=0x7f060098;
-        public static final int __tzdata_america_nassau=0x7f060099;
-        public static final int __tzdata_america_new_york=0x7f06009a;
-        public static final int __tzdata_america_nipigon=0x7f06009b;
-        public static final int __tzdata_america_nome=0x7f06009c;
-        public static final int __tzdata_america_noronha=0x7f06009d;
-        public static final int __tzdata_america_north_dakota_beulah=0x7f06009e;
-        public static final int __tzdata_america_north_dakota_center=0x7f06009f;
-        public static final int __tzdata_america_north_dakota_new_salem=0x7f0600a0;
-        public static final int __tzdata_america_ojinaga=0x7f0600a1;
-        public static final int __tzdata_america_panama=0x7f0600a2;
-        public static final int __tzdata_america_pangnirtung=0x7f0600a3;
-        public static final int __tzdata_america_paramaribo=0x7f0600a4;
-        public static final int __tzdata_america_phoenix=0x7f0600a5;
-        public static final int __tzdata_america_port_au_prince=0x7f0600a6;
-        public static final int __tzdata_america_port_of_spain=0x7f0600a7;
-        public static final int __tzdata_america_porto_velho=0x7f0600a8;
-        public static final int __tzdata_america_puerto_rico=0x7f0600a9;
-        public static final int __tzdata_america_rainy_river=0x7f0600aa;
-        public static final int __tzdata_america_rankin_inlet=0x7f0600ab;
-        public static final int __tzdata_america_recife=0x7f0600ac;
-        public static final int __tzdata_america_regina=0x7f0600ad;
-        public static final int __tzdata_america_resolute=0x7f0600ae;
-        public static final int __tzdata_america_rio_branco=0x7f0600af;
-        public static final int __tzdata_america_rosario=0x7f0600b0;
-        public static final int __tzdata_america_santa_isabel=0x7f0600b1;
-        public static final int __tzdata_america_santarem=0x7f0600b2;
-        public static final int __tzdata_america_santiago=0x7f0600b3;
-        public static final int __tzdata_america_santo_domingo=0x7f0600b4;
-        public static final int __tzdata_america_sao_paulo=0x7f0600b5;
-        public static final int __tzdata_america_scoresbysund=0x7f0600b6;
-        public static final int __tzdata_america_sitka=0x7f0600b7;
-        public static final int __tzdata_america_st_johns=0x7f0600b8;
-        public static final int __tzdata_america_st_kitts=0x7f0600b9;
-        public static final int __tzdata_america_st_lucia=0x7f0600ba;
-        public static final int __tzdata_america_st_thomas=0x7f0600bb;
-        public static final int __tzdata_america_st_vincent=0x7f0600bc;
-        public static final int __tzdata_america_swift_current=0x7f0600bd;
-        public static final int __tzdata_america_tegucigalpa=0x7f0600be;
-        public static final int __tzdata_america_thule=0x7f0600bf;
-        public static final int __tzdata_america_thunder_bay=0x7f0600c0;
-        public static final int __tzdata_america_tijuana=0x7f0600c1;
-        public static final int __tzdata_america_toronto=0x7f0600c2;
-        public static final int __tzdata_america_tortola=0x7f0600c3;
-        public static final int __tzdata_america_vancouver=0x7f0600c4;
-        public static final int __tzdata_america_whitehorse=0x7f0600c5;
-        public static final int __tzdata_america_winnipeg=0x7f0600c6;
-        public static final int __tzdata_america_yakutat=0x7f0600c7;
-        public static final int __tzdata_america_yellowknife=0x7f0600c8;
-        public static final int __tzdata_antarctica_casey=0x7f0600c9;
-        public static final int __tzdata_antarctica_davis=0x7f0600ca;
-        public static final int __tzdata_antarctica_dumontdurville=0x7f0600cb;
-        public static final int __tzdata_antarctica_macquarie=0x7f0600cc;
-        public static final int __tzdata_antarctica_mawson=0x7f0600cd;
-        public static final int __tzdata_antarctica_mcmurdo=0x7f0600ce;
-        public static final int __tzdata_antarctica_palmer=0x7f0600cf;
-        public static final int __tzdata_antarctica_rothera=0x7f0600d0;
-        public static final int __tzdata_antarctica_syowa=0x7f0600d1;
-        public static final int __tzdata_antarctica_troll=0x7f0600d2;
-        public static final int __tzdata_antarctica_vostok=0x7f0600d3;
-        public static final int __tzdata_asia_aden=0x7f0600d4;
-        public static final int __tzdata_asia_almaty=0x7f0600d5;
-        public static final int __tzdata_asia_amman=0x7f0600d6;
-        public static final int __tzdata_asia_anadyr=0x7f0600d7;
-        public static final int __tzdata_asia_aqtau=0x7f0600d8;
-        public static final int __tzdata_asia_aqtobe=0x7f0600d9;
-        public static final int __tzdata_asia_ashgabat=0x7f0600da;
-        public static final int __tzdata_asia_baghdad=0x7f0600db;
-        public static final int __tzdata_asia_bahrain=0x7f0600dc;
-        public static final int __tzdata_asia_baku=0x7f0600dd;
-        public static final int __tzdata_asia_bangkok=0x7f0600de;
-        public static final int __tzdata_asia_beirut=0x7f0600df;
-        public static final int __tzdata_asia_bishkek=0x7f0600e0;
-        public static final int __tzdata_asia_brunei=0x7f0600e1;
-        public static final int __tzdata_asia_chita=0x7f0600e2;
-        public static final int __tzdata_asia_choibalsan=0x7f0600e3;
-        public static final int __tzdata_asia_chongqing=0x7f0600e4;
-        public static final int __tzdata_asia_colombo=0x7f0600e5;
-        public static final int __tzdata_asia_damascus=0x7f0600e6;
-        public static final int __tzdata_asia_dhaka=0x7f0600e7;
-        public static final int __tzdata_asia_dili=0x7f0600e8;
-        public static final int __tzdata_asia_dubai=0x7f0600e9;
-        public static final int __tzdata_asia_dushanbe=0x7f0600ea;
-        public static final int __tzdata_asia_gaza=0x7f0600eb;
-        public static final int __tzdata_asia_hanoi=0x7f0600ec;
-        public static final int __tzdata_asia_harbin=0x7f0600ed;
-        public static final int __tzdata_asia_hebron=0x7f0600ee;
-        public static final int __tzdata_asia_ho_chi_minh=0x7f0600ef;
-        public static final int __tzdata_asia_hong_kong=0x7f0600f0;
-        public static final int __tzdata_asia_hovd=0x7f0600f1;
-        public static final int __tzdata_asia_irkutsk=0x7f0600f2;
-        public static final int __tzdata_asia_jakarta=0x7f0600f3;
-        public static final int __tzdata_asia_jayapura=0x7f0600f4;
-        public static final int __tzdata_asia_jerusalem=0x7f0600f5;
-        public static final int __tzdata_asia_kabul=0x7f0600f6;
-        public static final int __tzdata_asia_kamchatka=0x7f0600f7;
-        public static final int __tzdata_asia_karachi=0x7f0600f8;
-        public static final int __tzdata_asia_kashgar=0x7f0600f9;
-        public static final int __tzdata_asia_kathmandu=0x7f0600fa;
-        public static final int __tzdata_asia_khandyga=0x7f0600fb;
-        public static final int __tzdata_asia_kolkata=0x7f0600fc;
-        public static final int __tzdata_asia_krasnoyarsk=0x7f0600fd;
-        public static final int __tzdata_asia_kuala_lumpur=0x7f0600fe;
-        public static final int __tzdata_asia_kuching=0x7f0600ff;
-        public static final int __tzdata_asia_kuwait=0x7f060100;
-        public static final int __tzdata_asia_macau=0x7f060101;
-        public static final int __tzdata_asia_magadan=0x7f060102;
-        public static final int __tzdata_asia_makassar=0x7f060103;
-        public static final int __tzdata_asia_manila=0x7f060104;
-        public static final int __tzdata_asia_muscat=0x7f060105;
-        public static final int __tzdata_asia_nicosia=0x7f060106;
-        public static final int __tzdata_asia_novokuznetsk=0x7f060107;
-        public static final int __tzdata_asia_novosibirsk=0x7f060108;
-        public static final int __tzdata_asia_omsk=0x7f060109;
-        public static final int __tzdata_asia_oral=0x7f06010a;
-        public static final int __tzdata_asia_phnom_penh=0x7f06010b;
-        public static final int __tzdata_asia_pontianak=0x7f06010c;
-        public static final int __tzdata_asia_pyongyang=0x7f06010d;
-        public static final int __tzdata_asia_qatar=0x7f06010e;
-        public static final int __tzdata_asia_qyzylorda=0x7f06010f;
-        public static final int __tzdata_asia_rangoon=0x7f060110;
-        public static final int __tzdata_asia_riyadh=0x7f060111;
-        public static final int __tzdata_asia_sakhalin=0x7f060112;
-        public static final int __tzdata_asia_samarkand=0x7f060113;
-        public static final int __tzdata_asia_seoul=0x7f060114;
-        public static final int __tzdata_asia_shanghai=0x7f060115;
-        public static final int __tzdata_asia_singapore=0x7f060116;
-        public static final int __tzdata_asia_srednekolymsk=0x7f060117;
-        public static final int __tzdata_asia_taipei=0x7f060118;
-        public static final int __tzdata_asia_tashkent=0x7f060119;
-        public static final int __tzdata_asia_tbilisi=0x7f06011a;
-        public static final int __tzdata_asia_tehran=0x7f06011b;
-        public static final int __tzdata_asia_tel_aviv=0x7f06011c;
-        public static final int __tzdata_asia_thimphu=0x7f06011d;
-        public static final int __tzdata_asia_tokyo=0x7f06011e;
-        public static final int __tzdata_asia_ulaanbaatar=0x7f06011f;
-        public static final int __tzdata_asia_urumqi=0x7f060120;
-        public static final int __tzdata_asia_ust_nera=0x7f060121;
-        public static final int __tzdata_asia_vientiane=0x7f060122;
-        public static final int __tzdata_asia_vladivostok=0x7f060123;
-        public static final int __tzdata_asia_yakutsk=0x7f060124;
-        public static final int __tzdata_asia_yekaterinburg=0x7f060125;
-        public static final int __tzdata_asia_yerevan=0x7f060126;
-        public static final int __tzdata_atlantic_azores=0x7f060127;
-        public static final int __tzdata_atlantic_bermuda=0x7f060128;
-        public static final int __tzdata_atlantic_canary=0x7f060129;
-        public static final int __tzdata_atlantic_cape_verde=0x7f06012a;
-        public static final int __tzdata_atlantic_faroe=0x7f06012b;
-        public static final int __tzdata_atlantic_jan_mayen=0x7f06012c;
-        public static final int __tzdata_atlantic_madeira=0x7f06012d;
-        public static final int __tzdata_atlantic_reykjavik=0x7f06012e;
-        public static final int __tzdata_atlantic_south_georgia=0x7f06012f;
-        public static final int __tzdata_atlantic_st_helena=0x7f060130;
-        public static final int __tzdata_atlantic_stanley=0x7f060131;
-        public static final int __tzdata_australia_adelaide=0x7f060132;
-        public static final int __tzdata_australia_brisbane=0x7f060133;
-        public static final int __tzdata_australia_broken_hill=0x7f060134;
-        public static final int __tzdata_australia_currie=0x7f060135;
-        public static final int __tzdata_australia_darwin=0x7f060136;
-        public static final int __tzdata_australia_eucla=0x7f060137;
-        public static final int __tzdata_australia_hobart=0x7f060138;
-        public static final int __tzdata_australia_lindeman=0x7f060139;
-        public static final int __tzdata_australia_lord_howe=0x7f06013a;
-        public static final int __tzdata_australia_melbourne=0x7f06013b;
-        public static final int __tzdata_australia_perth=0x7f06013c;
-        public static final int __tzdata_australia_sydney=0x7f06013d;
-        public static final int __tzdata_cet=0x7f06013e;
-        public static final int __tzdata_cst6cdt=0x7f06013f;
-        public static final int __tzdata_eet=0x7f060140;
-        public static final int __tzdata_est=0x7f060141;
-        public static final int __tzdata_est5edt=0x7f060142;
-        public static final int __tzdata_etc_gmt=0x7f060143;
-        public static final int __tzdata_etc_gmt_1=0x7f060144;
-        public static final int __tzdata_etc_gmt_10=0x7f060145;
-        public static final int __tzdata_etc_gmt_11=0x7f060146;
-        public static final int __tzdata_etc_gmt_12=0x7f060147;
-        public static final int __tzdata_etc_gmt_13=0x7f060148;
-        public static final int __tzdata_etc_gmt_14=0x7f060149;
-        public static final int __tzdata_etc_gmt_2=0x7f06014a;
-        public static final int __tzdata_etc_gmt_3=0x7f06014b;
-        public static final int __tzdata_etc_gmt_4=0x7f06014c;
-        public static final int __tzdata_etc_gmt_5=0x7f06014d;
-        public static final int __tzdata_etc_gmt_6=0x7f06014e;
-        public static final int __tzdata_etc_gmt_7=0x7f06014f;
-        public static final int __tzdata_etc_gmt_8=0x7f060150;
-        public static final int __tzdata_etc_gmt_9=0x7f060151;
-        public static final int __tzdata_etc_gmtplus1=0x7f060152;
-        public static final int __tzdata_etc_gmtplus10=0x7f060153;
-        public static final int __tzdata_etc_gmtplus11=0x7f060154;
-        public static final int __tzdata_etc_gmtplus12=0x7f060155;
-        public static final int __tzdata_etc_gmtplus2=0x7f060156;
-        public static final int __tzdata_etc_gmtplus3=0x7f060157;
-        public static final int __tzdata_etc_gmtplus4=0x7f060158;
-        public static final int __tzdata_etc_gmtplus5=0x7f060159;
-        public static final int __tzdata_etc_gmtplus6=0x7f06015a;
-        public static final int __tzdata_etc_gmtplus7=0x7f06015b;
-        public static final int __tzdata_etc_gmtplus8=0x7f06015c;
-        public static final int __tzdata_etc_gmtplus9=0x7f06015d;
-        public static final int __tzdata_etc_uct=0x7f06015e;
-        public static final int __tzdata_etc_utc=0x7f06015f;
-        public static final int __tzdata_europe_amsterdam=0x7f060160;
-        public static final int __tzdata_europe_andorra=0x7f060161;
-        public static final int __tzdata_europe_athens=0x7f060162;
-        public static final int __tzdata_europe_belfast=0x7f060163;
-        public static final int __tzdata_europe_belgrade=0x7f060164;
-        public static final int __tzdata_europe_berlin=0x7f060165;
-        public static final int __tzdata_europe_brussels=0x7f060166;
-        public static final int __tzdata_europe_bucharest=0x7f060167;
-        public static final int __tzdata_europe_budapest=0x7f060168;
-        public static final int __tzdata_europe_chisinau=0x7f060169;
-        public static final int __tzdata_europe_copenhagen=0x7f06016a;
-        public static final int __tzdata_europe_dublin=0x7f06016b;
-        public static final int __tzdata_europe_gibraltar=0x7f06016c;
-        public static final int __tzdata_europe_guernsey=0x7f06016d;
-        public static final int __tzdata_europe_helsinki=0x7f06016e;
-        public static final int __tzdata_europe_isle_of_man=0x7f06016f;
-        public static final int __tzdata_europe_istanbul=0x7f060170;
-        public static final int __tzdata_europe_jersey=0x7f060171;
-        public static final int __tzdata_europe_kaliningrad=0x7f060172;
-        public static final int __tzdata_europe_kiev=0x7f060173;
-        public static final int __tzdata_europe_lisbon=0x7f060174;
-        public static final int __tzdata_europe_ljubljana=0x7f060175;
-        public static final int __tzdata_europe_london=0x7f060176;
-        public static final int __tzdata_europe_luxembourg=0x7f060177;
-        public static final int __tzdata_europe_madrid=0x7f060178;
-        public static final int __tzdata_europe_malta=0x7f060179;
-        public static final int __tzdata_europe_minsk=0x7f06017a;
-        public static final int __tzdata_europe_monaco=0x7f06017b;
-        public static final int __tzdata_europe_moscow=0x7f06017c;
-        public static final int __tzdata_europe_oslo=0x7f06017d;
-        public static final int __tzdata_europe_paris=0x7f06017e;
-        public static final int __tzdata_europe_prague=0x7f06017f;
-        public static final int __tzdata_europe_riga=0x7f060180;
-        public static final int __tzdata_europe_rome=0x7f060181;
-        public static final int __tzdata_europe_samara=0x7f060182;
-        public static final int __tzdata_europe_sarajevo=0x7f060183;
-        public static final int __tzdata_europe_simferopol=0x7f060184;
-        public static final int __tzdata_europe_skopje=0x7f060185;
-        public static final int __tzdata_europe_sofia=0x7f060186;
-        public static final int __tzdata_europe_stockholm=0x7f060187;
-        public static final int __tzdata_europe_tallinn=0x7f060188;
-        public static final int __tzdata_europe_tirane=0x7f060189;
-        public static final int __tzdata_europe_tiraspol=0x7f06018a;
-        public static final int __tzdata_europe_uzhgorod=0x7f06018b;
-        public static final int __tzdata_europe_vaduz=0x7f06018c;
-        public static final int __tzdata_europe_vienna=0x7f06018d;
-        public static final int __tzdata_europe_vilnius=0x7f06018e;
-        public static final int __tzdata_europe_volgograd=0x7f06018f;
-        public static final int __tzdata_europe_warsaw=0x7f060190;
-        public static final int __tzdata_europe_zagreb=0x7f060191;
-        public static final int __tzdata_europe_zaporozhye=0x7f060192;
-        public static final int __tzdata_europe_zurich=0x7f060193;
-        public static final int __tzdata_hst=0x7f060194;
-        public static final int __tzdata_indian_antananarivo=0x7f060195;
-        public static final int __tzdata_indian_chagos=0x7f060196;
-        public static final int __tzdata_indian_christmas=0x7f060197;
-        public static final int __tzdata_indian_cocos=0x7f060198;
-        public static final int __tzdata_indian_comoro=0x7f060199;
-        public static final int __tzdata_indian_kerguelen=0x7f06019a;
-        public static final int __tzdata_indian_mahe=0x7f06019b;
-        public static final int __tzdata_indian_maldives=0x7f06019c;
-        public static final int __tzdata_indian_mauritius=0x7f06019d;
-        public static final int __tzdata_indian_mayotte=0x7f06019e;
-        public static final int __tzdata_indian_reunion=0x7f06019f;
-        public static final int __tzdata_met=0x7f0601a0;
-        public static final int __tzdata_mst=0x7f0601a1;
-        public static final int __tzdata_mst7mdt=0x7f0601a2;
-        public static final int __tzdata_pacific_apia=0x7f0601a3;
-        public static final int __tzdata_pacific_auckland=0x7f0601a4;
-        public static final int __tzdata_pacific_bougainville=0x7f0601a5;
-        public static final int __tzdata_pacific_chatham=0x7f0601a6;
-        public static final int __tzdata_pacific_chuuk=0x7f0601a7;
-        public static final int __tzdata_pacific_easter=0x7f0601a8;
-        public static final int __tzdata_pacific_efate=0x7f0601a9;
-        public static final int __tzdata_pacific_enderbury=0x7f0601aa;
-        public static final int __tzdata_pacific_fakaofo=0x7f0601ab;
-        public static final int __tzdata_pacific_fiji=0x7f0601ac;
-        public static final int __tzdata_pacific_funafuti=0x7f0601ad;
-        public static final int __tzdata_pacific_galapagos=0x7f0601ae;
-        public static final int __tzdata_pacific_gambier=0x7f0601af;
-        public static final int __tzdata_pacific_guadalcanal=0x7f0601b0;
-        public static final int __tzdata_pacific_guam=0x7f0601b1;
-        public static final int __tzdata_pacific_honolulu=0x7f0601b2;
-        public static final int __tzdata_pacific_johnston=0x7f0601b3;
-        public static final int __tzdata_pacific_kiritimati=0x7f0601b4;
-        public static final int __tzdata_pacific_kosrae=0x7f0601b5;
-        public static final int __tzdata_pacific_kwajalein=0x7f0601b6;
-        public static final int __tzdata_pacific_majuro=0x7f0601b7;
-        public static final int __tzdata_pacific_marquesas=0x7f0601b8;
-        public static final int __tzdata_pacific_midway=0x7f0601b9;
-        public static final int __tzdata_pacific_nauru=0x7f0601ba;
-        public static final int __tzdata_pacific_niue=0x7f0601bb;
-        public static final int __tzdata_pacific_norfolk=0x7f0601bc;
-        public static final int __tzdata_pacific_noumea=0x7f0601bd;
-        public static final int __tzdata_pacific_pago_pago=0x7f0601be;
-        public static final int __tzdata_pacific_palau=0x7f0601bf;
-        public static final int __tzdata_pacific_pitcairn=0x7f0601c0;
-        public static final int __tzdata_pacific_pohnpei=0x7f0601c1;
-        public static final int __tzdata_pacific_port_moresby=0x7f0601c2;
-        public static final int __tzdata_pacific_rarotonga=0x7f0601c3;
-        public static final int __tzdata_pacific_saipan=0x7f0601c4;
-        public static final int __tzdata_pacific_tahiti=0x7f0601c5;
-        public static final int __tzdata_pacific_tarawa=0x7f0601c6;
-        public static final int __tzdata_pacific_tongatapu=0x7f0601c7;
-        public static final int __tzdata_pacific_wake=0x7f0601c8;
-        public static final int __tzdata_pacific_wallis=0x7f0601c9;
-        public static final int __tzdata_pst8pdt=0x7f0601ca;
-        public static final int __tzdata_wet=0x7f0601cb;
-        public static final int __tzdata_zoneinfomap=0x7f0601cc;
-        public static final int gtm_analytics=0x7f0601cd;
-        public static final int tw__cacerts=0x7f0601ce;
+        public static final int gtm_analytics=0x7f060000;
+        public static final int tw__cacerts=0x7f060001;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f070001;
@@ -3597,122 +3117,118 @@ containing a value of this type.
         public static final int create_calendar_title=0x7f07003f;
         public static final int critics_percentage=0x7f070040;
         public static final int current_releases=0x7f070041;
-        public static final int date_time=0x7f070042;
-        public static final int decline=0x7f070043;
-        public static final int dgts__associated_with_twitter_error=0x7f070044;
-        public static final int dgts__associated_with_twitter_error_alternative=0x7f070045;
-        public static final int dgts__cancel=0x7f070046;
-        public static final int dgts__communication_error=0x7f070047;
-        public static final int dgts__confirmation_code=0x7f070048;
-        public static final int dgts__confirmation_edit_hint=0x7f070049;
-        public static final int dgts__confirmation_error=0x7f07004a;
-        public static final int dgts__confirmation_error_alternative=0x7f07004b;
-        public static final int dgts__confirmation_expired=0x7f07004c;
-        public static final int dgts__confirmation_send_text=0x7f07004d;
-        public static final int dgts__confirmation_sending_text=0x7f07004e;
-        public static final int dgts__confirmation_sent_text=0x7f07004f;
-        public static final int dgts__confirmation_sms=0x7f070050;
-        public static final int dgts__country_spinner_format=0x7f070051;
-        public static final int dgts__create_account_text=0x7f070052;
-        public static final int dgts__creating_account_text=0x7f070053;
-        public static final int dgts__digits_logo_desc=0x7f070054;
-        public static final int dgts__digits_logo_name_desc=0x7f070055;
-        public static final int dgts__dismiss=0x7f070056;
-        public static final int dgts__find_your_friends=0x7f070057;
-        public static final int dgts__image_header_description=0x7f070058;
-        public static final int dgts__login_digits_text=0x7f070059;
-        public static final int dgts__network_error=0x7f07005a;
-        public static final int dgts__not_now=0x7f07005b;
-        public static final int dgts__okay=0x7f07005c;
-        public static final int dgts__phone_number_edit_hint=0x7f07005d;
-        public static final int dgts__phone_number_text=0x7f07005e;
-        public static final int dgts__pin_code_verification_title=0x7f07005f;
-        public static final int dgts__resend=0x7f070060;
-        public static final int dgts__resend_confirmation_text=0x7f070061;
-        public static final int dgts__sign_in=0x7f070062;
-        public static final int dgts__sign_in_error=0x7f070063;
-        public static final int dgts__sign_in_twitter=0x7f070064;
-        public static final int dgts__signing_in=0x7f070065;
-        public static final int dgts__success_desc=0x7f070066;
-        public static final int dgts__terms_text=0x7f070067;
-        public static final int dgts__terms_text_create=0x7f070068;
-        public static final int dgts__terms_text_create_app=0x7f070069;
-        public static final int dgts__try_again=0x7f07006a;
-        public static final int dgts__try_again_confirmation=0x7f07006b;
-        public static final int dgts__try_again_phone_number=0x7f07006c;
-        public static final int dgts__try_another_phone=0x7f07006d;
-        public static final int dgts__upload_contacts=0x7f07006e;
-        public static final int dgts__verification_code=0x7f07006f;
-        public static final int dgts_pin_code_terms=0x7f070070;
-        public static final int dgts_verify=0x7f070071;
-        public static final int dgts_verifying=0x7f070072;
-        public static final int emptyString=0x7f070073;
-        public static final int fetch_error_text=0x7f070074;
-        public static final int flixter_notice=0x7f070075;
-        public static final int ga_event_movie_list_type_selection=0x7f070076;
-        public static final int ga_event_movie_selection=0x7f070077;
-        public static final int ga_event_play_trailer=0x7f070078;
-        public static final int ga_event_review_selected=0x7f070079;
-        public static final int ga_label_main_trailer_play_button=0x7f07007a;
-        public static final int ga_label_mini_trailer_play_button=0x7f07007b;
-        public static final int ga_label_review_selected=0x7f07007c;
-        public static final int ga_screen_movie_content=0x7f07007d;
-        public static final int ga_screen_movie_pager=0x7f07007e;
-        public static final int ga_screen_movie_selection=0x7f07007f;
-        public static final int googleAnalyticsId=0x7f070080;
-        public static final int hour_plural=0x7f070081;
-        public static final int hour_shortened=0x7f070082;
-        public static final int hour_singular=0x7f070083;
-        public static final int in_theatres=0x7f070084;
-        public static final int kit_name=0x7f070085;
-        public static final int location_unavailable=0x7f070086;
-        public static final int menu_settings=0x7f070087;
-        public static final int minute_singular=0x7f070088;
-        public static final int minutes_plural=0x7f070089;
-        public static final int minutes_shortened=0x7f07008a;
-        public static final int movie_info_overview_label=0x7f07008b;
-        public static final int new_releases=0x7f07008c;
-        public static final int no_data=0x7f07008d;
-        public static final int no_reviews_message=0x7f07008e;
-        public static final int not_showing=0x7f07008f;
-        public static final int opening=0x7f070090;
-        public static final int preposition_for_date=0x7f070091;
-        public static final int preposition_for_time=0x7f070092;
-        public static final int relative_time=0x7f070093;
-        public static final int search_hint=0x7f070094;
-        public static final int search_label=0x7f070095;
-        public static final int search_title=0x7f070096;
-        public static final int showtimes_url=0x7f070097;
-        public static final int store_picture_message=0x7f070098;
-        public static final int store_picture_title=0x7f070099;
-        public static final int title_about=0x7f07009a;
-        public static final int title_activity_search=0x7f07009b;
-        public static final int title_cast=0x7f07009c;
-        public static final int title_dvds=0x7f07009d;
-        public static final int title_general=0x7f07009e;
-        public static final int title_info=0x7f07009f;
-        public static final int title_menu=0x7f0700a0;
-        public static final int title_nav_drawer=0x7f0700a1;
-        public static final int title_reviews=0x7f0700a2;
-        public static final int title_search_results=0x7f0700a3;
-        public static final int title_showtimes=0x7f0700a4;
-        public static final int title_theaters=0x7f0700a5;
-        public static final int top_box_office=0x7f0700a6;
-        public static final int top_rentals=0x7f0700a7;
-        public static final int tw__allow_btn_txt=0x7f0700a8;
-        public static final int tw__loading_tweet=0x7f0700a9;
-        public static final int tw__login_btn_txt=0x7f0700aa;
-        public static final int tw__not_now_btn_txt=0x7f0700ab;
-        public static final int tw__relative_date_format_long=0x7f0700ac;
-        public static final int tw__relative_date_format_short=0x7f0700ad;
-        public static final int tw__share_content_format=0x7f0700ae;
-        public static final int tw__share_email_desc=0x7f0700af;
-        public static final int tw__share_email_title=0x7f0700b0;
-        public static final int tw__share_subject_format=0x7f0700b1;
-        public static final int tw__share_tweet=0x7f0700b2;
-        public static final int tw__tweet_content_description=0x7f0700b3;
-        public static final int upcoming=0x7f0700b4;
-        public static final int wallet_buy_button_place_holder=0x7f0700b5;
+        public static final int decline=0x7f070042;
+        public static final int dgts__associated_with_twitter_error=0x7f070043;
+        public static final int dgts__associated_with_twitter_error_alternative=0x7f070044;
+        public static final int dgts__cancel=0x7f070045;
+        public static final int dgts__communication_error=0x7f070046;
+        public static final int dgts__confirmation_code=0x7f070047;
+        public static final int dgts__confirmation_edit_hint=0x7f070048;
+        public static final int dgts__confirmation_error=0x7f070049;
+        public static final int dgts__confirmation_error_alternative=0x7f07004a;
+        public static final int dgts__confirmation_expired=0x7f07004b;
+        public static final int dgts__confirmation_send_text=0x7f07004c;
+        public static final int dgts__confirmation_sending_text=0x7f07004d;
+        public static final int dgts__confirmation_sent_text=0x7f07004e;
+        public static final int dgts__confirmation_sms=0x7f07004f;
+        public static final int dgts__country_spinner_format=0x7f070050;
+        public static final int dgts__create_account_text=0x7f070051;
+        public static final int dgts__creating_account_text=0x7f070052;
+        public static final int dgts__digits_logo_desc=0x7f070053;
+        public static final int dgts__digits_logo_name_desc=0x7f070054;
+        public static final int dgts__dismiss=0x7f070055;
+        public static final int dgts__find_your_friends=0x7f070056;
+        public static final int dgts__image_header_description=0x7f070057;
+        public static final int dgts__login_digits_text=0x7f070058;
+        public static final int dgts__network_error=0x7f070059;
+        public static final int dgts__not_now=0x7f07005a;
+        public static final int dgts__okay=0x7f07005b;
+        public static final int dgts__phone_number_edit_hint=0x7f07005c;
+        public static final int dgts__phone_number_text=0x7f07005d;
+        public static final int dgts__pin_code_verification_title=0x7f07005e;
+        public static final int dgts__resend=0x7f07005f;
+        public static final int dgts__resend_confirmation_text=0x7f070060;
+        public static final int dgts__sign_in=0x7f070061;
+        public static final int dgts__sign_in_error=0x7f070062;
+        public static final int dgts__sign_in_twitter=0x7f070063;
+        public static final int dgts__signing_in=0x7f070064;
+        public static final int dgts__success_desc=0x7f070065;
+        public static final int dgts__terms_text=0x7f070066;
+        public static final int dgts__terms_text_create=0x7f070067;
+        public static final int dgts__terms_text_create_app=0x7f070068;
+        public static final int dgts__try_again=0x7f070069;
+        public static final int dgts__try_again_confirmation=0x7f07006a;
+        public static final int dgts__try_again_phone_number=0x7f07006b;
+        public static final int dgts__try_another_phone=0x7f07006c;
+        public static final int dgts__upload_contacts=0x7f07006d;
+        public static final int dgts__verification_code=0x7f07006e;
+        public static final int dgts_pin_code_terms=0x7f07006f;
+        public static final int dgts_verify=0x7f070070;
+        public static final int dgts_verifying=0x7f070071;
+        public static final int emptyString=0x7f070072;
+        public static final int fetch_error_text=0x7f070073;
+        public static final int flixter_notice=0x7f070074;
+        public static final int ga_event_movie_list_type_selection=0x7f070075;
+        public static final int ga_event_movie_selection=0x7f070076;
+        public static final int ga_event_play_trailer=0x7f070077;
+        public static final int ga_event_review_selected=0x7f070078;
+        public static final int ga_label_main_trailer_play_button=0x7f070079;
+        public static final int ga_label_mini_trailer_play_button=0x7f07007a;
+        public static final int ga_label_review_selected=0x7f07007b;
+        public static final int ga_screen_movie_content=0x7f07007c;
+        public static final int ga_screen_movie_pager=0x7f07007d;
+        public static final int ga_screen_movie_selection=0x7f07007e;
+        public static final int googleAnalyticsId=0x7f07007f;
+        public static final int hour_plural=0x7f070080;
+        public static final int hour_shortened=0x7f070081;
+        public static final int hour_singular=0x7f070082;
+        public static final int in_theatres=0x7f070083;
+        public static final int kit_name=0x7f070084;
+        public static final int location_unavailable=0x7f070085;
+        public static final int menu_settings=0x7f070086;
+        public static final int minute_singular=0x7f070087;
+        public static final int minutes_plural=0x7f070088;
+        public static final int minutes_shortened=0x7f070089;
+        public static final int movie_info_overview_label=0x7f07008a;
+        public static final int new_releases=0x7f07008b;
+        public static final int no_data=0x7f07008c;
+        public static final int no_reviews_message=0x7f07008d;
+        public static final int not_showing=0x7f07008e;
+        public static final int opening=0x7f07008f;
+        public static final int search_hint=0x7f070090;
+        public static final int search_label=0x7f070091;
+        public static final int search_title=0x7f070092;
+        public static final int showtimes_url=0x7f070093;
+        public static final int store_picture_message=0x7f070094;
+        public static final int store_picture_title=0x7f070095;
+        public static final int title_about=0x7f070096;
+        public static final int title_activity_search=0x7f070097;
+        public static final int title_cast=0x7f070098;
+        public static final int title_dvds=0x7f070099;
+        public static final int title_general=0x7f07009a;
+        public static final int title_info=0x7f07009b;
+        public static final int title_menu=0x7f07009c;
+        public static final int title_nav_drawer=0x7f07009d;
+        public static final int title_reviews=0x7f07009e;
+        public static final int title_search_results=0x7f07009f;
+        public static final int title_showtimes=0x7f0700a0;
+        public static final int title_theaters=0x7f0700a1;
+        public static final int top_box_office=0x7f0700a2;
+        public static final int top_rentals=0x7f0700a3;
+        public static final int tw__allow_btn_txt=0x7f0700a4;
+        public static final int tw__loading_tweet=0x7f0700a5;
+        public static final int tw__login_btn_txt=0x7f0700a6;
+        public static final int tw__not_now_btn_txt=0x7f0700a7;
+        public static final int tw__relative_date_format_long=0x7f0700a8;
+        public static final int tw__relative_date_format_short=0x7f0700a9;
+        public static final int tw__share_content_format=0x7f0700aa;
+        public static final int tw__share_email_desc=0x7f0700ab;
+        public static final int tw__share_email_title=0x7f0700ac;
+        public static final int tw__share_subject_format=0x7f0700ad;
+        public static final int tw__share_tweet=0x7f0700ae;
+        public static final int tw__tweet_content_description=0x7f0700af;
+        public static final int upcoming=0x7f0700b0;
+        public static final int wallet_buy_button_place_holder=0x7f0700b1;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0f0000;
@@ -4082,33 +3598,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.movie.watch:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.movie.watch:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.movie.watch:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.movie.watch:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.movie.watch:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.movie.watch:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.movie.watch:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.movie.watch:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.movie.watch:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.movie.watch:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.movie.watch:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.movie.watch:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.movie.watch:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.movie.watch:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.movie.watch:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.movie.watch:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.movie.watch:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.movie.watch:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.movie.watch:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.movie.watch:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.movie.watch:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.movie.watch:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.movie.watch:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.movie.watch:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.movie.watch:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.movie.watch:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.movie.watch:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.movie.watch.debug:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.movie.watch.debug:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.movie.watch.debug:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.movie.watch.debug:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.movie.watch.debug:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.movie.watch.debug:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.movie.watch.debug:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.movie.watch.debug:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.movie.watch.debug:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.movie.watch.debug:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.movie.watch.debug:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.movie.watch.debug:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.movie.watch.debug:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.movie.watch.debug:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.movie.watch.debug:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.movie.watch.debug:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.movie.watch.debug:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.movie.watch.debug:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.movie.watch.debug:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.movie.watch.debug:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.movie.watch.debug:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.movie.watch.debug:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.movie.watch.debug:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.movie.watch.debug:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.movie.watch.debug:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.movie.watch.debug:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.movie.watch.debug:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -4148,17 +3664,17 @@ containing a value of this type.
             0x7f010035, 0x7f010036, 0x7f0100cf
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#background}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:background
+          @attr name com.movie.watch.debug:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4166,11 +3682,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.movie.watch:backgroundSplit
+          @attr name com.movie.watch.debug:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4178,11 +3694,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.movie.watch:backgroundStacked
+          @attr name com.movie.watch.debug:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4194,11 +3710,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentInsetEnd
+          @attr name com.movie.watch.debug:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4210,11 +3726,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentInsetLeft
+          @attr name com.movie.watch.debug:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4226,11 +3742,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentInsetRight
+          @attr name com.movie.watch.debug:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4242,21 +3758,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentInsetStart
+          @attr name com.movie.watch.debug:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:customNavigationLayout
+          @attr name com.movie.watch.debug:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4274,21 +3790,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:displayOptions
+          @attr name com.movie.watch.debug:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:divider
+          @attr name com.movie.watch.debug:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4300,11 +3816,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:elevation
+          @attr name com.movie.watch.debug:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#height}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4316,11 +3832,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:height
+          @attr name com.movie.watch.debug:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4330,51 +3846,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:hideOnContentScroll
+          @attr name com.movie.watch.debug:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:homeAsUpIndicator
+          @attr name com.movie.watch.debug:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:homeLayout
+          @attr name com.movie.watch.debug:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:icon
+          @attr name com.movie.watch.debug:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:indeterminateProgressStyle
+          @attr name com.movie.watch.debug:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4386,21 +3902,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:itemPadding
+          @attr name com.movie.watch.debug:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:logo
+          @attr name com.movie.watch.debug:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4414,21 +3930,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:navigationMode
+          @attr name com.movie.watch.debug:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:popupTheme
+          @attr name com.movie.watch.debug:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4440,21 +3956,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:progressBarPadding
+          @attr name com.movie.watch.debug:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:progressBarStyle
+          @attr name com.movie.watch.debug:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4464,21 +3980,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:subtitle
+          @attr name com.movie.watch.debug:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:subtitleTextStyle
+          @attr name com.movie.watch.debug:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#title}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4488,17 +4004,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:title
+          @attr name com.movie.watch.debug:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:titleTextStyle
+          @attr name com.movie.watch.debug:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -4550,12 +4066,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.movie.watch:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.movie.watch:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.movie.watch:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.movie.watch:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.movie.watch:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.movie.watch:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.movie.watch.debug:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.movie.watch.debug:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.movie.watch.debug:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.movie.watch.debug:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.movie.watch.debug:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.movie.watch.debug:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -4569,17 +4085,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010029, 0x7f010037
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#background}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:background
+          @attr name com.movie.watch.debug:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4587,21 +4103,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.movie.watch:backgroundSplit
+          @attr name com.movie.watch.debug:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:closeItemLayout
+          @attr name com.movie.watch.debug:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#height}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4613,27 +4129,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:height
+          @attr name com.movie.watch.debug:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:subtitleTextStyle
+          @attr name com.movie.watch.debug:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:titleTextStyle
+          @attr name com.movie.watch.debug:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -4642,8 +4158,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.movie.watch:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.movie.watch:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.movie.watch.debug:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.movie.watch.debug:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -4652,17 +4168,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010038, 0x7f010039
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:expandActivityOverflowButtonDrawable
+          @attr name com.movie.watch.debug:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -4672,7 +4188,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:initialActivityCount
+          @attr name com.movie.watch.debug:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AdsAttrs.
@@ -4681,9 +4197,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize com.movie.watch:adSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes com.movie.watch:adSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId com.movie.watch:adUnitId}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize com.movie.watch.debug:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes com.movie.watch.debug:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId com.movie.watch.debug:adUnitId}</code></td><td></td></tr>
            </table>
            @see #AdsAttrs_adSize
            @see #AdsAttrs_adSizes
@@ -4693,7 +4209,7 @@ containing a value of this type.
             0x7f01003a, 0x7f01003b, 0x7f01003c
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#adSize}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#adSize}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -4703,11 +4219,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:adSize
+          @attr name com.movie.watch.debug:adSize
         */
         public static final int AdsAttrs_adSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#adSizes}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#adSizes}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -4717,11 +4233,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:adSizes
+          @attr name com.movie.watch.debug:adSizes
         */
         public static final int AdsAttrs_adSizes = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#adUnitId}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#adUnitId}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -4731,7 +4247,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:adUnitId
+          @attr name com.movie.watch.debug:adUnitId
         */
         public static final int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a AlertDialog.
@@ -4741,11 +4257,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.movie.watch:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.movie.watch:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.movie.watch:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.movie.watch:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.movie.watch:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.movie.watch.debug:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.movie.watch.debug:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.movie.watch.debug:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.movie.watch.debug:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.movie.watch.debug:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -4765,53 +4281,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:buttonPanelSideLayout
+          @attr name com.movie.watch.debug:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:listItemLayout
+          @attr name com.movie.watch.debug:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:listLayout
+          @attr name com.movie.watch.debug:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:multiChoiceItemLayout
+          @attr name com.movie.watch.debug:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:singleChoiceItemLayout
+          @attr name com.movie.watch.debug:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppCompatTextView.
@@ -4821,7 +4337,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.movie.watch:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.movie.watch.debug:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -4836,14 +4352,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.movie.watch:textAllCaps
+          @attr name com.movie.watch.debug:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a CardView.
@@ -4852,17 +4368,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor com.movie.watch:cardBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius com.movie.watch:cardCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardElevation com.movie.watch:cardElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation com.movie.watch:cardMaxElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.movie.watch:cardPreventCornerOverlap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding com.movie.watch:cardUseCompatPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPadding com.movie.watch:contentPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom com.movie.watch:contentPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft com.movie.watch:contentPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight com.movie.watch:contentPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop com.movie.watch:contentPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor com.movie.watch.debug:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius com.movie.watch.debug:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation com.movie.watch.debug:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation com.movie.watch.debug:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.movie.watch.debug:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding com.movie.watch.debug:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding com.movie.watch.debug:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom com.movie.watch.debug:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft com.movie.watch.debug:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight com.movie.watch.debug:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop com.movie.watch.debug:contentPaddingTop}</code></td><td></td></tr>
            </table>
            @see #CardView_cardBackgroundColor
            @see #CardView_cardCornerRadius
@@ -4882,7 +4398,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01004b, 0x7f01004c, 0x7f01004d
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#cardBackgroundColor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4893,11 +4409,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:cardBackgroundColor
+          @attr name com.movie.watch.debug:cardBackgroundColor
         */
         public static final int CardView_cardBackgroundColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#cardCornerRadius}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4909,11 +4425,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:cardCornerRadius
+          @attr name com.movie.watch.debug:cardCornerRadius
         */
         public static final int CardView_cardCornerRadius = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#cardElevation}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4925,11 +4441,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:cardElevation
+          @attr name com.movie.watch.debug:cardElevation
         */
         public static final int CardView_cardElevation = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#cardMaxElevation}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4941,11 +4457,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:cardMaxElevation
+          @attr name com.movie.watch.debug:cardMaxElevation
         */
         public static final int CardView_cardMaxElevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#cardPreventCornerOverlap}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4955,11 +4471,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:cardPreventCornerOverlap
+          @attr name com.movie.watch.debug:cardPreventCornerOverlap
         */
         public static final int CardView_cardPreventCornerOverlap = 5;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#cardUseCompatPadding}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4969,11 +4485,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:cardUseCompatPadding
+          @attr name com.movie.watch.debug:cardUseCompatPadding
         */
         public static final int CardView_cardUseCompatPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentPadding}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -4985,11 +4501,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentPadding
+          @attr name com.movie.watch.debug:contentPadding
         */
         public static final int CardView_contentPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentPaddingBottom}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5001,11 +4517,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentPaddingBottom
+          @attr name com.movie.watch.debug:contentPaddingBottom
         */
         public static final int CardView_contentPaddingBottom = 10;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentPaddingLeft}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5017,11 +4533,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentPaddingLeft
+          @attr name com.movie.watch.debug:contentPaddingLeft
         */
         public static final int CardView_contentPaddingLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentPaddingRight}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5033,11 +4549,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentPaddingRight
+          @attr name com.movie.watch.debug:contentPaddingRight
         */
         public static final int CardView_contentPaddingRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentPaddingTop}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5049,7 +4565,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentPaddingTop
+          @attr name com.movie.watch.debug:contentPaddingTop
         */
         public static final int CardView_contentPaddingTop = 9;
         /** Attributes that can be used with a CustomWalletTheme.
@@ -5058,7 +4574,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle com.movie.watch:windowTransitionStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle com.movie.watch.debug:windowTransitionStyle}</code></td><td></td></tr>
            </table>
            @see #CustomWalletTheme_windowTransitionStyle
          */
@@ -5066,7 +4582,7 @@ containing a value of this type.
             0x7f01004e
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#windowTransitionStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#windowTransitionStyle}
           attribute's value can be found in the {@link #CustomWalletTheme} array.
 
 
@@ -5079,7 +4595,7 @@ containing a value of this type.
 <tr><td><code>slide</code></td><td>1</td><td></td></tr>
 <tr><td><code>none</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:windowTransitionStyle
+          @attr name com.movie.watch.debug:windowTransitionStyle
         */
         public static final int CustomWalletTheme_windowTransitionStyle = 0;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -5088,14 +4604,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize com.movie.watch:barSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.movie.watch:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.movie.watch:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.movie.watch:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.movie.watch:middleBarArrowSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.movie.watch:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.movie.watch:thickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.movie.watch:topBottomBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize com.movie.watch.debug:barSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.movie.watch.debug:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.movie.watch.debug:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.movie.watch.debug:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.movie.watch.debug:middleBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.movie.watch.debug:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.movie.watch.debug:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.movie.watch.debug:topBottomBarArrowSize}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -5111,7 +4627,7 @@ containing a value of this type.
             0x7f010053, 0x7f010054, 0x7f010055, 0x7f010056
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#barSize}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5123,11 +4639,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:barSize
+          @attr name com.movie.watch.debug:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#color}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5138,11 +4654,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:color
+          @attr name com.movie.watch.debug:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5154,11 +4670,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:drawableSize
+          @attr name com.movie.watch.debug:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5170,11 +4686,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:gapBetweenBars
+          @attr name com.movie.watch.debug:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5186,11 +4702,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:middleBarArrowSize
+          @attr name com.movie.watch.debug:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5200,11 +4716,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:spinBars
+          @attr name com.movie.watch.debug:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5216,11 +4732,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:thickness
+          @attr name com.movie.watch.debug:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5232,7 +4748,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:topBottomBarArrowSize
+          @attr name com.movie.watch.debug:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -5246,10 +4762,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.movie.watch:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.movie.watch:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.movie.watch:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.movie.watch:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.movie.watch.debug:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.movie.watch.debug:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.movie.watch.debug:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.movie.watch.debug:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -5297,17 +4813,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:divider
+          @attr name com.movie.watch.debug:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5319,11 +4835,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:dividerPadding
+          @attr name com.movie.watch.debug:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5333,11 +4849,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:measureWithLargestChild
+          @attr name com.movie.watch.debug:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5352,7 +4868,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:showDividers
+          @attr name com.movie.watch.debug:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -5431,9 +4947,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop com.movie.watch:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.movie.watch:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.movie.watch:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop com.movie.watch.debug:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.movie.watch.debug:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.movie.watch.debug:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
@@ -5443,7 +4959,7 @@ containing a value of this type.
             0x7f01005a, 0x7f01005b, 0x7f01005c
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -5453,11 +4969,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:circleCrop
+          @attr name com.movie.watch.debug:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -5467,11 +4983,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:imageAspectRatio
+          @attr name com.movie.watch.debug:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -5485,7 +5001,7 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:imageAspectRatioAdjust
+          @attr name com.movie.watch.debug:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MDRootLayout.
@@ -5494,7 +5010,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MDRootLayout_md_reduce_padding_no_title_no_buttons com.movie.watch:md_reduce_padding_no_title_no_buttons}</code></td><td></td></tr>
+           <tr><td><code>{@link #MDRootLayout_md_reduce_padding_no_title_no_buttons com.movie.watch.debug:md_reduce_padding_no_title_no_buttons}</code></td><td></td></tr>
            </table>
            @see #MDRootLayout_md_reduce_padding_no_title_no_buttons
          */
@@ -5502,7 +5018,7 @@ containing a value of this type.
             0x7f01005d
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#md_reduce_padding_no_title_no_buttons}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#md_reduce_padding_no_title_no_buttons}
           attribute's value can be found in the {@link #MDRootLayout} array.
 
 
@@ -5512,7 +5028,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:md_reduce_padding_no_title_no_buttons
+          @attr name com.movie.watch.debug:md_reduce_padding_no_title_no_buttons
         */
         public static final int MDRootLayout_md_reduce_padding_no_title_no_buttons = 0;
         /** Attributes that can be used with a MapAttrs.
@@ -5521,22 +5037,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing com.movie.watch:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.movie.watch:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.movie.watch:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt com.movie.watch:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom com.movie.watch:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_liteMode com.movie.watch:liteMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType com.movie.watch:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass com.movie.watch:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.movie.watch:uiMapToolbar}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.movie.watch:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.movie.watch:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.movie.watch:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls com.movie.watch:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.movie.watch:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.movie.watch:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.movie.watch:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.movie.watch.debug:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.movie.watch.debug:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.movie.watch.debug:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.movie.watch.debug:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.movie.watch.debug:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode com.movie.watch.debug:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.movie.watch.debug:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.movie.watch.debug:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.movie.watch.debug:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.movie.watch.debug:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.movie.watch.debug:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.movie.watch.debug:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.movie.watch.debug:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.movie.watch.debug:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.movie.watch.debug:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.movie.watch.debug:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_cameraBearing
            @see #MapAttrs_cameraTargetLat
@@ -5562,7 +5078,7 @@ containing a value of this type.
             0x7f01006a, 0x7f01006b, 0x7f01006c, 0x7f01006d
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5572,11 +5088,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:cameraBearing
+          @attr name com.movie.watch.debug:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5586,11 +5102,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:cameraTargetLat
+          @attr name com.movie.watch.debug:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5600,11 +5116,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:cameraTargetLng
+          @attr name com.movie.watch.debug:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5614,11 +5130,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:cameraTilt
+          @attr name com.movie.watch.debug:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5628,11 +5144,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:cameraZoom
+          @attr name com.movie.watch.debug:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#liteMode}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#liteMode}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5642,11 +5158,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:liteMode
+          @attr name com.movie.watch.debug:liteMode
         */
         public static final int MapAttrs_liteMode = 6;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#mapType}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5662,11 +5178,11 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:mapType
+          @attr name com.movie.watch.debug:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5676,11 +5192,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:uiCompass
+          @attr name com.movie.watch.debug:uiCompass
         */
         public static final int MapAttrs_uiCompass = 7;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#uiMapToolbar}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#uiMapToolbar}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5690,11 +5206,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:uiMapToolbar
+          @attr name com.movie.watch.debug:uiMapToolbar
         */
         public static final int MapAttrs_uiMapToolbar = 15;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5704,11 +5220,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:uiRotateGestures
+          @attr name com.movie.watch.debug:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5718,11 +5234,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:uiScrollGestures
+          @attr name com.movie.watch.debug:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5732,11 +5248,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:uiTiltGestures
+          @attr name com.movie.watch.debug:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 10;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5746,11 +5262,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:uiZoomControls
+          @attr name com.movie.watch.debug:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 11;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5760,11 +5276,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:uiZoomGestures
+          @attr name com.movie.watch.debug:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 12;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5774,11 +5290,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:useViewLifecycle
+          @attr name com.movie.watch.debug:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -5788,7 +5304,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:zOrderOnTop
+          @attr name com.movie.watch.debug:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 14;
         /** Attributes that can be used with a MenuGroup.
@@ -5857,9 +5373,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.movie.watch:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.movie.watch:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.movie.watch:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.movie.watch.debug:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.movie.watch.debug:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.movie.watch.debug:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -5873,7 +5389,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.movie.watch:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.movie.watch.debug:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -5901,17 +5417,17 @@ containing a value of this type.
             0x7f010071
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionLayout
+          @attr name com.movie.watch.debug:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5921,11 +5437,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:actionProviderClass
+          @attr name com.movie.watch.debug:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5935,7 +5451,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:actionViewClass
+          @attr name com.movie.watch.debug:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -6017,7 +5533,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -6033,7 +5549,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:showAsAction
+          @attr name com.movie.watch.debug:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -6049,7 +5565,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.movie.watch:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.movie.watch.debug:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -6107,7 +5623,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -6117,7 +5633,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:preserveIconSpacing
+          @attr name com.movie.watch.debug:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PagerSlidingTabStrip.
@@ -6126,23 +5642,23 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerColor com.movie.watch:pstsDividerColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerPadding com.movie.watch:pstsDividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerWidth com.movie.watch:pstsDividerWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorColor com.movie.watch:pstsIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorHeight com.movie.watch:pstsIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsPaddingMiddle com.movie.watch:pstsPaddingMiddle}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsScrollOffset com.movie.watch:pstsScrollOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsShouldExpand com.movie.watch:pstsShouldExpand}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabBackground com.movie.watch:pstsTabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabPaddingLeftRight com.movie.watch:pstsTabPaddingLeftRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAllCaps com.movie.watch:pstsTextAllCaps}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAlpha com.movie.watch:pstsTextAlpha}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextColorSelected com.movie.watch:pstsTextColorSelected}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextSelectedStyle com.movie.watch:pstsTextSelectedStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextStyle com.movie.watch:pstsTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineColor com.movie.watch:pstsUnderlineColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineHeight com.movie.watch:pstsUnderlineHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerColor com.movie.watch.debug:pstsDividerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerPadding com.movie.watch.debug:pstsDividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsDividerWidth com.movie.watch.debug:pstsDividerWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorColor com.movie.watch.debug:pstsIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsIndicatorHeight com.movie.watch.debug:pstsIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsPaddingMiddle com.movie.watch.debug:pstsPaddingMiddle}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsScrollOffset com.movie.watch.debug:pstsScrollOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsShouldExpand com.movie.watch.debug:pstsShouldExpand}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabBackground com.movie.watch.debug:pstsTabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTabPaddingLeftRight com.movie.watch.debug:pstsTabPaddingLeftRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAllCaps com.movie.watch.debug:pstsTextAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextAlpha com.movie.watch.debug:pstsTextAlpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextColorSelected com.movie.watch.debug:pstsTextColorSelected}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextSelectedStyle com.movie.watch.debug:pstsTextSelectedStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsTextStyle com.movie.watch.debug:pstsTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineColor com.movie.watch.debug:pstsUnderlineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PagerSlidingTabStrip_pstsUnderlineHeight com.movie.watch.debug:pstsUnderlineHeight}</code></td><td></td></tr>
            </table>
            @see #PagerSlidingTabStrip_pstsDividerColor
            @see #PagerSlidingTabStrip_pstsDividerPadding
@@ -6170,7 +5686,7 @@ containing a value of this type.
             0x7f010083
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsDividerColor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsDividerColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6181,11 +5697,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsDividerColor
+          @attr name com.movie.watch.debug:pstsDividerColor
         */
         public static final int PagerSlidingTabStrip_pstsDividerColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsDividerPadding}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsDividerPadding}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6197,11 +5713,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsDividerPadding
+          @attr name com.movie.watch.debug:pstsDividerPadding
         */
         public static final int PagerSlidingTabStrip_pstsDividerPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsDividerWidth}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsDividerWidth}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6213,11 +5729,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsDividerWidth
+          @attr name com.movie.watch.debug:pstsDividerWidth
         */
         public static final int PagerSlidingTabStrip_pstsDividerWidth = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsIndicatorColor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsIndicatorColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6228,11 +5744,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsIndicatorColor
+          @attr name com.movie.watch.debug:pstsIndicatorColor
         */
         public static final int PagerSlidingTabStrip_pstsIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsIndicatorHeight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6244,11 +5760,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsIndicatorHeight
+          @attr name com.movie.watch.debug:pstsIndicatorHeight
         */
         public static final int PagerSlidingTabStrip_pstsIndicatorHeight = 4;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsPaddingMiddle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsPaddingMiddle}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6258,11 +5774,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsPaddingMiddle
+          @attr name com.movie.watch.debug:pstsPaddingMiddle
         */
         public static final int PagerSlidingTabStrip_pstsPaddingMiddle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsScrollOffset}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsScrollOffset}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6274,11 +5790,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsScrollOffset
+          @attr name com.movie.watch.debug:pstsScrollOffset
         */
         public static final int PagerSlidingTabStrip_pstsScrollOffset = 8;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsShouldExpand}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsShouldExpand}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6288,21 +5804,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsShouldExpand
+          @attr name com.movie.watch.debug:pstsShouldExpand
         */
         public static final int PagerSlidingTabStrip_pstsShouldExpand = 10;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsTabBackground}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsTabBackground}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:pstsTabBackground
+          @attr name com.movie.watch.debug:pstsTabBackground
         */
         public static final int PagerSlidingTabStrip_pstsTabBackground = 9;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsTabPaddingLeftRight}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsTabPaddingLeftRight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6314,11 +5830,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsTabPaddingLeftRight
+          @attr name com.movie.watch.debug:pstsTabPaddingLeftRight
         */
         public static final int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 7;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsTextAllCaps}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsTextAllCaps}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6328,11 +5844,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsTextAllCaps
+          @attr name com.movie.watch.debug:pstsTextAllCaps
         */
         public static final int PagerSlidingTabStrip_pstsTextAllCaps = 11;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsTextAlpha}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsTextAlpha}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6342,11 +5858,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsTextAlpha
+          @attr name com.movie.watch.debug:pstsTextAlpha
         */
         public static final int PagerSlidingTabStrip_pstsTextAlpha = 14;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsTextColorSelected}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsTextColorSelected}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6357,11 +5873,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsTextColorSelected
+          @attr name com.movie.watch.debug:pstsTextColorSelected
         */
         public static final int PagerSlidingTabStrip_pstsTextColorSelected = 13;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsTextSelectedStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsTextSelectedStyle}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6375,11 +5891,11 @@ containing a value of this type.
 <tr><td><code>bold</code></td><td>0x1</td><td></td></tr>
 <tr><td><code>italic</code></td><td>0x2</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:pstsTextSelectedStyle
+          @attr name com.movie.watch.debug:pstsTextSelectedStyle
         */
         public static final int PagerSlidingTabStrip_pstsTextSelectedStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsTextStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsTextStyle}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6393,11 +5909,11 @@ containing a value of this type.
 <tr><td><code>bold</code></td><td>0x1</td><td></td></tr>
 <tr><td><code>italic</code></td><td>0x2</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:pstsTextStyle
+          @attr name com.movie.watch.debug:pstsTextStyle
         */
         public static final int PagerSlidingTabStrip_pstsTextStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsUnderlineColor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsUnderlineColor}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6408,11 +5924,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsUnderlineColor
+          @attr name com.movie.watch.debug:pstsUnderlineColor
         */
         public static final int PagerSlidingTabStrip_pstsUnderlineColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#pstsUnderlineHeight}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#pstsUnderlineHeight}
           attribute's value can be found in the {@link #PagerSlidingTabStrip} array.
 
 
@@ -6424,7 +5940,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:pstsUnderlineHeight
+          @attr name com.movie.watch.debug:pstsUnderlineHeight
         */
         public static final int PagerSlidingTabStrip_pstsUnderlineHeight = 5;
         /** Attributes that can be used with a PopupWindow.
@@ -6434,7 +5950,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.movie.watch:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.movie.watch.debug:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -6449,7 +5965,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -6459,7 +5975,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:overlapAnchor
+          @attr name com.movie.watch.debug:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -6468,7 +5984,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.movie.watch:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.movie.watch.debug:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -6476,7 +5992,7 @@ containing a value of this type.
             0x7f010085
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -6486,7 +6002,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:state_above_anchor
+          @attr name com.movie.watch.debug:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a SearchView.
@@ -6499,18 +6015,18 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.movie.watch:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.movie.watch:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.movie.watch:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.movie.watch:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.movie.watch:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.movie.watch:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.movie.watch:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.movie.watch:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.movie.watch:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.movie.watch:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.movie.watch:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.movie.watch:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.movie.watch.debug:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.movie.watch.debug:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.movie.watch.debug:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.movie.watch.debug:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.movie.watch.debug:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.movie.watch.debug:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.movie.watch.debug:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.movie.watch.debug:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.movie.watch.debug:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.movie.watch.debug:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.movie.watch.debug:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.movie.watch.debug:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -6560,37 +6076,37 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:closeIcon
+          @attr name com.movie.watch.debug:closeIcon
         */
         public static final int SearchView_closeIcon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:commitIcon
+          @attr name com.movie.watch.debug:commitIcon
         */
         public static final int SearchView_commitIcon = 12;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:goIcon
+          @attr name com.movie.watch.debug:goIcon
         */
         public static final int SearchView_goIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6600,31 +6116,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:iconifiedByDefault
+          @attr name com.movie.watch.debug:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:layout
+          @attr name com.movie.watch.debug:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:queryBackground
+          @attr name com.movie.watch.debug:queryBackground
         */
         public static final int SearchView_queryBackground = 14;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -6634,57 +6150,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:queryHint
+          @attr name com.movie.watch.debug:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:searchHintIcon
+          @attr name com.movie.watch.debug:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:searchIcon
+          @attr name com.movie.watch.debug:searchIcon
         */
         public static final int SearchView_searchIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:submitBackground
+          @attr name com.movie.watch.debug:submitBackground
         */
         public static final int SearchView_submitBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:suggestionRowLayout
+          @attr name com.movie.watch.debug:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:voiceIcon
+          @attr name com.movie.watch.debug:voiceIcon
         */
         public static final int SearchView_voiceIcon = 11;
         /** Attributes that can be used with a Spinner.
@@ -6700,10 +6216,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.movie.watch:disableChildrenWhenDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView com.movie.watch:popupPromptView}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_prompt com.movie.watch:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode com.movie.watch:spinnerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.movie.watch.debug:disableChildrenWhenDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView com.movie.watch.debug:popupPromptView}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_prompt com.movie.watch.debug:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode com.movie.watch.debug:spinnerMode}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -6765,7 +6281,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -6775,31 +6291,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:disableChildrenWhenDisabled
+          @attr name com.movie.watch.debug:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:popupPromptView
+          @attr name com.movie.watch.debug:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#prompt}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:prompt
+          @attr name com.movie.watch.debug:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -6812,7 +6328,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dialog</code></td><td>0</td><td></td></tr>
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:spinnerMode
+          @attr name com.movie.watch.debug:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a StateButton.
@@ -6821,10 +6337,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #StateButton_dgts__StateButtonStyle com.movie.watch:dgts__StateButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #StateButton_finishStateText com.movie.watch:finishStateText}</code></td><td></td></tr>
-           <tr><td><code>{@link #StateButton_progressStateText com.movie.watch:progressStateText}</code></td><td></td></tr>
-           <tr><td><code>{@link #StateButton_startStateText com.movie.watch:startStateText}</code></td><td></td></tr>
+           <tr><td><code>{@link #StateButton_dgts__StateButtonStyle com.movie.watch.debug:dgts__StateButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #StateButton_finishStateText com.movie.watch.debug:finishStateText}</code></td><td></td></tr>
+           <tr><td><code>{@link #StateButton_progressStateText com.movie.watch.debug:progressStateText}</code></td><td></td></tr>
+           <tr><td><code>{@link #StateButton_startStateText com.movie.watch.debug:startStateText}</code></td><td></td></tr>
            </table>
            @see #StateButton_dgts__StateButtonStyle
            @see #StateButton_finishStateText
@@ -6835,17 +6351,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010096, 0x7f010097, 0x7f010098, 0x7f010099
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#dgts__StateButtonStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#dgts__StateButtonStyle}
           attribute's value can be found in the {@link #StateButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:dgts__StateButtonStyle
+          @attr name com.movie.watch.debug:dgts__StateButtonStyle
         */
         public static final int StateButton_dgts__StateButtonStyle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#finishStateText}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#finishStateText}
           attribute's value can be found in the {@link #StateButton} array.
 
 
@@ -6855,11 +6371,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:finishStateText
+          @attr name com.movie.watch.debug:finishStateText
         */
         public static final int StateButton_finishStateText = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#progressStateText}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#progressStateText}
           attribute's value can be found in the {@link #StateButton} array.
 
 
@@ -6869,11 +6385,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:progressStateText
+          @attr name com.movie.watch.debug:progressStateText
         */
         public static final int StateButton_progressStateText = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#startStateText}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#startStateText}
           attribute's value can be found in the {@link #StateButton} array.
 
 
@@ -6883,7 +6399,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:startStateText
+          @attr name com.movie.watch.debug:startStateText
         */
         public static final int StateButton_startStateText = 2;
         /** Attributes that can be used with a SwitchCompat.
@@ -6895,13 +6411,13 @@ containing a value of this type.
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.movie.watch:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.movie.watch:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.movie.watch:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.movie.watch:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.movie.watch:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.movie.watch:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.movie.watch:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.movie.watch.debug:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.movie.watch.debug:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.movie.watch.debug:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.movie.watch.debug:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.movie.watch.debug:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.movie.watch.debug:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.movie.watch.debug:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -6938,7 +6454,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6948,11 +6464,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:showText
+          @attr name com.movie.watch.debug:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6962,11 +6478,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:splitTrack
+          @attr name com.movie.watch.debug:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6978,11 +6494,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:switchMinWidth
+          @attr name com.movie.watch.debug:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6994,21 +6510,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:switchPadding
+          @attr name com.movie.watch.debug:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:switchTextAppearance
+          @attr name com.movie.watch.debug:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -7020,17 +6536,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:thumbTextPadding
+          @attr name com.movie.watch.debug:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#track}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:track
+          @attr name com.movie.watch.debug:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a TextAppearance.
@@ -7043,7 +6559,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.movie.watch:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.movie.watch.debug:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_textColor
            @see #TextAppearance_android_textSize
@@ -7080,14 +6596,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.movie.watch:textAllCaps
+          @attr name com.movie.watch.debug:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 4;
         /** Attributes that can be used with a Theme.
@@ -7096,112 +6612,112 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.movie.watch:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.movie.watch:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.movie.watch:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.movie.watch:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.movie.watch:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.movie.watch:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.movie.watch:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.movie.watch:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.movie.watch:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.movie.watch:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.movie.watch:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.movie.watch:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.movie.watch:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.movie.watch:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.movie.watch:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.movie.watch:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.movie.watch:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.movie.watch:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.movie.watch:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.movie.watch:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.movie.watch:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.movie.watch:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.movie.watch:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.movie.watch:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.movie.watch:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.movie.watch:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.movie.watch:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.movie.watch:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.movie.watch:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.movie.watch:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.movie.watch:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.movie.watch:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.movie.watch:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogStyle com.movie.watch:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_alertDialogTheme com.movie.watch:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider com.movie.watch.debug:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground com.movie.watch.debug:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme com.movie.watch.debug:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize com.movie.watch.debug:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle com.movie.watch.debug:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle com.movie.watch.debug:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.movie.watch.debug:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle com.movie.watch.debug:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.movie.watch.debug:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme com.movie.watch.debug:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.movie.watch.debug:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle com.movie.watch.debug:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.movie.watch.debug:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.movie.watch.debug:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor com.movie.watch.debug:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground com.movie.watch.debug:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.movie.watch.debug:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.movie.watch.debug:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.movie.watch.debug:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable com.movie.watch.debug:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable com.movie.watch.debug:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable com.movie.watch.debug:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.movie.watch.debug:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.movie.watch.debug:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable com.movie.watch.debug:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground com.movie.watch.debug:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle com.movie.watch.debug:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.movie.watch.debug:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.movie.watch.debug:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.movie.watch.debug:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle com.movie.watch.debug:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle com.movie.watch.debug:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogCenterButtons com.movie.watch.debug:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogStyle com.movie.watch.debug:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogTheme com.movie.watch.debug:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.movie.watch:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.movie.watch:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.movie.watch:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.movie.watch:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.movie.watch:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.movie.watch:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyle com.movie.watch:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonStyleSmall com.movie.watch:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkboxStyle com.movie.watch:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_checkedTextViewStyle com.movie.watch:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.movie.watch:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.movie.watch:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.movie.watch:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.movie.watch:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.movie.watch:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.movie.watch:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.movie.watch:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.movie.watch:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogPreferredPadding com.movie.watch:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dialogTheme com.movie.watch:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.movie.watch:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.movie.watch:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.movie.watch:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.movie.watch:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.movie.watch:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.movie.watch:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextStyle com.movie.watch:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.movie.watch:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.movie.watch:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listDividerAlertDialog com.movie.watch:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.movie.watch:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.movie.watch:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.movie.watch:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.movie.watch:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.movie.watch:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.movie.watch:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.movie.watch:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.movie.watch:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.movie.watch:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.movie.watch:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.movie.watch:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_radioButtonStyle com.movie.watch:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_ratingBarStyle com.movie.watch:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.movie.watch:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.movie.watch:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.movie.watch:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.movie.watch:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.movie.watch:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.movie.watch:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.movie.watch:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.movie.watch:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.movie.watch:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.movie.watch:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.movie.watch:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.movie.watch:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.movie.watch:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.movie.watch:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.movie.watch:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.movie.watch:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.movie.watch:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.movie.watch:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.movie.watch:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.movie.watch:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.movie.watch:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.movie.watch:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.movie.watch:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMajor com.movie.watch:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowMinWidthMinor com.movie.watch:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowNoTitle com.movie.watch:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle com.movie.watch.debug:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.movie.watch.debug:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle com.movie.watch.debug:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle com.movie.watch.debug:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle com.movie.watch.debug:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle com.movie.watch.debug:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyle com.movie.watch.debug:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyleSmall com.movie.watch.debug:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkboxStyle com.movie.watch.debug:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkedTextViewStyle com.movie.watch.debug:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent com.movie.watch.debug:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal com.movie.watch.debug:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated com.movie.watch.debug:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight com.movie.watch.debug:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal com.movie.watch.debug:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary com.movie.watch.debug:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark com.movie.watch.debug:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.movie.watch.debug:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogPreferredPadding com.movie.watch.debug:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogTheme com.movie.watch.debug:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal com.movie.watch.debug:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical com.movie.watch.debug:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle com.movie.watch.debug:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.movie.watch.debug:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground com.movie.watch.debug:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor com.movie.watch.debug:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextStyle com.movie.watch.debug:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator com.movie.watch.debug:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.movie.watch.debug:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listDividerAlertDialog com.movie.watch.debug:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle com.movie.watch.debug:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight com.movie.watch.debug:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.movie.watch.debug:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.movie.watch.debug:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.movie.watch.debug:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.movie.watch.debug:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground com.movie.watch.debug:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.movie.watch.debug:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.movie.watch.debug:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.movie.watch.debug:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle com.movie.watch.debug:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_radioButtonStyle com.movie.watch.debug:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_ratingBarStyle com.movie.watch.debug:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle com.movie.watch.debug:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground com.movie.watch.debug:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.movie.watch.debug:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.movie.watch.debug:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle com.movie.watch.debug:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle com.movie.watch.debug:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.movie.watch.debug:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem com.movie.watch.debug:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.movie.watch.debug:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.movie.watch.debug:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.movie.watch.debug:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.movie.watch.debug:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorAlertDialogListItem com.movie.watch.debug:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl com.movie.watch.debug:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.movie.watch.debug:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle com.movie.watch.debug:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar com.movie.watch.debug:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay com.movie.watch.debug:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay com.movie.watch.debug:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.movie.watch.debug:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.movie.watch.debug:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.movie.watch.debug:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.movie.watch.debug:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMajor com.movie.watch.debug:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMinor com.movie.watch.debug:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowNoTitle com.movie.watch.debug:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -7340,37 +6856,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010107, 0x7f010108
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionBarDivider
+          @attr name com.movie.watch.debug:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionBarItemBackground
+          @attr name com.movie.watch.debug:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionBarPopupTheme
+          @attr name com.movie.watch.debug:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7390,111 +6906,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:actionBarSize
+          @attr name com.movie.watch.debug:actionBarSize
         */
         public static final int Theme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionBarSplitStyle
+          @attr name com.movie.watch.debug:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionBarStyle
+          @attr name com.movie.watch.debug:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionBarTabBarStyle
+          @attr name com.movie.watch.debug:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionBarTabStyle
+          @attr name com.movie.watch.debug:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionBarTabTextStyle
+          @attr name com.movie.watch.debug:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionBarTheme
+          @attr name com.movie.watch.debug:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionBarWidgetTheme
+          @attr name com.movie.watch.debug:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionButtonStyle
+          @attr name com.movie.watch.debug:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionDropDownStyle
+          @attr name com.movie.watch.debug:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionMenuTextAppearance
+          @attr name com.movie.watch.debug:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7502,181 +7018,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.movie.watch:actionMenuTextColor
+          @attr name com.movie.watch.debug:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModeBackground
+          @attr name com.movie.watch.debug:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModeCloseButtonStyle
+          @attr name com.movie.watch.debug:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModeCloseDrawable
+          @attr name com.movie.watch.debug:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModeCopyDrawable
+          @attr name com.movie.watch.debug:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModeCutDrawable
+          @attr name com.movie.watch.debug:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModeFindDrawable
+          @attr name com.movie.watch.debug:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModePasteDrawable
+          @attr name com.movie.watch.debug:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModePopupWindowStyle
+          @attr name com.movie.watch.debug:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModeSelectAllDrawable
+          @attr name com.movie.watch.debug:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModeShareDrawable
+          @attr name com.movie.watch.debug:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModeSplitBackground
+          @attr name com.movie.watch.debug:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModeStyle
+          @attr name com.movie.watch.debug:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionModeWebSearchDrawable
+          @attr name com.movie.watch.debug:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionOverflowButtonStyle
+          @attr name com.movie.watch.debug:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:actionOverflowMenuStyle
+          @attr name com.movie.watch.debug:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:activityChooserViewStyle
+          @attr name com.movie.watch.debug:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 56;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:alertDialogButtonGroupStyle
+          @attr name com.movie.watch.debug:alertDialogButtonGroupStyle
         */
         public static final int Theme_alertDialogButtonGroupStyle = 89;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7686,27 +7202,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:alertDialogCenterButtons
+          @attr name com.movie.watch.debug:alertDialogCenterButtons
         */
         public static final int Theme_alertDialogCenterButtons = 90;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:alertDialogStyle
+          @attr name com.movie.watch.debug:alertDialogStyle
         */
         public static final int Theme_alertDialogStyle = 88;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:alertDialogTheme
+          @attr name com.movie.watch.debug:alertDialogTheme
         */
         public static final int Theme_alertDialogTheme = 91;
         /**
@@ -7722,107 +7238,107 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:autoCompleteTextViewStyle
+          @attr name com.movie.watch.debug:autoCompleteTextViewStyle
         */
         public static final int Theme_autoCompleteTextViewStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:buttonBarButtonStyle
+          @attr name com.movie.watch.debug:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:buttonBarNegativeButtonStyle
+          @attr name com.movie.watch.debug:buttonBarNegativeButtonStyle
         */
         public static final int Theme_buttonBarNegativeButtonStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:buttonBarNeutralButtonStyle
+          @attr name com.movie.watch.debug:buttonBarNeutralButtonStyle
         */
         public static final int Theme_buttonBarNeutralButtonStyle = 95;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:buttonBarPositiveButtonStyle
+          @attr name com.movie.watch.debug:buttonBarPositiveButtonStyle
         */
         public static final int Theme_buttonBarPositiveButtonStyle = 93;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:buttonBarStyle
+          @attr name com.movie.watch.debug:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#buttonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:buttonStyle
+          @attr name com.movie.watch.debug:buttonStyle
         */
         public static final int Theme_buttonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:buttonStyleSmall
+          @attr name com.movie.watch.debug:buttonStyleSmall
         */
         public static final int Theme_buttonStyleSmall = 98;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:checkboxStyle
+          @attr name com.movie.watch.debug:checkboxStyle
         */
         public static final int Theme_checkboxStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:checkedTextViewStyle
+          @attr name com.movie.watch.debug:checkedTextViewStyle
         */
         public static final int Theme_checkedTextViewStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7833,11 +7349,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:colorAccent
+          @attr name com.movie.watch.debug:colorAccent
         */
         public static final int Theme_colorAccent = 82;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7848,11 +7364,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:colorButtonNormal
+          @attr name com.movie.watch.debug:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 86;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7863,11 +7379,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:colorControlActivated
+          @attr name com.movie.watch.debug:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 84;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7878,11 +7394,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:colorControlHighlight
+          @attr name com.movie.watch.debug:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 85;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7893,11 +7409,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:colorControlNormal
+          @attr name com.movie.watch.debug:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 83;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7908,11 +7424,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:colorPrimary
+          @attr name com.movie.watch.debug:colorPrimary
         */
         public static final int Theme_colorPrimary = 80;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7923,11 +7439,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:colorPrimaryDark
+          @attr name com.movie.watch.debug:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 81;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7938,11 +7454,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:colorSwitchThumbNormal
+          @attr name com.movie.watch.debug:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 87;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -7954,51 +7470,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:dialogPreferredPadding
+          @attr name com.movie.watch.debug:dialogPreferredPadding
         */
         public static final int Theme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#dialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:dialogTheme
+          @attr name com.movie.watch.debug:dialogTheme
         */
         public static final int Theme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:dividerHorizontal
+          @attr name com.movie.watch.debug:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 55;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:dividerVertical
+          @attr name com.movie.watch.debug:dividerVertical
         */
         public static final int Theme_dividerVertical = 54;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:dropDownListViewStyle
+          @attr name com.movie.watch.debug:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 72;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8010,21 +7526,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:dropdownListPreferredItemHeight
+          @attr name com.movie.watch.debug:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:editTextBackground
+          @attr name com.movie.watch.debug:editTextBackground
         */
         public static final int Theme_editTextBackground = 62;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8032,61 +7548,61 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.movie.watch:editTextColor
+          @attr name com.movie.watch.debug:editTextColor
         */
         public static final int Theme_editTextColor = 61;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#editTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:editTextStyle
+          @attr name com.movie.watch.debug:editTextStyle
         */
         public static final int Theme_editTextStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:homeAsUpIndicator
+          @attr name com.movie.watch.debug:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:listChoiceBackgroundIndicator
+          @attr name com.movie.watch.debug:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 79;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:listDividerAlertDialog
+          @attr name com.movie.watch.debug:listDividerAlertDialog
         */
         public static final int Theme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:listPopupWindowStyle
+          @attr name com.movie.watch.debug:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 73;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8098,11 +7614,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:listPreferredItemHeight
+          @attr name com.movie.watch.debug:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 67;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8114,11 +7630,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:listPreferredItemHeightLarge
+          @attr name com.movie.watch.debug:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 69;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8130,11 +7646,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:listPreferredItemHeightSmall
+          @attr name com.movie.watch.debug:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 68;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8146,11 +7662,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:listPreferredItemPaddingLeft
+          @attr name com.movie.watch.debug:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 70;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8162,31 +7678,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:listPreferredItemPaddingRight
+          @attr name com.movie.watch.debug:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 71;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:panelBackground
+          @attr name com.movie.watch.debug:panelBackground
         */
         public static final int Theme_panelBackground = 76;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:panelMenuListTheme
+          @attr name com.movie.watch.debug:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 78;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8198,171 +7714,171 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:panelMenuListWidth
+          @attr name com.movie.watch.debug:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 77;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:popupMenuStyle
+          @attr name com.movie.watch.debug:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:popupWindowStyle
+          @attr name com.movie.watch.debug:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:radioButtonStyle
+          @attr name com.movie.watch.debug:radioButtonStyle
         */
         public static final int Theme_radioButtonStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:ratingBarStyle
+          @attr name com.movie.watch.debug:ratingBarStyle
         */
         public static final int Theme_ratingBarStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:searchViewStyle
+          @attr name com.movie.watch.debug:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:selectableItemBackground
+          @attr name com.movie.watch.debug:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:selectableItemBackgroundBorderless
+          @attr name com.movie.watch.debug:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:spinnerDropDownItemStyle
+          @attr name com.movie.watch.debug:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:spinnerStyle
+          @attr name com.movie.watch.debug:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:switchStyle
+          @attr name com.movie.watch.debug:switchStyle
         */
         public static final int Theme_switchStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:textAppearanceLargePopupMenu
+          @attr name com.movie.watch.debug:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:textAppearanceListItem
+          @attr name com.movie.watch.debug:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 74;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:textAppearanceListItemSmall
+          @attr name com.movie.watch.debug:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 75;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:textAppearanceSearchResultSubtitle
+          @attr name com.movie.watch.debug:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 64;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:textAppearanceSearchResultTitle
+          @attr name com.movie.watch.debug:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 63;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:textAppearanceSmallPopupMenu
+          @attr name com.movie.watch.debug:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8370,11 +7886,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.movie.watch:textColorAlertDialogListItem
+          @attr name com.movie.watch.debug:textColorAlertDialogListItem
         */
         public static final int Theme_textColorAlertDialogListItem = 92;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8382,31 +7898,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.movie.watch:textColorSearchUrl
+          @attr name com.movie.watch.debug:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 65;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:toolbarNavigationButtonStyle
+          @attr name com.movie.watch.debug:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:toolbarStyle
+          @attr name com.movie.watch.debug:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8416,11 +7932,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:windowActionBar
+          @attr name com.movie.watch.debug:windowActionBar
         */
         public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8430,11 +7946,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:windowActionBarOverlay
+          @attr name com.movie.watch.debug:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8444,11 +7960,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:windowActionModeOverlay
+          @attr name com.movie.watch.debug:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8463,11 +7979,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:windowFixedHeightMajor
+          @attr name com.movie.watch.debug:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8482,11 +7998,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:windowFixedHeightMinor
+          @attr name com.movie.watch.debug:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8501,11 +8017,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:windowFixedWidthMajor
+          @attr name com.movie.watch.debug:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8520,11 +8036,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:windowFixedWidthMinor
+          @attr name com.movie.watch.debug:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8539,11 +8055,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:windowMinWidthMajor
+          @attr name com.movie.watch.debug:windowMinWidthMajor
         */
         public static final int Theme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8558,11 +8074,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:windowMinWidthMinor
+          @attr name com.movie.watch.debug:windowMinWidthMinor
         */
         public static final int Theme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -8572,7 +8088,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:windowNoTitle
+          @attr name com.movie.watch.debug:windowNoTitle
         */
         public static final int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
@@ -8583,25 +8099,25 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.movie.watch:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.movie.watch:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.movie.watch:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.movie.watch:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.movie.watch:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.movie.watch:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.movie.watch:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.movie.watch:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.movie.watch:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.movie.watch:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.movie.watch:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.movie.watch:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.movie.watch:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.movie.watch:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.movie.watch:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.movie.watch:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.movie.watch:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.movie.watch:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.movie.watch:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.movie.watch.debug:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.movie.watch.debug:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.movie.watch.debug:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.movie.watch.debug:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.movie.watch.debug:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.movie.watch.debug:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.movie.watch.debug:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.movie.watch.debug:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.movie.watch.debug:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.movie.watch.debug:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.movie.watch.debug:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.movie.watch.debug:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.movie.watch.debug:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.movie.watch.debug:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.movie.watch.debug:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.movie.watch.debug:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.movie.watch.debug:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.movie.watch.debug:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.movie.watch.debug:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -8646,7 +8162,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8656,21 +8172,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:collapseContentDescription
+          @attr name com.movie.watch.debug:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 18;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:collapseIcon
+          @attr name com.movie.watch.debug:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 17;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8682,11 +8198,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentInsetEnd
+          @attr name com.movie.watch.debug:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8698,11 +8214,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentInsetLeft
+          @attr name com.movie.watch.debug:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8714,11 +8230,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentInsetRight
+          @attr name com.movie.watch.debug:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8730,11 +8246,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:contentInsetStart
+          @attr name com.movie.watch.debug:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8746,11 +8262,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:maxButtonHeight
+          @attr name com.movie.watch.debug:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8760,31 +8276,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:navigationContentDescription
+          @attr name com.movie.watch.debug:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 20;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:navigationIcon
+          @attr name com.movie.watch.debug:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 19;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:popupTheme
+          @attr name com.movie.watch.debug:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8794,21 +8310,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:subtitle
+          @attr name com.movie.watch.debug:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:subtitleTextAppearance
+          @attr name com.movie.watch.debug:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#title}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8818,11 +8334,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:title
+          @attr name com.movie.watch.debug:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8834,11 +8350,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:titleMarginBottom
+          @attr name com.movie.watch.debug:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8850,11 +8366,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:titleMarginEnd
+          @attr name com.movie.watch.debug:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8866,11 +8382,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:titleMarginStart
+          @attr name com.movie.watch.debug:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8882,11 +8398,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:titleMarginTop
+          @attr name com.movie.watch.debug:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -8898,17 +8414,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:titleMargins
+          @attr name com.movie.watch.debug:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:titleTextAppearance
+          @attr name com.movie.watch.debug:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -8919,11 +8435,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_backgroundTint com.movie.watch:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_backgroundTintMode com.movie.watch:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.movie.watch:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.movie.watch:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.movie.watch:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_backgroundTint com.movie.watch.debug:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_backgroundTintMode com.movie.watch.debug:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.movie.watch.debug:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.movie.watch.debug:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.movie.watch.debug:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -8950,7 +8466,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#backgroundTint}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -8961,11 +8477,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:backgroundTint
+          @attr name com.movie.watch.debug:backgroundTint
         */
         public static final int View_backgroundTint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -8981,11 +8497,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:backgroundTintMode
+          @attr name com.movie.watch.debug:backgroundTintMode
         */
         public static final int View_backgroundTintMode = 6;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -8997,11 +8513,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:paddingEnd
+          @attr name com.movie.watch.debug:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9013,17 +8529,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:paddingStart
+          @attr name com.movie.watch.debug:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:theme
+          @attr name com.movie.watch.debug:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewStubCompat.
@@ -9067,10 +8583,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.movie.watch:appTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_environment com.movie.watch:environment}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.movie.watch:fragmentMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.movie.watch:fragmentStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.movie.watch.debug:appTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment com.movie.watch.debug:environment}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.movie.watch.debug:fragmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.movie.watch.debug:fragmentStyle}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentOptions_appTheme
            @see #WalletFragmentOptions_environment
@@ -9081,7 +8597,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01011a, 0x7f01011b, 0x7f01011c, 0x7f01011d
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#appTheme}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#appTheme}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -9094,11 +8610,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
 <tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:appTheme
+          @attr name com.movie.watch.debug:appTheme
         */
         public static final int WalletFragmentOptions_appTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#environment}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#environment}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -9112,11 +8628,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
 <tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:environment
+          @attr name com.movie.watch.debug:environment
         */
         public static final int WalletFragmentOptions_environment = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#fragmentMode}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#fragmentMode}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -9129,17 +8645,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
 <tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:fragmentMode
+          @attr name com.movie.watch.debug:fragmentMode
         */
         public static final int WalletFragmentOptions_fragmentMode = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#fragmentStyle}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#fragmentStyle}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:fragmentStyle
+          @attr name com.movie.watch.debug:fragmentStyle
         */
         public static final int WalletFragmentOptions_fragmentStyle = 2;
         /** Attributes that can be used with a WalletFragmentStyle.
@@ -9148,17 +8664,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.movie.watch:buyButtonAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.movie.watch:buyButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.movie.watch:buyButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.movie.watch:buyButtonWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.movie.watch:maskedWalletDetailsBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.movie.watch:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.movie.watch:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.movie.watch:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.movie.watch:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.movie.watch:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.movie.watch:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.movie.watch.debug:buyButtonAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.movie.watch.debug:buyButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.movie.watch.debug:buyButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.movie.watch.debug:buyButtonWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.movie.watch.debug:maskedWalletDetailsBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.movie.watch.debug:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.movie.watch.debug:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.movie.watch.debug:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.movie.watch.debug:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.movie.watch.debug:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.movie.watch.debug:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentStyle_buyButtonAppearance
            @see #WalletFragmentStyle_buyButtonHeight
@@ -9178,7 +8694,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010126, 0x7f010127, 0x7f010128
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#buyButtonAppearance}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#buyButtonAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9192,11 +8708,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:buyButtonAppearance
+          @attr name com.movie.watch.debug:buyButtonAppearance
         */
         public static final int WalletFragmentStyle_buyButtonAppearance = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#buyButtonHeight}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#buyButtonHeight}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9217,11 +8733,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:buyButtonHeight
+          @attr name com.movie.watch.debug:buyButtonHeight
         */
         public static final int WalletFragmentStyle_buyButtonHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#buyButtonText}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#buyButtonText}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9236,11 +8752,11 @@ containing a value of this type.
 <tr><td><code>book_now</code></td><td>3</td><td></td></tr>
 <tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:buyButtonText
+          @attr name com.movie.watch.debug:buyButtonText
         */
         public static final int WalletFragmentStyle_buyButtonText = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#buyButtonWidth}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#buyButtonWidth}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9261,11 +8777,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:buyButtonWidth
+          @attr name com.movie.watch.debug:buyButtonWidth
         */
         public static final int WalletFragmentStyle_buyButtonWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#maskedWalletDetailsBackground}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#maskedWalletDetailsBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9273,11 +8789,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.movie.watch:maskedWalletDetailsBackground
+          @attr name com.movie.watch.debug:maskedWalletDetailsBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#maskedWalletDetailsButtonBackground}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#maskedWalletDetailsButtonBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9285,31 +8801,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.movie.watch:maskedWalletDetailsButtonBackground
+          @attr name com.movie.watch.debug:maskedWalletDetailsButtonBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#maskedWalletDetailsButtonTextAppearance}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#maskedWalletDetailsButtonTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:maskedWalletDetailsButtonTextAppearance
+          @attr name com.movie.watch.debug:maskedWalletDetailsButtonTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#maskedWalletDetailsHeaderTextAppearance}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#maskedWalletDetailsHeaderTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:maskedWalletDetailsHeaderTextAppearance
+          @attr name com.movie.watch.debug:maskedWalletDetailsHeaderTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#maskedWalletDetailsLogoImageType}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#maskedWalletDetailsLogoImageType}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9322,11 +8838,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>classic</code></td><td>1</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:maskedWalletDetailsLogoImageType
+          @attr name com.movie.watch.debug:maskedWalletDetailsLogoImageType
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#maskedWalletDetailsLogoTextColor}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#maskedWalletDetailsLogoTextColor}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -9337,17 +8853,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:maskedWalletDetailsLogoTextColor
+          @attr name com.movie.watch.debug:maskedWalletDetailsLogoTextColor
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#maskedWalletDetailsTextAppearance}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#maskedWalletDetailsTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.movie.watch:maskedWalletDetailsTextAppearance
+          @attr name com.movie.watch.debug:maskedWalletDetailsTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
         /** Attributes that can be used with a tw__AspectRatioImageView.
@@ -9356,8 +8872,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #tw__AspectRatioImageView_tw__image_aspect_ratio com.movie.watch:tw__image_aspect_ratio}</code></td><td></td></tr>
-           <tr><td><code>{@link #tw__AspectRatioImageView_tw__image_dimension_to_adjust com.movie.watch:tw__image_dimension_to_adjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #tw__AspectRatioImageView_tw__image_aspect_ratio com.movie.watch.debug:tw__image_aspect_ratio}</code></td><td></td></tr>
+           <tr><td><code>{@link #tw__AspectRatioImageView_tw__image_dimension_to_adjust com.movie.watch.debug:tw__image_dimension_to_adjust}</code></td><td></td></tr>
            </table>
            @see #tw__AspectRatioImageView_tw__image_aspect_ratio
            @see #tw__AspectRatioImageView_tw__image_dimension_to_adjust
@@ -9366,7 +8882,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010129, 0x7f01012a
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#tw__image_aspect_ratio}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#tw__image_aspect_ratio}
           attribute's value can be found in the {@link #tw__AspectRatioImageView} array.
 
 
@@ -9376,11 +8892,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:tw__image_aspect_ratio
+          @attr name com.movie.watch.debug:tw__image_aspect_ratio
         */
         public static final int tw__AspectRatioImageView_tw__image_aspect_ratio = 0;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#tw__image_dimension_to_adjust}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#tw__image_dimension_to_adjust}
           attribute's value can be found in the {@link #tw__AspectRatioImageView} array.
 
 
@@ -9393,7 +8909,7 @@ containing a value of this type.
 <tr><td><code>height</code></td><td>0</td><td></td></tr>
 <tr><td><code>width</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.movie.watch:tw__image_dimension_to_adjust
+          @attr name com.movie.watch.debug:tw__image_dimension_to_adjust
         */
         public static final int tw__AspectRatioImageView_tw__image_dimension_to_adjust = 1;
         /** Attributes that can be used with a tw__TweetView.
@@ -9402,10 +8918,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #tw__TweetView_tw__action_color com.movie.watch:tw__action_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #tw__TweetView_tw__container_bg_color com.movie.watch:tw__container_bg_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #tw__TweetView_tw__primary_text_color com.movie.watch:tw__primary_text_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #tw__TweetView_tw__tweet_id com.movie.watch:tw__tweet_id}</code></td><td></td></tr>
+           <tr><td><code>{@link #tw__TweetView_tw__action_color com.movie.watch.debug:tw__action_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #tw__TweetView_tw__container_bg_color com.movie.watch.debug:tw__container_bg_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #tw__TweetView_tw__primary_text_color com.movie.watch.debug:tw__primary_text_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #tw__TweetView_tw__tweet_id com.movie.watch.debug:tw__tweet_id}</code></td><td></td></tr>
            </table>
            @see #tw__TweetView_tw__action_color
            @see #tw__TweetView_tw__container_bg_color
@@ -9416,7 +8932,7 @@ containing a value of this type.
             0x7f01012b, 0x7f01012c, 0x7f01012d, 0x7f01012e
         };
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#tw__action_color}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#tw__action_color}
           attribute's value can be found in the {@link #tw__TweetView} array.
 
 
@@ -9427,11 +8943,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:tw__action_color
+          @attr name com.movie.watch.debug:tw__action_color
         */
         public static final int tw__TweetView_tw__action_color = 3;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#tw__container_bg_color}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#tw__container_bg_color}
           attribute's value can be found in the {@link #tw__TweetView} array.
 
 
@@ -9442,11 +8958,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:tw__container_bg_color
+          @attr name com.movie.watch.debug:tw__container_bg_color
         */
         public static final int tw__TweetView_tw__container_bg_color = 1;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#tw__primary_text_color}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#tw__primary_text_color}
           attribute's value can be found in the {@link #tw__TweetView} array.
 
 
@@ -9457,11 +8973,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:tw__primary_text_color
+          @attr name com.movie.watch.debug:tw__primary_text_color
         */
         public static final int tw__TweetView_tw__primary_text_color = 2;
         /**
-          <p>This symbol is the offset where the {@link com.movie.watch.R.attr#tw__tweet_id}
+          <p>This symbol is the offset where the {@link com.movie.watch.debug.R.attr#tw__tweet_id}
           attribute's value can be found in the {@link #tw__TweetView} array.
 
 
@@ -9471,7 +8987,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.movie.watch:tw__tweet_id
+          @attr name com.movie.watch.debug:tw__tweet_id
         */
         public static final int tw__TweetView_tw__tweet_id = 0;
     };

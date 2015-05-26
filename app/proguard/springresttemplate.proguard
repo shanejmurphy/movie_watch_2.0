@@ -1,0 +1,4 @@
+-keep class org.springframework.** { *; }
+-keep class org.codehaus.jackson.** { *; }
+-dontwarn org.codehaus.jackson.**
+-dontwarn org.springframework.**
