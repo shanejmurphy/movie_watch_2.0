@@ -1,0 +1,8 @@
+# Keep these classes to prevent runtime error when calculating Periods
+-dontwarn org.joda.convert.**
+-dontwarn org.joda.time.**
+-keep class org.joda.time.** { *; }
+-keep interface org.joda.time.** { *; }
+
+-keepclassmembers public class org.joda.time.DateTime { *; }
+-keepclassmembers public class org.joda.time.DateTimeUtils { *; }

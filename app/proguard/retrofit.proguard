@@ -1,0 +1,6 @@
+-keep class retrofit.** { *; }
+
+-dontwarn com.squareup.okhttp.**
+-dontwarn rx.**
+-dontwarn retrofit.appengine.**
+-dontwarn okio.**
