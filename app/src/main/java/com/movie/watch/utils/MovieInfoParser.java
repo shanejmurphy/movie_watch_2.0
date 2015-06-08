@@ -186,6 +186,9 @@ public class MovieInfoParser {
   }
 
   public boolean isShowing(String theaterRelease) {
+    if (TextUtils.isEmpty(theaterRelease)) {
+      return false;
+    }
     DateTimeFormatter formatter = DateTimeFormat.forPattern("yyyy-MM-dd");
     DateTime dt = formatter.parseDateTime(theaterRelease);
     return dt.isAfter(DateTime.now().minusMonths(MONTHS_IN_THEATER)) && dt.isBefore(DateTime.now().plusMonths(MONTHS_BEFORE_IN_THEATER));
